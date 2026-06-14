@@ -1,0 +1,19 @@
+{
+  "name": "samples-music-brainz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "3d-force-graph": "^1.80.0",
+    "node-fetch": "^2.7.0",
+    "three": "^0.184.0"
+  }
+}
