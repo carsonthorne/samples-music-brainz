@@ -6,10 +6,14 @@ const getAlbums = require("../api/musicbrainz/getAlbums");
 const getReleaseFromGroup = require("../api/musicbrainz/getReleaseFromGroup");
 const getTracksFromRelease = require("../api/musicbrainz/getTracksFromRelease");
 const getSamplesFromRecording = require("../api/musicbrainz/getSamplesFromRecording");
+const {buildAlbumNode, linkArtistToAlbum } = require("./builders/albumBuilder");
+const {buildTrackNode, linkAlbumToTrack} = require("./builders/trackBuilder");
+const {buildSampleNode, linkTrackToSample} = require("./builders/sampleBuilder");
 
 const GraphStore = require("./graphStore");
 
-const LIMITS = {
+const LIMITS = 
+{
   albumsPerArtist: 5,
   tracksPerAlbum: 15,
   sampleDepth: 1
@@ -21,34 +25,40 @@ async function addTrackSamples(
   trackId,
   recordingId,
   depth
-) {
-  if (depth >= LIMITS.sampleDepth) {
+) 
+{
+  if (depth >= LIMITS.sampleDepth) 
+  {
     return;
   }
 
   const samples = await getSamplesFromRecording(recordingId);
 
-  for (const sample of samples) {
-    const sampleId = `recording:${sample.id}`;
+  for (const sample of samples)
+  {
+    const sampleId = buildSampleNode(graphStore, sample);
 
-    graphStore.addNode({id: sampleId, type: "recording", name: sample.title, mbid: sample.id});
+    linkTrackToSample(graphStore, trackId, sampleId);
 
-    graphStore.addLink(trackId, sampleId, "USES_SAMPLE");
+
 
     await addTrackSamples(graphStore, sampleId, sample.id, depth + 1);
   }
 }
 
-function sleep(ms) {
+
+function sleep(ms)
+{
     return new Promise(r => setTimeout(r, ms));
 }
 
-async function buildGraph() {
 
+async function buildGraph() 
+{
   const graphStore = new GraphStore();
 
   // Store artist
-  const artist = await searchArtist("a tribe called quest");
+  const artist = await searchArtist("a tribe called quest"); // Hardcoded for now (until search function is implemented)
   const artistId = `artist:${artist.id}`;
   
   graphStore.addNode({
@@ -61,40 +71,24 @@ async function buildGraph() {
   // Store albums
   const albums = await getAlbums(artist.id);
 
-  for (const album of albums.slice(0, LIMITS.albumsPerArtist)) {
-    const albumId = `album:${album.id}`;
+  for (const album of albums.slice(0, LIMITS.albumsPerArtist))
+  {
+    const albumId = buildAlbumNode(graphStore, album);
 
-    graphStore.addNode({
-      id: albumId,
-      type: "album",
-      name: album.title,
-      mbid: album.id,
-    });
+    linkArtistToAlbum(graphStore, artistId, albumId);
 
-    graphStore.addLink(artistId, albumId, "HAS_ALBUM");
-
+    // Only get one version of the album (for now)
     const release = await getReleaseFromGroup(album.id);
     if (!release) continue;
 
-
-    // Store Tracks
     const tracks = await getTracksFromRelease(release.id);
+    
+    // Store Tracks
+    for (const track of tracks)
+    {
+      const trackId = buildTrackNode(graphStore, track);
 
-    for (const track of tracks) {
-      const trackId = `track:${track.recordingId}`;
-
-      graphStore.addNode({
-        id: trackId,
-        type: "track",
-        name: track.title,
-        mbid: track.recordingId
-      });
-
-      graphStore.addLink(
-        albumId,
-        trackId,
-        "HAS_TRACK"
-      );
+      linkAlbumToTrack(graphStore, albumId, trackId);
 
       // Store Samples
       await addTrackSamples(graphStore, trackId, track.recordingId, 0);
