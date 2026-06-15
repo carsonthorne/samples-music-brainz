@@ -1,63 +1,39 @@
-// import ForceGraph3D from '3d-force-graph';
-
-// async function init() {
-//   try {
-//     const container = document.getElementById('graph');
-//     if (!container) {
-//       throw new Error("Graph container div not found");
-//     }
-
-//     const res = await fetch('./data/graph.json');
-//     const graph = await res.json();
-
-//     ForceGraph3D()(container)
-//       .graphData(graph)
-//       .nodeLabel(node => `${node.type}: ${node.name}`)
-//       .nodeAutoColorBy('type')
-//       .linkDirectionalParticles(2)
-//       .linkDirectionalParticleSpeed(0.005)
-//       .onNodeClick(node => {
-//         const links = graph.links.filter(
-//           link =>
-//             link.source.id === node.id ||
-//             link.target.id === node.id ||
-//             link.source === node.id ||
-//             link.target === node.id
-//         );
-      
-//         console.log(node);
-//         console.log(links);
-//       });
-//     } catch (err) {
-//       console.error(err);
-//     }  
-// }
-
-// window.addEventListener('DOMContentLoaded', init);
-
 import { loadGraph } from "./api/graphApi";
-
+import { expandNode } from "./graph/expandNode";
 import { createGraph } from "./graph/graphRenderer";
-
-import { handleNodeClick } from "./graph/graphEvents";
+import { GraphState } from "./graph/graphState";
 
 async function init()
 {
   const container =
     document.getElementById("graph");
 
-  const graph =
+  const rawGraph =
     await loadGraph();
 
-  createGraph(
-    container,
-    graph,
-    node =>
-      handleNodeClick(node, graph)
-  );
+  const state =
+    new GraphState(rawGraph);
+
+  // seed with root artist ONLY
+  const root =
+    rawGraph.nodesById[
+      Object.keys(rawGraph.nodesById)[0]
+    ];
+
+  state.addNode(root);
+
+  const graph =
+    createGraph(
+      container,
+      state.toForceGraph(),
+      (node) => {
+        expandNode(state, node.id);
+
+        graph.graphData(
+          state.toForceGraph()
+        );
+      }
+    );
 }
 
-window.addEventListener(
-  "DOMContentLoaded",
-  init
-);
+window.addEventListener("DOMContentLoaded", init);

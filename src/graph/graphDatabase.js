@@ -71,6 +71,8 @@ class GraphDatabase
       version: this.version,
       generatedAt: this.generatedAt,
       rootArtist: this.rootArtist,
+      nodesById: Object.fromEntries(this.nodesById),
+      adjacency: Object.fromEntries(this.adjacency),
       nodes,
       links
     };
