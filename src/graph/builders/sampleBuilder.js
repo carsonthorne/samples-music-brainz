@@ -11,11 +11,58 @@ function buildSampleNode(graphStore, sample) {
   return sampleId;
 }
 
+
 function linkTrackToSample(graphStore, trackId, sampleId) {
   graphStore.addLink(trackId, sampleId, "USES_SAMPLE");
 }
 
+
+async function expandTrackSamples(
+  graphStore,
+  trackId,
+  recordingId,
+  depth,
+  maxDepth,
+  getSamplesFromRecording
+)
+{
+  if (depth >= maxDepth)
+  {
+    return;
+  }
+
+  const samples =
+    await getSamplesFromRecording(recordingId);
+
+  for (const sample of samples)
+  {
+    const sampleId =
+      buildSampleNode(graphStore, sample);
+
+    linkTrackToSample(
+      graphStore,
+      trackId,
+      sampleId
+    );
+
+    await expandTrackSamples(
+      graphStore,
+      sampleId,
+      sample.id,
+      depth + 1,
+      maxDepth,
+      getSamplesFromRecording
+    );
+  }
+}
+
+
+
+
+
+
 module.exports = {
   buildSampleNode,
-  linkTrackToSample
+  linkTrackToSample,
+  expandTrackSamples
 };
