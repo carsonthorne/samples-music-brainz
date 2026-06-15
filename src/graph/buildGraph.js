@@ -9,7 +9,7 @@ const {buildTrackNode, linkAlbumToTrack} = require("./builders/trackBuilder");
 const {buildSampleNode, linkTrackToSample, expandTrackSamples} = require("./builders/sampleBuilder");
 const writeGraph = require("./graphWriter")
 
-const GraphStore = require("./graphStore");
+const GraphDatabase = require("./graphDatabase");
 
 const LIMITS = 
 {
@@ -27,14 +27,14 @@ function sleep(ms)
 
 async function buildGraph() 
 {
-  const graphStore = new GraphStore();
+  const db = new GraphDatabase();
 
   // Store artist
   const artist = await searchArtist("a tribe called quest"); // Hardcoded for now (until search function is implemented)
 
   const artistId =
     buildArtistNode(
-      graphStore,
+      db,
       artist
     );
 
@@ -44,9 +44,9 @@ async function buildGraph()
 
   for (const album of albums.slice(0, LIMITS.albumsPerArtist))
   {
-    const albumId = buildAlbumNode(graphStore, album);
+    const albumId = buildAlbumNode(db, album);
 
-    linkArtistToAlbum(graphStore, artistId, albumId);
+    linkArtistToAlbum(db, artistId, albumId);
 
     // Only get one version of the album (for now)
     const release = await getReleaseFromGroup(album.id);
@@ -57,13 +57,13 @@ async function buildGraph()
     // Store Tracks
     for (const track of tracks)
     {
-      const trackId = buildTrackNode(graphStore, track);
+      const trackId = buildTrackNode(db, track);
 
-      linkAlbumToTrack(graphStore, albumId, trackId);
+      linkAlbumToTrack(db, albumId, trackId);
 
       // Store Samples
       await expandTrackSamples(
-        graphStore,
+        db,
         trackId,
         track.recordingId,
         0,
@@ -78,10 +78,12 @@ async function buildGraph()
   }
 
   // Build Graph
-  writeGraph(graphStore.getGraph());
+  writeGraph(db.getGraph());
 
   console.log("Graph written to public/data/graph.json");
-  console.log(graphStore.getGraph().nodes.length, graphStore.getGraph().links.length);
+  console.log(db.getGraph().nodes.length, db.getGraph().links.length);
+  console.log("Nodes:", db.nodesById.size);
+  console.log("Edges:", db.edgeIds.size);
 }
 
 buildGraph();

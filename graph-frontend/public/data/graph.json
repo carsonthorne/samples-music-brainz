@@ -1,6 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-14T18:20:48.776Z",
+  "generatedAt": "2026-06-15T16:01:17.682Z",
+  "rootArtist": "A Tribe Called Quest",
   "nodes": [
     {
       "id": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
@@ -826,34 +827,29 @@
       "type": "HAS_ALBUM"
     },
     {
+      "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+      "target": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+      "target": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+      "target": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+      "target": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+      "type": "HAS_ALBUM"
+    },
+    {
       "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
       "target": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
       "type": "HAS_TRACK"
-    },
-    {
-      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
-      "target": "recording:4fcaa7d8-13fb-4e88-97ef-de8c7828751a",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
-      "target": "recording:8814819d-81a6-408b-aaaa-806f622a4945",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
-      "target": "recording:3276d8c1-6c4f-4d06-b283-d05d2aee71d2",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
-      "target": "recording:abc33b9f-6dff-4aa7-8e69-0a7be66baa83",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
-      "target": "recording:994064d4-bdd1-4aec-846d-70310062ff2e",
-      "type": "USES_SAMPLE"
     },
     {
       "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
@@ -861,34 +857,9 @@
       "type": "HAS_TRACK"
     },
     {
-      "source": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
-      "target": "recording:5098d0a8-d3c3-424e-9367-1f2610724410",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
-      "target": "recording:83547106-f8a7-4790-85d9-37afae35bcc8",
-      "type": "USES_SAMPLE"
-    },
-    {
       "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
       "target": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
       "type": "HAS_TRACK"
-    },
-    {
-      "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
-      "target": "recording:17193298-96a1-4c3d-9366-adb2bedef8c8",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
-      "target": "recording:c4ddb4a4-5b09-477a-92a2-901e792ec889",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
-      "target": "recording:038cc798-19ca-4026-a7b0-de2d4a1ab088",
-      "type": "USES_SAMPLE"
     },
     {
       "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
@@ -896,34 +867,9 @@
       "type": "HAS_TRACK"
     },
     {
-      "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
-      "target": "recording:05b6bdda-3219-4756-af17-d0d9cdcdb104",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
-      "target": "recording:8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
-      "target": "recording:f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf",
-      "type": "USES_SAMPLE"
-    },
-    {
       "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
       "target": "track:3a29f337-5572-4810-a26c-1178491511fd",
       "type": "HAS_TRACK"
-    },
-    {
-      "source": "track:3a29f337-5572-4810-a26c-1178491511fd",
-      "target": "recording:17d7c8c1-855a-4657-8af9-f88accc876c9",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:3a29f337-5572-4810-a26c-1178491511fd",
-      "target": "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa",
-      "type": "USES_SAMPLE"
     },
     {
       "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
@@ -956,13 +902,208 @@
       "type": "HAS_TRACK"
     },
     {
-      "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
-      "target": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "type": "HAS_ALBUM"
+      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+      "target": "recording:4fcaa7d8-13fb-4e88-97ef-de8c7828751a",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+      "target": "recording:8814819d-81a6-408b-aaaa-806f622a4945",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+      "target": "recording:3276d8c1-6c4f-4d06-b283-d05d2aee71d2",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+      "target": "recording:abc33b9f-6dff-4aa7-8e69-0a7be66baa83",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+      "target": "recording:994064d4-bdd1-4aec-846d-70310062ff2e",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
+      "target": "recording:5098d0a8-d3c3-424e-9367-1f2610724410",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
+      "target": "recording:83547106-f8a7-4790-85d9-37afae35bcc8",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
+      "target": "recording:17193298-96a1-4c3d-9366-adb2bedef8c8",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
+      "target": "recording:c4ddb4a4-5b09-477a-92a2-901e792ec889",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
+      "target": "recording:038cc798-19ca-4026-a7b0-de2d4a1ab088",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
+      "target": "recording:05b6bdda-3219-4756-af17-d0d9cdcdb104",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
+      "target": "recording:8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
+      "target": "recording:f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:3a29f337-5572-4810-a26c-1178491511fd",
+      "target": "recording:17d7c8c1-855a-4657-8af9-f88accc876c9",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:3a29f337-5572-4810-a26c-1178491511fd",
+      "target": "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa",
+      "type": "USES_SAMPLE"
     },
     {
       "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
       "target": "track:4bd3726c-c926-4637-b3b2-b5a5bf5417bf",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:436b4315-3db2-4c5f-84e5-234b4318dd20",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:5b8abe76-5740-4691-b575-262b241b538d",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:76b2c3c1-65a9-42ba-84fd-41e39d9b5e36",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:413c5904-2a4f-4e0f-b7b6-d8526024d284",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:8868eccc-9d00-4b6e-8a71-826a1503ac7d",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:3a29f337-5572-4810-a26c-1178491511fd",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:8881e26b-4f85-4820-8281-d3698f4013ab",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:a75f3fff-66e9-413b-832a-fce7a7a8291e",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:b658ba14-d5f4-4492-a856-360b4d5c16bf",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:109347b8-4360-41af-ba96-69766233a444",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:52e547ff-2f44-4e27-8f56-8fc2f7c41d05",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:e0c3fec4-4c80-4b5c-9c4f-f9c3aeb4037a",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:2654e1c7-4c84-4ee6-83bd-24c2d1ef9ecf",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:4ddad66b-b574-46f9-ab39-9481aec5b2ec",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:eafd3e65-a23b-4d1f-bf07-a03762f70731",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:801978c8-2809-4c43-b979-a5f23ec5b81b",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:76cc9406-1c34-4c6a-affa-dc7e70bf23cd",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+      "target": "track:eed0ead3-d6ca-4c22-be2b-1bf234a7680b",
       "type": "HAS_TRACK"
     },
     {
@@ -996,29 +1137,9 @@
       "type": "USES_SAMPLE"
     },
     {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:436b4315-3db2-4c5f-84e5-234b4318dd20",
-      "type": "HAS_TRACK"
-    },
-    {
       "source": "track:436b4315-3db2-4c5f-84e5-234b4318dd20",
       "target": "recording:a08da581-5b89-47ca-a8d9-1cd6322d3adb",
       "type": "USES_SAMPLE"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:5b8abe76-5740-4691-b575-262b241b538d",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:76b2c3c1-65a9-42ba-84fd-41e39d9b5e36",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
-      "type": "HAS_TRACK"
     },
     {
       "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
@@ -1061,11 +1182,6 @@
       "type": "USES_SAMPLE"
     },
     {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
-      "type": "HAS_TRACK"
-    },
-    {
       "source": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
       "target": "recording:85ea1351-d487-4abd-a807-ba43d7157b62",
       "type": "USES_SAMPLE"
@@ -1079,21 +1195,6 @@
       "source": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
       "target": "recording:b7ecd665-2cb4-4f32-a353-9f6435d57fb7",
       "type": "USES_SAMPLE"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:413c5904-2a4f-4e0f-b7b6-d8526024d284",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:8868eccc-9d00-4b6e-8a71-826a1503ac7d",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
-      "type": "HAS_TRACK"
     },
     {
       "source": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
@@ -1131,16 +1232,6 @@
       "type": "USES_SAMPLE"
     },
     {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:3a29f337-5572-4810-a26c-1178491511fd",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
-      "type": "HAS_TRACK"
-    },
-    {
       "source": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
       "target": "recording:1a50d327-caf1-4506-bca7-a9db41cae179",
       "type": "USES_SAMPLE"
@@ -1161,11 +1252,6 @@
       "type": "USES_SAMPLE"
     },
     {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:8881e26b-4f85-4820-8281-d3698f4013ab",
-      "type": "HAS_TRACK"
-    },
-    {
       "source": "track:8881e26b-4f85-4820-8281-d3698f4013ab",
       "target": "recording:a4fab216-e521-435d-9203-b74e7bd519f3",
       "type": "USES_SAMPLE"
@@ -1181,24 +1267,9 @@
       "type": "USES_SAMPLE"
     },
     {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4",
-      "type": "HAS_TRACK"
-    },
-    {
       "source": "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4",
       "target": "recording:68b9b90a-84b0-4e70-b0d2-7ebcb95756a1",
       "type": "USES_SAMPLE"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94",
-      "type": "HAS_TRACK"
     },
     {
       "source": "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94",
@@ -1216,16 +1287,6 @@
       "type": "USES_SAMPLE"
     },
     {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:a75f3fff-66e9-413b-832a-fce7a7a8291e",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:b658ba14-d5f4-4492-a856-360b4d5c16bf",
-      "type": "HAS_TRACK"
-    },
-    {
       "source": "track:b658ba14-d5f4-4492-a856-360b4d5c16bf",
       "target": "recording:45c95691-bc88-4e75-bb2f-a7f33070b4e5",
       "type": "USES_SAMPLE"
@@ -1234,26 +1295,6 @@
       "source": "track:b658ba14-d5f4-4492-a856-360b4d5c16bf",
       "target": "recording:245071ab-5a36-4acd-ad04-fae20a009c62",
       "type": "USES_SAMPLE"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:109347b8-4360-41af-ba96-69766233a444",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:52e547ff-2f44-4e27-8f56-8fc2f7c41d05",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:e0c3fec4-4c80-4b5c-9c4f-f9c3aeb4037a",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:2654e1c7-4c84-4ee6-83bd-24c2d1ef9ecf",
-      "type": "HAS_TRACK"
     },
     {
       "source": "track:2654e1c7-4c84-4ee6-83bd-24c2d1ef9ecf",
@@ -1271,39 +1312,9 @@
       "type": "USES_SAMPLE"
     },
     {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:4ddad66b-b574-46f9-ab39-9481aec5b2ec",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:eafd3e65-a23b-4d1f-bf07-a03762f70731",
-      "type": "HAS_TRACK"
-    },
-    {
       "source": "track:eafd3e65-a23b-4d1f-bf07-a03762f70731",
       "target": "recording:cce22085-6f9e-4929-a69a-14a28ff7ff99",
       "type": "USES_SAMPLE"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:801978c8-2809-4c43-b979-a5f23ec5b81b",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:76cc9406-1c34-4c6a-affa-dc7e70bf23cd",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
-      "target": "track:eed0ead3-d6ca-4c22-be2b-1bf234a7680b",
-      "type": "HAS_TRACK"
-    },
-    {
-      "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
-      "target": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
-      "type": "HAS_ALBUM"
     },
     {
       "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
@@ -1356,11 +1367,6 @@
       "type": "HAS_TRACK"
     },
     {
-      "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
-      "target": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
-      "type": "HAS_ALBUM"
-    },
-    {
       "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
       "target": "track:4ae82e91-60f4-4ac1-88be-09b4aa8671fc",
       "type": "HAS_TRACK"
@@ -1379,11 +1385,6 @@
       "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
       "target": "track:9efd462c-5c91-450b-b9e6-690bacfe8b73",
       "type": "HAS_TRACK"
-    },
-    {
-      "source": "track:9efd462c-5c91-450b-b9e6-690bacfe8b73",
-      "target": "recording:971fabf6-c76a-4316-8b52-3e7579a64500",
-      "type": "USES_SAMPLE"
     },
     {
       "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
@@ -1461,9 +1462,9 @@
       "type": "HAS_TRACK"
     },
     {
-      "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
-      "target": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
-      "type": "HAS_ALBUM"
+      "source": "track:9efd462c-5c91-450b-b9e6-690bacfe8b73",
+      "target": "recording:971fabf6-c76a-4316-8b52-3e7579a64500",
+      "type": "USES_SAMPLE"
     },
     {
       "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
@@ -1506,16 +1507,6 @@
       "type": "HAS_TRACK"
     },
     {
-      "source": "track:cf6428b1-956b-4129-b033-998a367f26c2",
-      "target": "recording:7732c34e-8b4e-4767-ae74-92ca3b2141fa",
-      "type": "USES_SAMPLE"
-    },
-    {
-      "source": "track:cf6428b1-956b-4129-b033-998a367f26c2",
-      "target": "recording:df19172f-431a-422b-95cd-744793f3e99d",
-      "type": "USES_SAMPLE"
-    },
-    {
       "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
       "target": "track:699e8d26-511f-4797-a5b9-9ea2dec7002e",
       "type": "HAS_TRACK"
@@ -1544,6 +1535,16 @@
       "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
       "target": "track:faf8b02f-3003-49fc-8e82-f970aa2504a1",
       "type": "HAS_TRACK"
+    },
+    {
+      "source": "track:cf6428b1-956b-4129-b033-998a367f26c2",
+      "target": "recording:7732c34e-8b4e-4767-ae74-92ca3b2141fa",
+      "type": "USES_SAMPLE"
+    },
+    {
+      "source": "track:cf6428b1-956b-4129-b033-998a367f26c2",
+      "target": "recording:df19172f-431a-422b-95cd-744793f3e99d",
+      "type": "USES_SAMPLE"
     },
     {
       "source": "track:faf8b02f-3003-49fc-8e82-f970aa2504a1",
