@@ -1,6 +1,3 @@
-const fs = require("fs");
-const path = require("path");
-
 const searchArtist = require("../api/musicbrainz/searchArtist");
 const getAlbums = require("../api/musicbrainz/getAlbums");
 const getReleaseFromGroup = require("../api/musicbrainz/getReleaseFromGroup");

@@ -37,6 +37,7 @@ class GraphStore
     return {
       version: this.graph.version,
       generatedAt: this.graph.generatedAt,
+      rootArtist: this.graph.rootArtist,
       nodes: [...this.graph.nodes],
       links: [...this.graph.links]
     };
