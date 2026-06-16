@@ -10,6 +10,10 @@ export function createGraphEvents(
   {
     expandNode(state, node.id);
 
+    state.setFocus(node.id);
+
+    focusCameraOnNode(node.id);
+
     renderBreadcrumbs(state, 
       handleBreadcrumbClick
     );
@@ -23,6 +27,8 @@ export function createGraphEvents(
   function handleBreadcrumbClick(nodeId)
   {
     state.setFocus(nodeId);
+
+    focusCameraOnNode(nodeId);
 
     renderBreadcrumbs(
       state,
@@ -51,6 +57,26 @@ export function createGraphEvents(
         crumb.dataset.id
       );
     });
+  }
+
+  
+  function focusCameraOnNode(nodeId)
+  {
+    const graph = getGraph();
+    if (!graph) return;
+
+    const node = state.nodes.get(nodeId);
+    if (!node) return;
+
+    graph.cameraPosition(
+      {
+        x: node.x,
+        y: node.y,
+        z: node.z + 200 // zoom out a bit so we see context
+      },
+      node,
+      1000 // animation duration (ms)
+    );
   }
   
 
