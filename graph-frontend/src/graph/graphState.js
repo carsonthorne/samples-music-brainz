@@ -1,36 +1,18 @@
+import { getVisibleGraph } from "./getVisibleGraph";
+
 export class GraphState
 {
   constructor(graph)
   {
     this.graph = graph;
 
-    // active graph
-    this.nodes = new Map();
-    this.links = new Set();
-
-    // expansion tracking
     this.expanded = new Set();
 
     this.focusNode = null;
 
     this.breadcrumbs = [];
 
-    this.parentMap = new Map();
-  }
-
-
-  addNode(node)
-  {
-    this.nodes.set(node.id, node);
-  }
-
-
-  addLink(source, target, type)
-  {
-    const key = `${source}|${target}|${type}`;
-    if (this.links.has(key)) return;
-
-    this.links.add(key);
+    this.breadcrumbParentMap = new Map();
   }
 
   
@@ -45,7 +27,7 @@ export class GraphState
       path.unshift(current);
   
       current =
-        this.parentMap.get(current);
+        this.breadcrumbParentMap.get(current);
     }
   
     return path;
@@ -66,12 +48,6 @@ export class GraphState
 
   toForceGraph()
   {
-    return {
-      nodes: Array.from(this.nodes.values()),
-      links: Array.from(this.links).map(k => {
-        const [source, target, type] = k.split("|");
-        return { source, target, type };
-      })
-    };
+    return getVisibleGraph(this);
   }
 }

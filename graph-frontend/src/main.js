@@ -20,7 +20,7 @@ async function init()
       Object.keys(rawGraph.nodesById)[0]
     ];
 
-  state.addNode(root);
+  state.focusNode = root.id;
 
   let graph;
 

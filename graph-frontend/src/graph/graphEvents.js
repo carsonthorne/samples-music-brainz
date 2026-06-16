@@ -65,7 +65,7 @@ export function createGraphEvents(
     const graph = getGraph();
     if (!graph) return;
 
-    const node = state.nodes.get(nodeId);
+    const node = state.graph.nodesById[nodeId];
     if (!node) return;
 
     graph.cameraPosition(
