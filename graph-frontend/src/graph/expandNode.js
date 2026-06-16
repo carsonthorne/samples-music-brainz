@@ -1,5 +1,7 @@
 export function expandNode(state, nodeId)
 {
+  state.focusNode = nodeId;
+  
   if (state.expanded.has(nodeId))
     return [];
 
@@ -14,6 +16,12 @@ export function expandNode(state, nodeId)
   for (const edge of neighbors)
   {
     const targetId = edge.target;
+
+    if (!state.parentMap.has(targetId))
+    {
+      state.parentMap.set(targetId, nodeId);
+    }
+
 
     const targetNode =
       state.graph.nodesById[targetId];

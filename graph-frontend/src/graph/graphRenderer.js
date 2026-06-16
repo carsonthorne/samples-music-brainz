@@ -1,6 +1,6 @@
 import ForceGraph3D from "3d-force-graph";
 
-export function createGraph(container, graph, onNodeClick)
+export function createGraph(container, state, graph, onNodeClick)
 {
   const g = ForceGraph3D()(container)
     .graphData(graph)
@@ -8,7 +8,17 @@ export function createGraph(container, graph, onNodeClick)
     .nodeAutoColorBy('type')
     .linkDirectionalParticles(2)
     .linkDirectionalParticleSpeed(0.005)
-    .onNodeClick(onNodeClick);
+    .onNodeClick(onNodeClick)
+    .nodeColor(node =>
+    {
+      if (node.id === state?.focusNode)
+        return "orange";
+
+      if (state?.expanded?.has(node.id))
+        return "lightgreen";
+
+      return "steelblue";
+    })
 
   return g;
 }

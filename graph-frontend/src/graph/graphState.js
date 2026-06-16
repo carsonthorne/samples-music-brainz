@@ -11,6 +11,11 @@ export class GraphState
     // expansion tracking
     this.expanded = new Set();
 
+    this.focusNode = null;
+
+    this.breadcrumbs = [];
+
+    this.parentMap = new Map();
   }
 
 
@@ -26,6 +31,30 @@ export class GraphState
     if (this.links.has(key)) return;
 
     this.links.add(key);
+  }
+
+  
+  buildPath(nodeId)
+  {
+    const path = [];
+  
+    let current = nodeId;
+  
+    while (current)
+    {
+      path.unshift(current);
+  
+      current =
+        this.parentMap.get(current);
+    }
+  
+    return path;
+  }
+
+
+  getBreadcrumbs()
+  {
+    return this.breadcrumbs;
   }
 
 
