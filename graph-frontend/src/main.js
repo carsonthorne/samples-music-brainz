@@ -1,5 +1,5 @@
 import { loadGraph } from "./api/graphApi";
-import { expandNode } from "./graph/expandNode";
+import { createGraphEvents } from "./graph/graphEvents";
 import { createGraph } from "./graph/graphRenderer";
 import { GraphState } from "./graph/graphState";
 
@@ -22,35 +22,23 @@ async function init()
 
   state.addNode(root);
 
-  const graph =
+  let graph;
+
+  const events =
+    createGraphEvents(
+      state,
+      () => graph
+    );
+
+  graph =
     createGraph(
       container,
       state,
       state.toForceGraph(),
-      (node) => {
-        expandNode(state, node.id);
-
-        renderBreadcrumbs(state);
-
-        graph.graphData(
-          state.toForceGraph()
-        );
-      }
+      events.handleNodeClick
     );
-}
-
-function renderBreadcrumbs(state)
-{
-  const el = document.getElementById("breadcrumbs");
-
-  const path =
-    state.buildPath(state.focusNode);
-
-  el.innerHTML = path
-    .map(id =>
-      `<span class="crumb">${state.graph.nodesById[id].name}</span>`
-    )
-    .join(" → ");
+    
+  events.bindBreadcrumbs();
 }
 
 window.addEventListener("DOMContentLoaded", init);

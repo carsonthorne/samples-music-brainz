@@ -57,6 +57,12 @@ export class GraphState
     return this.breadcrumbs;
   }
 
+  
+  setFocus(nodeId)
+  {
+    this.focusNode = nodeId;
+  }
+
 
   toForceGraph()
   {

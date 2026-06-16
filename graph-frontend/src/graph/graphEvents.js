@@ -1,17 +1,62 @@
-export function handleNodeClick(
-  node,
-  graph
+import { expandNode } from "./expandNode";
+import { renderBreadcrumbs } from "./renderBreadcrumbs";
+
+export function createGraphEvents(
+  state,
+  getGraph
 )
 {
-  const links =
-    graph.links.filter(
-      link =>
-        link.source.id === node.id ||
-        link.target.id === node.id ||
-        link.source === node.id ||
-        link.target === node.id
+  function handleNodeClick(node)
+  {
+    expandNode(state, node.id);
+
+    renderBreadcrumbs(state, 
+      handleBreadcrumbClick
     );
 
-  console.log(node);
-  console.log(links);
+    getGraph().graphData(
+      state.toForceGraph()
+    );
+  }
+
+
+  function handleBreadcrumbClick(nodeId)
+  {
+    state.setFocus(nodeId);
+
+    renderBreadcrumbs(
+      state,
+      handleBreadcrumbClick
+    );
+
+    getGraph().graphData(
+      state.toForceGraph()
+    );
+  }
+
+
+  function bindBreadcrumbs()
+  {
+    const el =
+      document.getElementById("breadcrumbs");
+
+    el.addEventListener("click", (e) =>
+    {
+      const crumb =
+        e.target.closest(".crumb");
+
+      if (!crumb) return;
+
+      handleBreadcrumbClick(
+        crumb.dataset.id
+      );
+    });
+  }
+  
+
+  return {
+    handleNodeClick,
+    handleBreadcrumbClick,
+    bindBreadcrumbs
+  };
 }
