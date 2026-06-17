@@ -6,6 +6,8 @@ export class GraphState
   {
     this.graph = graph;
 
+    this.rootId = Object.keys(graph.nodesById)[0];
+
     this.expanded = new Set();
 
     this.focusNode = null;

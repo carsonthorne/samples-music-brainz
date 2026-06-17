@@ -16,9 +16,10 @@ async function init()
 
   // seed with root artist ONLY
   const root =
-    rawGraph.nodesById[
-      Object.keys(rawGraph.nodesById)[0]
-    ];
+    // rawGraph.nodesById[
+    //   Object.keys(rawGraph.nodesById)[0]
+    // ];
+    state.rootId;
 
   state.focusNode = root.id;
 

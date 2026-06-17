@@ -37,8 +37,7 @@ export function getVisibleGraph(state)
 
   // IMPORTANT: start from root
   const root =
-    // state.focusNode ||
-    Object.keys(state.graph.nodesById)[0];
+    state.rootId;
 
   traverse(root);
 

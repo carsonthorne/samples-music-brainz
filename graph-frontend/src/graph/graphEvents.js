@@ -11,15 +11,15 @@ export function createGraphEvents(
     expandNode(state, node.id);
 
     state.setFocus(node.id);
+    
+    getGraph().graphData(
+      state.toForceGraph()
+    );
 
     focusCameraOnNode(node.id);
 
     renderBreadcrumbs(state, 
       handleBreadcrumbClick
-    );
-
-    getGraph().graphData(
-      state.toForceGraph()
     );
   }
 
