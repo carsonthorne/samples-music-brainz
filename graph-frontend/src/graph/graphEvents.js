@@ -1,3 +1,4 @@
+import { collapseNode } from "./collapseNode";
 import { expandNode } from "./expandNode";
 import { renderBreadcrumbs } from "./renderBreadcrumbs";
 
@@ -8,7 +9,14 @@ export function createGraphEvents(
 {
   function handleNodeClick(node)
   {
-    expandNode(state, node.id);
+    if (state.expanded.has(node.id))
+    {
+      collapseNode(state, node.id);
+    }
+    else
+    {
+      expandNode(state, node.id);
+    }
 
     state.setFocus(node.id);
     

@@ -11,11 +11,14 @@ export function createGraph(container, state, graph, onNodeClick)
     .onNodeClick(onNodeClick)
     .nodeColor(node =>
     {
-      if (node.id === state?.focusNode)
+      if (node.id === state.focusNode)
         return "orange";
 
-      if (state?.expanded?.has(node.id))
+      if (state.expanded.has(node.id) && state.graph.adjacency[node.id]?.length)
         return "lightgreen";
+
+      if (state.graph.adjacency[node.id]?.length)
+        return "gold";
 
       return "steelblue";
     })
