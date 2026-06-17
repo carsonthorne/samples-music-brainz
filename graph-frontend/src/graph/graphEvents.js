@@ -86,11 +86,51 @@ export function createGraphEvents(
       1000 // animation duration (ms)
     );
   }
+
+
+  function expandAll()
+  {
+    // for (const id of Object.keys(
+    //   state.graph.nodesById
+    // ))
+    // {
+    //   state.expanded.add(id);
+    // }
+    state.expanded =
+      new Set(
+        Object.keys(state.graph.nodesById)
+      );
+
+    getGraph().graphData(
+      state.toForceGraph()
+    );
+  }
+
+
+  function collapseAll()
+  {
+    state.expanded.clear();
+
+    state.setFocus(
+      state.rootId
+    );
+
+    renderBreadcrumbs(
+      state,
+      handleBreadcrumbClick
+    );
+
+    getGraph().graphData(
+      state.toForceGraph()
+    );
+  }
   
 
   return {
     handleNodeClick,
     handleBreadcrumbClick,
-    bindBreadcrumbs
+    bindBreadcrumbs,
+    expandAll,
+    collapseAll
   };
 }

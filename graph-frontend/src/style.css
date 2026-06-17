@@ -50,8 +50,41 @@
   }
 }
 
-body {
+body
+{
   margin: 0;
+  overflow: hidden;
+}
+
+#graph
+{
+  width: 100vw;
+  height: 100vh;
+}
+
+#ui
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 10;
+
+  padding: 12px;
+}
+
+#controls
+{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+#breadcrumbs
+{
+  background: rgba(255,255,255,0.85);
+  padding: 6px 10px;
+  border-radius: 4px;
 }
 
 h1,

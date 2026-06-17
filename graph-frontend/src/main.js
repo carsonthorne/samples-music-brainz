@@ -40,6 +40,20 @@ async function init()
     );
     
   events.bindBreadcrumbs();
+
+  document
+    .getElementById("expand-all")
+    .addEventListener(
+      "click",
+      events.expandAll
+    );
+
+  document
+    .getElementById("collapse-all")
+    .addEventListener(
+      "click",
+      events.collapseAll
+    );
 }
 
 window.addEventListener("DOMContentLoaded", init);
