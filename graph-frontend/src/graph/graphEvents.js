@@ -34,14 +34,21 @@ export function createGraphEvents(
 
   function handleBreadcrumbClick(nodeId)
   {
+    const index =
+      state.breadcrumbs.indexOf(nodeId);
+
+    if (index === -1)
+      return;
+
+    // truncate history
+    state.breadcrumbs =
+      state.breadcrumbs.slice(0, index + 1);
+
     state.setFocus(nodeId);
 
     focusCameraOnNode(nodeId);
 
-    renderBreadcrumbs(
-      state,
-      handleBreadcrumbClick
-    );
+    renderBreadcrumbs(state, handleBreadcrumbClick);
 
     getGraph().graphData(
       state.toForceGraph()
@@ -83,19 +90,13 @@ export function createGraphEvents(
         z: node.z + 200 // zoom out a bit so we see context
       },
       node,
-      1000 // animation duration (ms)
+      3000 // animation duration (ms)
     );
   }
 
 
   function expandAll()
   {
-    // for (const id of Object.keys(
-    //   state.graph.nodesById
-    // ))
-    // {
-    //   state.expanded.add(id);
-    // }
     state.expanded =
       new Set(
         Object.keys(state.graph.nodesById)
@@ -111,17 +112,24 @@ export function createGraphEvents(
   {
     state.expanded.clear();
 
-    state.setFocus(
-      state.rootId
+    const root = state.rootId;
+
+    state.focusNode = root;
+    state.breadcrumbs = [];
+
+    // focusCameraOnNode(root);
+    setTimeout(() =>
+    {
+      focusCameraOnNode(root);
+    }, 50);
+
+    getGraph().graphData(
+      state.toForceGraph()
     );
 
     renderBreadcrumbs(
       state,
       handleBreadcrumbClick
-    );
-
-    getGraph().graphData(
-      state.toForceGraph()
     );
   }
   

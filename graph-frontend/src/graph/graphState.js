@@ -13,26 +13,12 @@ export class GraphState
     this.focusNode = null;
 
     this.breadcrumbs = [];
-
-    this.breadcrumbParentMap = new Map();
   }
 
   
   buildPath(nodeId)
   {
-    const path = [];
-  
-    let current = nodeId;
-  
-    while (current)
-    {
-      path.unshift(current);
-  
-      current =
-        this.breadcrumbParentMap.get(current);
-    }
-  
-    return path;
+    return this.breadcrumbs;
   }
 
 
@@ -45,6 +31,15 @@ export class GraphState
   setFocus(nodeId)
   {
     this.focusNode = nodeId;
+
+    // avoid duplicate consecutive entries
+    const last =
+      this.breadcrumbs[this.breadcrumbs.length - 1];
+
+    if (last === nodeId)
+      return;
+
+    this.breadcrumbs.push(nodeId);
   }
 
 
