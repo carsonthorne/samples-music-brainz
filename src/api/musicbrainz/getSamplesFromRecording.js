@@ -23,23 +23,9 @@ async function getSamplesFromRecording(recordingId) {
     const samples = [];
 
     if (data.relations) {
-        // console.log(JSON.stringify(data.relations, null, 2));
-
-        // data.relations.forEach(rel => {
-        //     // DEBUG: log what we're seeing
-        //     console.log(rel);
-
-        //     if (rel.type?.includes("sample")) { // use "sampled by" for sampled tracks
-        //         console.log("sample found");
-        //         samples.push({
-        //         title: rel.recording.title,
-        //         artist: rel.artist ? rel.artist.name : "Unknown"
-        //         });
-        //     }
-        // });
-
-        for (const rel of data.relations) {
+            for (const rel of data.relations) {
             // DEBUG (optional)
+            //     console.log(rel);
             // console.log(rel.type, rel.recording?.title);
 
             if (rel.type?.includes("sample") && rel.recording) {

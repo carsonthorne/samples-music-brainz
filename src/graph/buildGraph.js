@@ -3,87 +3,64 @@ const getAlbums = require("../api/musicbrainz/getAlbums");
 const getReleaseFromGroup = require("../api/musicbrainz/getReleaseFromGroup");
 const getTracksFromRelease = require("../api/musicbrainz/getTracksFromRelease");
 const getSamplesFromRecording = require("../api/musicbrainz/getSamplesFromRecording");
-const {buildArtistNode} = require("./builders/artistBuilder") 
-const {buildAlbumNode, linkArtistToAlbum } = require("./builders/albumBuilder");
-const {buildTrackNode, linkAlbumToTrack} = require("./builders/trackBuilder");
-const {buildSampleNode, linkTrackToSample, expandTrackSamples} = require("./builders/sampleBuilder");
-const writeGraph = require("./graphWriter")
+const getRecordingContext = require("../api/musicbrainz/getRecordingContext");
+const { buildArtistNode } = require("./builders/artistBuilder");
+const { buildAlbumNode, linkArtistToAlbum } = require("./builders/albumBuilder");
+const { buildTrackNode, linkAlbumToTrack } = require("./builders/trackBuilder");
+const { expandTrackSamples } = require("./builders/sampleBuilder");
+const writeGraph = require("./graphWriter");
 
 const GraphDatabase = require("./graphDatabase");
 
-const LIMITS = 
-{
+const LIMITS = {
   albumsPerArtist: 5,
-  tracksPerAlbum: 15,
   sampleDepth: 1
 };
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-function sleep(ms)
-{
-    return new Promise(r => setTimeout(r, ms));
-}
-
-
-async function buildGraph() 
-{
+async function buildGraph() {
   const db = new GraphDatabase();
 
-  // Store artist
-  const artist = await searchArtist("a tribe called quest"); // Hardcoded for now (until search function is implemented)
-
-  const artistId =
-    buildArtistNode(
-      db,
-      artist
-    );
-
+  // Store Root Artist
+  const artist = await searchArtist("a tribe called quest"); 
+  const artistId = buildArtistNode(db, artist);
+  await sleep(1000);
 
   // Store albums
   const albums = await getAlbums(artist.id);
+  await sleep(1000);
 
-  for (const album of albums.slice(0, LIMITS.albumsPerArtist))
-  {
+  for (const album of albums.slice(0, LIMITS.albumsPerArtist)) {
     const albumId = buildAlbumNode(db, album);
-
     linkArtistToAlbum(db, artistId, albumId);
 
-    // Only get one version of the album (for now)
     const release = await getReleaseFromGroup(album.id);
+    await sleep(1000);
     if (!release) continue;
 
     const tracks = await getTracksFromRelease(release.id);
+    await sleep(1000);
     
-    // Store Tracks
-    for (const track of tracks)
-    {
+    for (const track of tracks) {
       const trackId = buildTrackNode(db, track);
-
       linkAlbumToTrack(db, albumId, trackId);
 
-      // Store Samples
+      // This now handles sample nodes, their albums, and their artists cleanly
       await expandTrackSamples(
         db,
         trackId,
         track.recordingId,
         0,
         LIMITS.sampleDepth,
-        getSamplesFromRecording
+        getSamplesFromRecording,
+        getRecordingContext
       );
-
-      await sleep(1000);
     }
-
-    await sleep(1000);
   }
 
-  // Build Graph
   writeGraph(db.getGraph());
-
-  console.log("Graph written to public/data/graph.json");
-  console.log(db.getGraph().nodes.length, db.getGraph().links.length);
-  console.log("Nodes:", db.nodesById.size);
-  console.log("Edges:", db.edgeIds.size);
+  console.log("Graph written successfully!");
 }
 
 buildGraph();

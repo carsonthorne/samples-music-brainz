@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-16T15:14:53.535Z",
+  "generatedAt": "2026-06-17T20:04:15.065Z",
   "rootArtist": "A Tribe Called Quest",
   "nodesById": {
     "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f": {
@@ -27,11 +27,35 @@
       "name": "Forget It",
       "mbid": "4fcaa7d8-13fb-4e88-97ef-de8c7828751a"
     },
+    "artist:9a04dc8c-82f1-457a-a25a-3ff19e1b471e": {
+      "id": "artist:9a04dc8c-82f1-457a-a25a-3ff19e1b471e",
+      "type": "artist",
+      "name": "St Germain",
+      "mbid": "9a04dc8c-82f1-457a-a25a-3ff19e1b471e"
+    },
+    "album:ca9cae85-5460-33eb-865b-41db028cab03": {
+      "id": "album:ca9cae85-5460-33eb-865b-41db028cab03",
+      "type": "album",
+      "name": "Boulevard 1/3",
+      "mbid": "ca9cae85-5460-33eb-865b-41db028cab03"
+    },
     "recording:8814819d-81a6-408b-aaaa-806f622a4945": {
       "id": "recording:8814819d-81a6-408b-aaaa-806f622a4945",
       "type": "recording",
       "name": "Nitty Gritty",
       "mbid": "8814819d-81a6-408b-aaaa-806f622a4945"
+    },
+    "artist:543edda0-d61e-4698-97fa-1f34a1322d20": {
+      "id": "artist:543edda0-d61e-4698-97fa-1f34a1322d20",
+      "type": "artist",
+      "name": "KMD",
+      "mbid": "543edda0-d61e-4698-97fa-1f34a1322d20"
+    },
+    "album:43e86744-5a87-4805-8a45-988e1729075d": {
+      "id": "album:43e86744-5a87-4805-8a45-988e1729075d",
+      "type": "album",
+      "name": "Mr. Hood",
+      "mbid": "43e86744-5a87-4805-8a45-988e1729075d"
     },
     "recording:3276d8c1-6c4f-4d06-b283-d05d2aee71d2": {
       "id": "recording:3276d8c1-6c4f-4d06-b283-d05d2aee71d2",
@@ -39,17 +63,53 @@
       "name": "I'm Gonna Love You Just a Little More Babe",
       "mbid": "3276d8c1-6c4f-4d06-b283-d05d2aee71d2"
     },
+    "artist:4f8a0d9b-5777-40da-b29a-e9753d5ae693": {
+      "id": "artist:4f8a0d9b-5777-40da-b29a-e9753d5ae693",
+      "type": "artist",
+      "name": "Jimmy Smith",
+      "mbid": "4f8a0d9b-5777-40da-b29a-e9753d5ae693"
+    },
+    "album:c75030f2-4b79-4e37-903d-a2cade7af418": {
+      "id": "album:c75030f2-4b79-4e37-903d-a2cade7af418",
+      "type": "album",
+      "name": "Blacksmith",
+      "mbid": "c75030f2-4b79-4e37-903d-a2cade7af418"
+    },
     "recording:abc33b9f-6dff-4aa7-8e69-0a7be66baa83": {
       "id": "recording:abc33b9f-6dff-4aa7-8e69-0a7be66baa83",
       "type": "recording",
       "name": "Thank You Falletin Me Be Mice Elf Agin",
       "mbid": "abc33b9f-6dff-4aa7-8e69-0a7be66baa83"
     },
+    "artist:d217c8ff-7dcc-4c11-84f2-3b5cdf018523": {
+      "id": "artist:d217c8ff-7dcc-4c11-84f2-3b5cdf018523",
+      "type": "artist",
+      "name": "Junior Mance",
+      "mbid": "d217c8ff-7dcc-4c11-84f2-3b5cdf018523"
+    },
+    "album:38aab585-e167-439f-b476-6a8b82befdea": {
+      "id": "album:38aab585-e167-439f-b476-6a8b82befdea",
+      "type": "album",
+      "name": "With a Lotta Help From My Friends",
+      "mbid": "38aab585-e167-439f-b476-6a8b82befdea"
+    },
     "recording:994064d4-bdd1-4aec-846d-70310062ff2e": {
       "id": "recording:994064d4-bdd1-4aec-846d-70310062ff2e",
       "type": "recording",
       "name": "Loran’s Dance",
       "mbid": "994064d4-bdd1-4aec-846d-70310062ff2e"
+    },
+    "artist:c60e178f-36f1-4169-9c03-84addbdbf104": {
+      "id": "artist:c60e178f-36f1-4169-9c03-84addbdbf104",
+      "type": "artist",
+      "name": "Grover Washington, Jr.",
+      "mbid": "c60e178f-36f1-4169-9c03-84addbdbf104"
+    },
+    "album:3e1799d9-70bc-49f9-9343-1caecffe2f7f": {
+      "id": "album:3e1799d9-70bc-49f9-9343-1caecffe2f7f",
+      "type": "album",
+      "name": "Reed Seed",
+      "mbid": "3e1799d9-70bc-49f9-9343-1caecffe2f7f"
     },
     "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547": {
       "id": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
@@ -63,11 +123,35 @@
       "name": "All You Need Is Love",
       "mbid": "5098d0a8-d3c3-424e-9367-1f2610724410"
     },
+    "artist:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d": {
+      "id": "artist:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "type": "artist",
+      "name": "The Beatles",
+      "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+    },
+    "album:f4b8b5f4-b334-46a0-acf6-356cb77836b7": {
+      "id": "album:f4b8b5f4-b334-46a0-acf6-356cb77836b7",
+      "type": "album",
+      "name": "All You Need Is Love",
+      "mbid": "f4b8b5f4-b334-46a0-acf6-356cb77836b7"
+    },
     "recording:83547106-f8a7-4790-85d9-37afae35bcc8": {
       "id": "recording:83547106-f8a7-4790-85d9-37afae35bcc8",
       "type": "recording",
       "name": "Forty Days",
       "mbid": "83547106-f8a7-4790-85d9-37afae35bcc8"
+    },
+    "artist:775c0cf9-5d7e-4889-9393-d21e3105fc4b": {
+      "id": "artist:775c0cf9-5d7e-4889-9393-d21e3105fc4b",
+      "type": "artist",
+      "name": "Billy Brooks",
+      "mbid": "775c0cf9-5d7e-4889-9393-d21e3105fc4b"
+    },
+    "album:f81d0adf-cef3-4f61-ab53-035f048c7fd9": {
+      "id": "album:f81d0adf-cef3-4f61-ab53-035f048c7fd9",
+      "type": "album",
+      "name": "Windows of the Mind",
+      "mbid": "f81d0adf-cef3-4f61-ab53-035f048c7fd9"
     },
     "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4": {
       "id": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
@@ -81,17 +165,53 @@
       "name": "Remember Who You Are",
       "mbid": "17193298-96a1-4c3d-9366-adb2bedef8c8"
     },
+    "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea": {
+      "id": "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+      "type": "artist",
+      "name": "Sly & the Family Stone",
+      "mbid": "b7ec4c54-1f93-4bf2-957f-7b9921ab84ea"
+    },
+    "album:b1a91911-22dd-4288-a567-a4e33a464d6f": {
+      "id": "album:b1a91911-22dd-4288-a567-a4e33a464d6f",
+      "type": "album",
+      "name": "Back on the Right Track",
+      "mbid": "b1a91911-22dd-4288-a567-a4e33a464d6f"
+    },
     "recording:c4ddb4a4-5b09-477a-92a2-901e792ec889": {
       "id": "recording:c4ddb4a4-5b09-477a-92a2-901e792ec889",
       "type": "recording",
       "name": "North Carolina",
       "mbid": "c4ddb4a4-5b09-477a-92a2-901e792ec889"
     },
+    "artist:bc16d640-a069-42ec-a8c1-c24fd5c3d206": {
+      "id": "artist:bc16d640-a069-42ec-a8c1-c24fd5c3d206",
+      "type": "artist",
+      "name": "Les McCann",
+      "mbid": "bc16d640-a069-42ec-a8c1-c24fd5c3d206"
+    },
+    "album:2872fd53-dfb4-4783-8bc5-af09d3f04b10": {
+      "id": "album:2872fd53-dfb4-4783-8bc5-af09d3f04b10",
+      "type": "album",
+      "name": "Talk to the People",
+      "mbid": "2872fd53-dfb4-4783-8bc5-af09d3f04b10"
+    },
     "recording:038cc798-19ca-4026-a7b0-de2d4a1ab088": {
       "id": "recording:038cc798-19ca-4026-a7b0-de2d4a1ab088",
       "type": "recording",
       "name": "Crap Game",
       "mbid": "038cc798-19ca-4026-a7b0-de2d4a1ab088"
+    },
+    "artist:ba503a17-848c-4773-aa58-208f4163124f": {
+      "id": "artist:ba503a17-848c-4773-aa58-208f4163124f",
+      "type": "artist",
+      "name": "Richard Pryor",
+      "mbid": "ba503a17-848c-4773-aa58-208f4163124f"
+    },
+    "album:22b943b0-4d27-301b-8f4b-cecf7bc92596": {
+      "id": "album:22b943b0-4d27-301b-8f4b-cecf7bc92596",
+      "type": "album",
+      "name": "Craps (After Hours)",
+      "mbid": "22b943b0-4d27-301b-8f4b-cecf7bc92596"
     },
     "track:765e325f-b77d-4f83-b07b-80f92611789f": {
       "id": "track:765e325f-b77d-4f83-b07b-80f92611789f",
@@ -105,17 +225,53 @@
       "name": "Sir Duke",
       "mbid": "05b6bdda-3219-4756-af17-d0d9cdcdb104"
     },
+    "artist:1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e": {
+      "id": "artist:1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e",
+      "type": "artist",
+      "name": "Stevie Wonder",
+      "mbid": "1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e"
+    },
+    "album:9b51a6b5-7f55-4dc7-8e10-a69410c7b306": {
+      "id": "album:9b51a6b5-7f55-4dc7-8e10-a69410c7b306",
+      "type": "album",
+      "name": "Songs in the Key of Life",
+      "mbid": "9b51a6b5-7f55-4dc7-8e10-a69410c7b306"
+    },
     "recording:8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93": {
       "id": "recording:8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93",
       "type": "recording",
       "name": "Think Twice",
       "mbid": "8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93"
     },
+    "artist:69f95e5c-4b34-4c8b-b8fe-c59f9296195a": {
+      "id": "artist:69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
+      "type": "artist",
+      "name": "Donald Byrd",
+      "mbid": "69f95e5c-4b34-4c8b-b8fe-c59f9296195a"
+    },
+    "album:ff0a67a4-3f26-4730-9b79-88a4c11a216e": {
+      "id": "album:ff0a67a4-3f26-4730-9b79-88a4c11a216e",
+      "type": "album",
+      "name": "Stepping Into Tomorrow",
+      "mbid": "ff0a67a4-3f26-4730-9b79-88a4c11a216e"
+    },
     "recording:f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf": {
       "id": "recording:f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf",
       "type": "recording",
       "name": "Walk Tall",
       "mbid": "f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf"
+    },
+    "artist:a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8": {
+      "id": "artist:a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8",
+      "type": "artist",
+      "name": "Cannonball Adderley",
+      "mbid": "a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8"
+    },
+    "album:85362b08-e491-4394-9745-4428e94b7b89": {
+      "id": "album:85362b08-e491-4394-9745-4428e94b7b89",
+      "type": "album",
+      "name": "Phenix",
+      "mbid": "85362b08-e491-4394-9745-4428e94b7b89"
     },
     "track:3a29f337-5572-4810-a26c-1178491511fd": {
       "id": "track:3a29f337-5572-4810-a26c-1178491511fd",
@@ -129,11 +285,35 @@
       "name": "Funky",
       "mbid": "17d7c8c1-855a-4657-8af9-f88accc876c9"
     },
+    "artist:5c51de66-d15e-48ed-9402-0f17ba2dfc52": {
+      "id": "artist:5c51de66-d15e-48ed-9402-0f17ba2dfc52",
+      "type": "artist",
+      "name": "The Chambers Brothers",
+      "mbid": "5c51de66-d15e-48ed-9402-0f17ba2dfc52"
+    },
+    "album:76db7b45-af7f-4e34-bdd5-d922e016efd8": {
+      "id": "album:76db7b45-af7f-4e34-bdd5-d922e016efd8",
+      "type": "album",
+      "name": "New Generation",
+      "mbid": "76db7b45-af7f-4e34-bdd5-d922e016efd8"
+    },
     "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa": {
       "id": "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa",
       "type": "recording",
       "name": "Sueno",
       "mbid": "14196d4a-b22a-4c4d-a42c-3b240f051cfa"
+    },
+    "artist:219ce30a-0f3a-468c-9a13-55ee358ac0f0": {
+      "id": "artist:219ce30a-0f3a-468c-9a13-55ee358ac0f0",
+      "type": "artist",
+      "name": "The Rascals",
+      "mbid": "219ce30a-0f3a-468c-9a13-55ee358ac0f0"
+    },
+    "album:4c18b6bd-603d-30bc-8152-92b7123c264a": {
+      "id": "album:4c18b6bd-603d-30bc-8152-92b7123c264a",
+      "type": "album",
+      "name": "Groovin’",
+      "mbid": "4c18b6bd-603d-30bc-8152-92b7123c264a"
     },
     "track:58be3c7d-4b9f-4e4b-a5f8-a7e74e5fae78": {
       "id": "track:58be3c7d-4b9f-4e4b-a5f8-a7e74e5fae78",
@@ -189,11 +369,35 @@
       "name": "Big Willie",
       "mbid": "df612667-86af-4dc0-b3ef-8c030fdae6c8"
     },
+    "artist:5ecc3f72-20a6-47a0-8dc5-fb0b3dadeea0": {
+      "id": "artist:5ecc3f72-20a6-47a0-8dc5-fb0b3dadeea0",
+      "type": "artist",
+      "name": "Run‐D.M.C.",
+      "mbid": "5ecc3f72-20a6-47a0-8dc5-fb0b3dadeea0"
+    },
+    "album:c0ec2364-a7ca-40d8-a256-31f24f38f7fd": {
+      "id": "album:c0ec2364-a7ca-40d8-a256-31f24f38f7fd",
+      "type": "album",
+      "name": "Down With the King",
+      "mbid": "c0ec2364-a7ca-40d8-a256-31f24f38f7fd"
+    },
     "recording:47560630-4e42-4c33-ac18-a082f7cb9999": {
       "id": "recording:47560630-4e42-4c33-ac18-a082f7cb9999",
       "type": "recording",
       "name": "Love Your Life",
       "mbid": "47560630-4e42-4c33-ac18-a082f7cb9999"
+    },
+    "artist:fb776bca-6139-4ff5-8d5e-5decd029cb96": {
+      "id": "artist:fb776bca-6139-4ff5-8d5e-5decd029cb96",
+      "type": "artist",
+      "name": "Average White Band",
+      "mbid": "fb776bca-6139-4ff5-8d5e-5decd029cb96"
+    },
+    "album:5275abd4-b78c-4205-8a42-6c0b23dbeca0": {
+      "id": "album:5275abd4-b78c-4205-8a42-6c0b23dbeca0",
+      "type": "album",
+      "name": "Soul Searching",
+      "mbid": "5275abd4-b78c-4205-8a42-6c0b23dbeca0"
     },
     "recording:eb6764c6-0129-47c3-acc4-70659a710468": {
       "id": "recording:eb6764c6-0129-47c3-acc4-70659a710468",
@@ -201,11 +405,29 @@
       "name": "Baby, This Love I Have",
       "mbid": "eb6764c6-0129-47c3-acc4-70659a710468"
     },
+    "artist:e842abf7-8a63-4602-8879-75958c2884a1": {
+      "id": "artist:e842abf7-8a63-4602-8879-75958c2884a1",
+      "type": "artist",
+      "name": "Minnie Riperton",
+      "mbid": "e842abf7-8a63-4602-8879-75958c2884a1"
+    },
+    "album:69ac228f-7576-402e-9ff1-d811826c85a6": {
+      "id": "album:69ac228f-7576-402e-9ff1-d811826c85a6",
+      "type": "album",
+      "name": "Adventures in Paradise",
+      "mbid": "69ac228f-7576-402e-9ff1-d811826c85a6"
+    },
     "recording:ae665c62-c18c-42e4-95fb-17d220e30452": {
       "id": "recording:ae665c62-c18c-42e4-95fb-17d220e30452",
       "type": "recording",
       "name": "Hydra",
       "mbid": "ae665c62-c18c-42e4-95fb-17d220e30452"
+    },
+    "album:c6709d2f-507b-42cc-ae38-1e78198e0f06": {
+      "id": "album:c6709d2f-507b-42cc-ae38-1e78198e0f06",
+      "type": "album",
+      "name": "Feels So Good",
+      "mbid": "c6709d2f-507b-42cc-ae38-1e78198e0f06"
     },
     "recording:53259175-2714-4c53-92a8-cd5afb1a0731": {
       "id": "recording:53259175-2714-4c53-92a8-cd5afb1a0731",
@@ -213,11 +435,35 @@
       "name": "Fly Like an Eagle",
       "mbid": "53259175-2714-4c53-92a8-cd5afb1a0731"
     },
+    "artist:e57f0cac-4f56-473c-8d7e-d93f753fd586": {
+      "id": "artist:e57f0cac-4f56-473c-8d7e-d93f753fd586",
+      "type": "artist",
+      "name": "Steve Miller Band",
+      "mbid": "e57f0cac-4f56-473c-8d7e-d93f753fd586"
+    },
+    "album:a5ba0eec-c54d-32f5-a879-d2787b082c50": {
+      "id": "album:a5ba0eec-c54d-32f5-a879-d2787b082c50",
+      "type": "album",
+      "name": "Fly Like an Eagle",
+      "mbid": "a5ba0eec-c54d-32f5-a879-d2787b082c50"
+    },
     "recording:0dfc5bc7-2bca-4cf0-a869-e2be265feabe": {
       "id": "recording:0dfc5bc7-2bca-4cf0-a869-e2be265feabe",
       "type": "recording",
       "name": "Tout doit disparaître",
       "mbid": "0dfc5bc7-2bca-4cf0-a869-e2be265feabe"
+    },
+    "artist:bb67b337-4502-45d7-b66a-63f18138c54c": {
+      "id": "artist:bb67b337-4502-45d7-b66a-63f18138c54c",
+      "type": "artist",
+      "name": "Minos pour main basse (sur la ville)",
+      "mbid": "bb67b337-4502-45d7-b66a-63f18138c54c"
+    },
+    "album:e7e6caa2-fd69-309a-b684-57cf8cc8b23b": {
+      "id": "album:e7e6caa2-fd69-309a-b684-57cf8cc8b23b",
+      "type": "album",
+      "name": "Super Discount",
+      "mbid": "e7e6caa2-fd69-309a-b684-57cf8cc8b23b"
     },
     "track:436b4315-3db2-4c5f-84e5-234b4318dd20": {
       "id": "track:436b4315-3db2-4c5f-84e5-234b4318dd20",
@@ -230,6 +476,18 @@
       "type": "recording",
       "name": "Why (radio edit)",
       "mbid": "a08da581-5b89-47ca-a8d9-1cd6322d3adb"
+    },
+    "artist:c4df30f5-5487-4806-9189-b69c9f27532c": {
+      "id": "artist:c4df30f5-5487-4806-9189-b69c9f27532c",
+      "type": "artist",
+      "name": "Carly Simon",
+      "mbid": "c4df30f5-5487-4806-9189-b69c9f27532c"
+    },
+    "album:4d1de86e-0cd4-43a0-a839-0f59ec23e645": {
+      "id": "album:4d1de86e-0cd4-43a0-a839-0f59ec23e645",
+      "type": "album",
+      "name": "Why",
+      "mbid": "4d1de86e-0cd4-43a0-a839-0f59ec23e645"
     },
     "track:5b8abe76-5740-4691-b575-262b241b538d": {
       "id": "track:5b8abe76-5740-4691-b575-262b241b538d",
@@ -255,11 +513,29 @@
       "name": "Gimme the Loot",
       "mbid": "ed4a3111-b4b7-45ed-8f11-d69a461a0f8e"
     },
+    "artist:d5d97b2b-b83b-4976-814a-056d9076c8c3": {
+      "id": "artist:d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "type": "artist",
+      "name": "The Notorious B.I.G.",
+      "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+    },
+    "album:ed2eb0db-4ef9-3658-a613-582dd359348e": {
+      "id": "album:ed2eb0db-4ef9-3658-a613-582dd359348e",
+      "type": "album",
+      "name": "Ready to Die",
+      "mbid": "ed2eb0db-4ef9-3658-a613-582dd359348e"
+    },
     "recording:e86ee6e1-ccd4-46fe-9781-cea01aa5db92": {
       "id": "recording:e86ee6e1-ccd4-46fe-9781-cea01aa5db92",
       "type": "recording",
       "name": "Gimme the Loot",
       "mbid": "e86ee6e1-ccd4-46fe-9781-cea01aa5db92"
+    },
+    "album:c3b9d318-7f54-31ef-b670-12c57e612d55": {
+      "id": "album:c3b9d318-7f54-31ef-b670-12c57e612d55",
+      "type": "album",
+      "name": "Ready to Die",
+      "mbid": "c3b9d318-7f54-31ef-b670-12c57e612d55"
     },
     "recording:5da15773-baab-4b11-8142-e5cbc52435ab": {
       "id": "recording:5da15773-baab-4b11-8142-e5cbc52435ab",
@@ -267,11 +543,35 @@
       "name": "Blind Alley",
       "mbid": "5da15773-baab-4b11-8142-e5cbc52435ab"
     },
+    "artist:6ff13427-08ff-4da2-bee8-892e1fa22d3c": {
+      "id": "artist:6ff13427-08ff-4da2-bee8-892e1fa22d3c",
+      "type": "artist",
+      "name": "The Emotions",
+      "mbid": "6ff13427-08ff-4da2-bee8-892e1fa22d3c"
+    },
+    "album:f0ee1c1e-c757-48a5-97cc-cc4d926a0846": {
+      "id": "album:f0ee1c1e-c757-48a5-97cc-cc4d926a0846",
+      "type": "album",
+      "name": "Untouched",
+      "mbid": "f0ee1c1e-c757-48a5-97cc-cc4d926a0846"
+    },
     "recording:1fb341e3-8088-4019-b8f6-91beb644270c": {
       "id": "recording:1fb341e3-8088-4019-b8f6-91beb644270c",
       "type": "recording",
       "name": "Give It Up",
       "mbid": "1fb341e3-8088-4019-b8f6-91beb644270c"
+    },
+    "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde": {
+      "id": "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde",
+      "type": "artist",
+      "name": "Kool & the Gang",
+      "mbid": "2469950a-f0ca-425a-bfbc-baf55ea3afde"
+    },
+    "album:fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d": {
+      "id": "album:fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d",
+      "type": "album",
+      "name": "Kool and The Gang",
+      "mbid": "fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d"
     },
     "recording:f717f05b-e18c-491e-8655-c190ad22190a": {
       "id": "recording:f717f05b-e18c-491e-8655-c190ad22190a",
@@ -279,11 +579,29 @@
       "name": "Soul Vibrations",
       "mbid": "f717f05b-e18c-491e-8655-c190ad22190a"
     },
+    "album:fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa": {
+      "id": "album:fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa",
+      "type": "album",
+      "name": "Music Is the Message",
+      "mbid": "fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa"
+    },
     "recording:cb7c1a30-3e62-4424-b20e-7acd3b23904e": {
       "id": "recording:cb7c1a30-3e62-4424-b20e-7acd3b23904e",
       "type": "recording",
       "name": "Ecstasy",
       "mbid": "cb7c1a30-3e62-4424-b20e-7acd3b23904e"
+    },
+    "artist:81e07550-d0e2-467e-bc71-44b5d52de8f4": {
+      "id": "artist:81e07550-d0e2-467e-bc71-44b5d52de8f4",
+      "type": "artist",
+      "name": "Ohio Players",
+      "mbid": "81e07550-d0e2-467e-bc71-44b5d52de8f4"
+    },
+    "album:d23320d3-e9b6-4922-8da9-6af0f59e05da": {
+      "id": "album:d23320d3-e9b6-4922-8da9-6af0f59e05da",
+      "type": "album",
+      "name": "Ecstasy",
+      "mbid": "d23320d3-e9b6-4922-8da9-6af0f59e05da"
     },
     "recording:37f7d587-ba71-4500-90bb-92e4f223f082": {
       "id": "recording:37f7d587-ba71-4500-90bb-92e4f223f082",
@@ -291,11 +609,35 @@
       "name": "Oblighetto",
       "mbid": "37f7d587-ba71-4500-90bb-92e4f223f082"
     },
+    "artist:e0cd33e5-f664-4a21-b7eb-f0b07dd2c1d0": {
+      "id": "artist:e0cd33e5-f664-4a21-b7eb-f0b07dd2c1d0",
+      "type": "artist",
+      "name": "“Brother” Jack McDuff",
+      "mbid": "e0cd33e5-f664-4a21-b7eb-f0b07dd2c1d0"
+    },
+    "album:63e1d523-d17c-4872-8e6e-68f9dea1939e": {
+      "id": "album:63e1d523-d17c-4872-8e6e-68f9dea1939e",
+      "type": "album",
+      "name": "Moon Rappin'",
+      "mbid": "63e1d523-d17c-4872-8e6e-68f9dea1939e"
+    },
     "recording:359415a8-e758-4a2b-9907-4e5995613dda": {
       "id": "recording:359415a8-e758-4a2b-9907-4e5995613dda",
       "type": "recording",
       "name": "Little Miss Lover",
       "mbid": "359415a8-e758-4a2b-9907-4e5995613dda"
+    },
+    "artist:33b3c323-77c2-417c-a5b4-af7e6a111cc9": {
+      "id": "artist:33b3c323-77c2-417c-a5b4-af7e6a111cc9",
+      "type": "artist",
+      "name": "The Jimi Hendrix Experience",
+      "mbid": "33b3c323-77c2-417c-a5b4-af7e6a111cc9"
+    },
+    "album:0f8ebeb2-fa96-4382-8dd7-e64f16808646": {
+      "id": "album:0f8ebeb2-fa96-4382-8dd7-e64f16808646",
+      "type": "album",
+      "name": "Axis: Bold as Love",
+      "mbid": "0f8ebeb2-fa96-4382-8dd7-e64f16808646"
     },
     "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f": {
       "id": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
@@ -309,17 +651,53 @@
       "name": "Minya's the Mooch",
       "mbid": "85ea1351-d487-4abd-a807-ba43d7157b62"
     },
+    "artist:5025b18d-f457-46cb-992d-13c342586dba": {
+      "id": "artist:5025b18d-f457-46cb-992d-13c342586dba",
+      "type": "artist",
+      "name": "Jack DeJohnette's Directions",
+      "mbid": "5025b18d-f457-46cb-992d-13c342586dba"
+    },
+    "album:c942f19b-7de4-4d75-a0a1-2e6f5c9e5006": {
+      "id": "album:c942f19b-7de4-4d75-a0a1-2e6f5c9e5006",
+      "type": "album",
+      "name": "New Rags",
+      "mbid": "c942f19b-7de4-4d75-a0a1-2e6f5c9e5006"
+    },
     "recording:6cbb3c7d-e543-461b-9c9e-5aabfcbc3488": {
       "id": "recording:6cbb3c7d-e543-461b-9c9e-5aabfcbc3488",
       "type": "recording",
       "name": "Spinning Wheel",
       "mbid": "6cbb3c7d-e543-461b-9c9e-5aabfcbc3488"
     },
+    "artist:58c2a0ee-183d-463a-a8fb-9c388fedd33d": {
+      "id": "artist:58c2a0ee-183d-463a-a8fb-9c388fedd33d",
+      "type": "artist",
+      "name": "Dr. Lonnie Smith",
+      "mbid": "58c2a0ee-183d-463a-a8fb-9c388fedd33d"
+    },
+    "album:c071b836-d08c-4ee5-93d3-e897199faaaf": {
+      "id": "album:c071b836-d08c-4ee5-93d3-e897199faaaf",
+      "type": "album",
+      "name": "Drives",
+      "mbid": "c071b836-d08c-4ee5-93d3-e897199faaaf"
+    },
     "recording:b7ecd665-2cb4-4f32-a353-9f6435d57fb7": {
       "id": "recording:b7ecd665-2cb4-4f32-a353-9f6435d57fb7",
       "type": "recording",
       "name": "Ekim",
       "mbid": "b7ecd665-2cb4-4f32-a353-9f6435d57fb7"
+    },
+    "artist:c9bda94f-d379-4405-a20e-7de6a3ee9b77": {
+      "id": "artist:c9bda94f-d379-4405-a20e-7de6a3ee9b77",
+      "type": "artist",
+      "name": "Michał Urbaniak",
+      "mbid": "c9bda94f-d379-4405-a20e-7de6a3ee9b77"
+    },
+    "album:d7b06730-074b-46b0-a248-55d4aed3da42": {
+      "id": "album:d7b06730-074b-46b0-a248-55d4aed3da42",
+      "type": "album",
+      "name": "The Beginning",
+      "mbid": "d7b06730-074b-46b0-a248-55d4aed3da42"
     },
     "track:413c5904-2a4f-4e0f-b7b6-d8526024d284": {
       "id": "track:413c5904-2a4f-4e0f-b7b6-d8526024d284",
@@ -345,11 +723,35 @@
       "name": "B4 My Rhymez Thru",
       "mbid": "a54e9a81-7be0-4ad1-a3a5-5562bc57f25d"
     },
+    "artist:5411f02b-e546-4e69-aac2-23598f1ee536": {
+      "id": "artist:5411f02b-e546-4e69-aac2-23598f1ee536",
+      "type": "artist",
+      "name": "Smokin Suckaz Wit Logic",
+      "mbid": "5411f02b-e546-4e69-aac2-23598f1ee536"
+    },
+    "album:644d4e6f-fd99-44b8-98fe-c6482ccc8022": {
+      "id": "album:644d4e6f-fd99-44b8-98fe-c6482ccc8022",
+      "type": "album",
+      "name": "Playin' Foolz",
+      "mbid": "644d4e6f-fd99-44b8-98fe-c6482ccc8022"
+    },
     "recording:4701cba5-8941-4a5a-a7ae-c66d00fcdb9f": {
       "id": "recording:4701cba5-8941-4a5a-a7ae-c66d00fcdb9f",
       "type": "recording",
       "name": "Easy Back It Up",
       "mbid": "4701cba5-8941-4a5a-a7ae-c66d00fcdb9f"
+    },
+    "artist:545f9a53-f816-4b59-b196-07d16d01160a": {
+      "id": "artist:545f9a53-f816-4b59-b196-07d16d01160a",
+      "type": "artist",
+      "name": "Styles of Beyond",
+      "mbid": "545f9a53-f816-4b59-b196-07d16d01160a"
+    },
+    "album:99f70ae6-6db7-4a42-a756-a669273e933f": {
+      "id": "album:99f70ae6-6db7-4a42-a756-a669273e933f",
+      "type": "album",
+      "name": "2000 Fold",
+      "mbid": "99f70ae6-6db7-4a42-a756-a669273e933f"
     },
     "recording:f6026bb3-0cae-45f7-8dce-c20738658f7f": {
       "id": "recording:f6026bb3-0cae-45f7-8dce-c20738658f7f",
@@ -357,11 +759,29 @@
       "name": "Don't Change Your Love",
       "mbid": "f6026bb3-0cae-45f7-8dce-c20738658f7f"
     },
+    "artist:42700164-abe3-4b45-b627-f4c8deca5e82": {
+      "id": "artist:42700164-abe3-4b45-b627-f4c8deca5e82",
+      "type": "artist",
+      "name": "Five Stairsteps",
+      "mbid": "42700164-abe3-4b45-b627-f4c8deca5e82"
+    },
+    "album:e4b8dbd0-5544-40e8-b736-f86048d68914": {
+      "id": "album:e4b8dbd0-5544-40e8-b736-f86048d68914",
+      "type": "album",
+      "name": "Love's Happening",
+      "mbid": "e4b8dbd0-5544-40e8-b736-f86048d68914"
+    },
     "recording:1eaf4ecb-56b6-4c92-b8ae-bb3d3de69809": {
       "id": "recording:1eaf4ecb-56b6-4c92-b8ae-bb3d3de69809",
       "type": "recording",
       "name": "Sing a Simple Song",
       "mbid": "1eaf4ecb-56b6-4c92-b8ae-bb3d3de69809"
+    },
+    "album:0425074d-a3e9-4b4c-ba0e-de34f15384a9": {
+      "id": "album:0425074d-a3e9-4b4c-ba0e-de34f15384a9",
+      "type": "album",
+      "name": "Stand!",
+      "mbid": "0425074d-a3e9-4b4c-ba0e-de34f15384a9"
     },
     "recording:8c8c48e7-80d4-4c45-a0c9-31edaf20a822": {
       "id": "recording:8c8c48e7-80d4-4c45-a0c9-31edaf20a822",
@@ -369,17 +789,53 @@
       "name": "Red Clay",
       "mbid": "8c8c48e7-80d4-4c45-a0c9-31edaf20a822"
     },
+    "artist:59ae7a1a-f454-435b-8a5a-e327e692bb5a": {
+      "id": "artist:59ae7a1a-f454-435b-8a5a-e327e692bb5a",
+      "type": "artist",
+      "name": "Freddie Hubbard",
+      "mbid": "59ae7a1a-f454-435b-8a5a-e327e692bb5a"
+    },
+    "album:4db6cbfc-a5c7-476b-a146-b1ec30c64107": {
+      "id": "album:4db6cbfc-a5c7-476b-a146-b1ec30c64107",
+      "type": "album",
+      "name": "Red Clay",
+      "mbid": "4db6cbfc-a5c7-476b-a146-b1ec30c64107"
+    },
     "recording:384a2656-d2d6-494a-98c7-72cc58d039af": {
       "id": "recording:384a2656-d2d6-494a-98c7-72cc58d039af",
       "type": "recording",
       "name": "Green Dolphin Street",
       "mbid": "384a2656-d2d6-494a-98c7-72cc58d039af"
     },
+    "artist:4b0b1bd5-35e8-4764-b4f2-55ef56f595aa": {
+      "id": "artist:4b0b1bd5-35e8-4764-b4f2-55ef56f595aa",
+      "type": "artist",
+      "name": "Lucky Thompson",
+      "mbid": "4b0b1bd5-35e8-4764-b4f2-55ef56f595aa"
+    },
+    "album:d8d00d4b-01e1-4085-92be-a22e8b623cc5": {
+      "id": "album:d8d00d4b-01e1-4085-92be-a22e8b623cc5",
+      "type": "album",
+      "name": "Lucky Thompson",
+      "mbid": "d8d00d4b-01e1-4085-92be-a22e8b623cc5"
+    },
     "recording:c70101d9-83db-41d8-8bc1-4e6a0f90a69a": {
       "id": "recording:c70101d9-83db-41d8-8bc1-4e6a0f90a69a",
       "type": "recording",
       "name": "Long Red",
       "mbid": "c70101d9-83db-41d8-8bc1-4e6a0f90a69a"
+    },
+    "artist:a415f8c5-3b22-43bb-a1a8-cf9646ea21e0": {
+      "id": "artist:a415f8c5-3b22-43bb-a1a8-cf9646ea21e0",
+      "type": "artist",
+      "name": "Leslie West",
+      "mbid": "a415f8c5-3b22-43bb-a1a8-cf9646ea21e0"
+    },
+    "album:c5a632b1-fa0a-48f6-a2d8-578966c54e14": {
+      "id": "album:c5a632b1-fa0a-48f6-a2d8-578966c54e14",
+      "type": "album",
+      "name": "Mountain",
+      "mbid": "c5a632b1-fa0a-48f6-a2d8-578966c54e14"
     },
     "track:3a5663da-8d85-401a-b9de-3befbced7ed7": {
       "id": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
@@ -393,11 +849,29 @@
       "name": "Love @ 1st Sight",
       "mbid": "1a50d327-caf1-4506-bca7-a9db41cae179"
     },
+    "artist:db76c5ca-d555-4f09-b1db-baa1b713d875": {
+      "id": "artist:db76c5ca-d555-4f09-b1db-baa1b713d875",
+      "type": "artist",
+      "name": "Mary J. Blige",
+      "mbid": "db76c5ca-d555-4f09-b1db-baa1b713d875"
+    },
+    "album:0ed95424-50f7-4837-8ec2-38725a961d6b": {
+      "id": "album:0ed95424-50f7-4837-8ec2-38725a961d6b",
+      "type": "album",
+      "name": "Love & Life",
+      "mbid": "0ed95424-50f7-4837-8ec2-38725a961d6b"
+    },
     "recording:94763013-dc2f-43e2-b11c-2cfc2435b311": {
       "id": "recording:94763013-dc2f-43e2-b11c-2cfc2435b311",
       "type": "recording",
       "name": "Love @ 1st Sight (instrumental)",
       "mbid": "94763013-dc2f-43e2-b11c-2cfc2435b311"
+    },
+    "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67": {
+      "id": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+      "type": "album",
+      "name": "Love @ 1st Sight",
+      "mbid": "db6a433a-2f58-4a4d-9e47-e3f3ac372a67"
     },
     "recording:47262a1d-73e5-4987-a5ed-50f9770d6f60": {
       "id": "recording:47262a1d-73e5-4987-a5ed-50f9770d6f60",
@@ -423,17 +897,47 @@
       "name": "Who’s Gonna Take the Weight, Part 1",
       "mbid": "a4fab216-e521-435d-9203-b74e7bd519f3"
     },
+    "album:742672e9-4b61-4fca-9db5-71e6cee4d649": {
+      "id": "album:742672e9-4b61-4fca-9db5-71e6cee4d649",
+      "type": "album",
+      "name": "Who’s Gonna Take the Weight",
+      "mbid": "742672e9-4b61-4fca-9db5-71e6cee4d649"
+    },
     "recording:ecdea4ef-0e0f-482c-9d78-966774534108": {
       "id": "recording:ecdea4ef-0e0f-482c-9d78-966774534108",
       "type": "recording",
       "name": "Why Can't People Be Colors Too?",
       "mbid": "ecdea4ef-0e0f-482c-9d78-966774534108"
     },
+    "artist:86c0f463-b054-4b10-a204-cdcc6538c7f5": {
+      "id": "artist:86c0f463-b054-4b10-a204-cdcc6538c7f5",
+      "type": "artist",
+      "name": "The Whatnauts",
+      "mbid": "86c0f463-b054-4b10-a204-cdcc6538c7f5"
+    },
+    "album:7ab5a740-f6b9-48e7-ad76-95f453d61994": {
+      "id": "album:7ab5a740-f6b9-48e7-ad76-95f453d61994",
+      "type": "album",
+      "name": "Whatnauts on the Rocks",
+      "mbid": "7ab5a740-f6b9-48e7-ad76-95f453d61994"
+    },
     "recording:f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee": {
       "id": "recording:f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee",
       "type": "recording",
       "name": "Absolutions",
       "mbid": "f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee"
+    },
+    "artist:a1235272-3650-4ed7-9317-5a55a08701ec": {
+      "id": "artist:a1235272-3650-4ed7-9317-5a55a08701ec",
+      "type": "artist",
+      "name": "Lee Morgan",
+      "mbid": "a1235272-3650-4ed7-9317-5a55a08701ec"
+    },
+    "album:e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b": {
+      "id": "album:e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b",
+      "type": "album",
+      "name": "Live at the Lighthouse",
+      "mbid": "e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b"
     },
     "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4": {
       "id": "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4",
@@ -447,6 +951,18 @@
       "name": "Good Love",
       "mbid": "68b9b90a-84b0-4e70-b0d2-7ebcb95756a1"
     },
+    "artist:02349767-d5ac-4528-892d-17b6d40107a1": {
+      "id": "artist:02349767-d5ac-4528-892d-17b6d40107a1",
+      "type": "artist",
+      "name": "Anita Baker",
+      "mbid": "02349767-d5ac-4528-892d-17b6d40107a1"
+    },
+    "album:0c0e86c3-baf2-4123-a866-f60d6fd41977": {
+      "id": "album:0c0e86c3-baf2-4123-a866-f60d6fd41977",
+      "type": "album",
+      "name": "Giving You the Best That I Got",
+      "mbid": "0c0e86c3-baf2-4123-a866-f60d6fd41977"
+    },
     "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94": {
       "id": "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94",
       "type": "track",
@@ -459,17 +975,47 @@
       "name": "Running Away",
       "mbid": "0ef972b7-f255-4dc8-a62e-a363704c03fd"
     },
+    "artist:d1501f92-f523-4e95-a787-432875c8d6dc": {
+      "id": "artist:d1501f92-f523-4e95-a787-432875c8d6dc",
+      "type": "artist",
+      "name": "Roy Ayers Ubiquity",
+      "mbid": "d1501f92-f523-4e95-a787-432875c8d6dc"
+    },
+    "album:5d0966fa-8604-4e53-8aeb-dac0e2c49453": {
+      "id": "album:5d0966fa-8604-4e53-8aeb-dac0e2c49453",
+      "type": "album",
+      "name": "Lifeline",
+      "mbid": "5d0966fa-8604-4e53-8aeb-dac0e2c49453"
+    },
     "recording:c523ee7d-ec7a-4b99-8399-a1acf3b53aa8": {
       "id": "recording:c523ee7d-ec7a-4b99-8399-a1acf3b53aa8",
       "type": "recording",
       "name": "Still Good - Still Like It",
       "mbid": "c523ee7d-ec7a-4b99-8399-a1acf3b53aa8"
     },
+    "artist:6254fb8f-cf90-429a-b042-264295e62fb5": {
+      "id": "artist:6254fb8f-cf90-429a-b042-264295e62fb5",
+      "type": "artist",
+      "name": "B.T. Express",
+      "mbid": "6254fb8f-cf90-429a-b042-264295e62fb5"
+    },
+    "album:954b1a25-1a2b-4f32-805f-eb27bb26e502": {
+      "id": "album:954b1a25-1a2b-4f32-805f-eb27bb26e502",
+      "type": "album",
+      "name": "Non-Stop",
+      "mbid": "954b1a25-1a2b-4f32-805f-eb27bb26e502"
+    },
     "recording:62887274-2945-4493-84a9-cd8a0dfee542": {
       "id": "recording:62887274-2945-4493-84a9-cd8a0dfee542",
       "type": "recording",
       "name": "Runnin’ Away",
       "mbid": "62887274-2945-4493-84a9-cd8a0dfee542"
+    },
+    "album:ffce7f9d-4a98-396d-bab7-97e52930cab9": {
+      "id": "album:ffce7f9d-4a98-396d-bab7-97e52930cab9",
+      "type": "album",
+      "name": "There’s a Riot Goin’ On",
+      "mbid": "ffce7f9d-4a98-396d-bab7-97e52930cab9"
     },
     "track:a75f3fff-66e9-413b-832a-fce7a7a8291e": {
       "id": "track:a75f3fff-66e9-413b-832a-fce7a7a8291e",
@@ -488,6 +1034,18 @@
       "type": "recording",
       "name": "Technova (La Em Copacabana)",
       "mbid": "45c95691-bc88-4e75-bb2f-a7f33070b4e5"
+    },
+    "artist:440cb8ef-cee3-4711-8408-b1bd6e93f390": {
+      "id": "artist:440cb8ef-cee3-4711-8408-b1bd6e93f390",
+      "type": "artist",
+      "name": "TOWA TEI",
+      "mbid": "440cb8ef-cee3-4711-8408-b1bd6e93f390"
+    },
+    "album:7e69833b-98d3-403c-baff-ed5db00bec94": {
+      "id": "album:7e69833b-98d3-403c-baff-ed5db00bec94",
+      "type": "album",
+      "name": "Future Listening!",
+      "mbid": "7e69833b-98d3-403c-baff-ed5db00bec94"
     },
     "recording:245071ab-5a36-4acd-ad04-fae20a009c62": {
       "id": "recording:245071ab-5a36-4acd-ad04-fae20a009c62",
@@ -525,6 +1083,18 @@
       "name": "Ska Cha Cha",
       "mbid": "4d633833-13b8-4600-a4a3-4d634bc2fcd6"
     },
+    "artist:24164692-3223-48bf-9cea-2a76b5afce94": {
+      "id": "artist:24164692-3223-48bf-9cea-2a76b5afce94",
+      "type": "artist",
+      "name": "長沼英樹",
+      "mbid": "24164692-3223-48bf-9cea-2a76b5afce94"
+    },
+    "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b": {
+      "id": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+      "type": "album",
+      "name": "SONIC RUSH: Original Groove Rush.",
+      "mbid": "d96bf9fa-1cc5-4f7d-b230-598c493adb8b"
+    },
     "recording:2400d9b3-4e21-4992-a55d-a222663cbb3b": {
       "id": "recording:2400d9b3-4e21-4992-a55d-a222663cbb3b",
       "type": "recording",
@@ -554,6 +1124,18 @@
       "type": "recording",
       "name": "Dragons Over Tokyo-to",
       "mbid": "cce22085-6f9e-4929-a69a-14a28ff7ff99"
+    },
+    "artist:e9ec9892-19f9-4567-8522-9031696c6c34": {
+      "id": "artist:e9ec9892-19f9-4567-8522-9031696c6c34",
+      "type": "artist",
+      "name": "Christa Lee",
+      "mbid": "e9ec9892-19f9-4567-8522-9031696c6c34"
+    },
+    "album:8383c9ae-8295-4407-8376-1af93bc53855": {
+      "id": "album:8383c9ae-8295-4407-8376-1af93bc53855",
+      "type": "album",
+      "name": "Welcome to the Fantasy Zone",
+      "mbid": "8383c9ae-8295-4407-8376-1af93bc53855"
     },
     "track:801978c8-2809-4c43-b979-a5f23ec5b81b": {
       "id": "track:801978c8-2809-4c43-b979-a5f23ec5b81b",
@@ -662,6 +1244,18 @@
       "type": "recording",
       "name": "Joints & Jam",
       "mbid": "971fabf6-c76a-4316-8b52-3e7579a64500"
+    },
+    "artist:d5be5333-4171-427e-8e12-732087c6b78e": {
+      "id": "artist:d5be5333-4171-427e-8e12-732087c6b78e",
+      "type": "artist",
+      "name": "Black Eyed Peas",
+      "mbid": "d5be5333-4171-427e-8e12-732087c6b78e"
+    },
+    "album:11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e": {
+      "id": "album:11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e",
+      "type": "album",
+      "name": "Behind the Front",
+      "mbid": "11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e"
     },
     "track:45c80ccc-343f-4d03-bafb-93d7e6079577": {
       "id": "track:45c80ccc-343f-4d03-bafb-93d7e6079577",
@@ -777,6 +1371,18 @@
       "name": "Bad Boy for Life",
       "mbid": "df19172f-431a-422b-95cd-744793f3e99d"
     },
+    "artist:cabb4fcf-4067-4ba5-908d-76ee66fcf0c6": {
+      "id": "artist:cabb4fcf-4067-4ba5-908d-76ee66fcf0c6",
+      "type": "artist",
+      "name": "Diddy",
+      "mbid": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+    },
+    "album:68aad759-9aa7-4a47-94ce-ee9e9207e843": {
+      "id": "album:68aad759-9aa7-4a47-94ce-ee9e9207e843",
+      "type": "album",
+      "name": "The Saga Continues…",
+      "mbid": "68aad759-9aa7-4a47-94ce-ee9e9207e843"
+    },
     "track:699e8d26-511f-4797-a5b9-9ea2dec7002e": {
       "id": "track:699e8d26-511f-4797-a5b9-9ea2dec7002e",
       "type": "track",
@@ -818,6 +1424,18 @@
       "type": "recording",
       "name": "Black Sheep",
       "mbid": "8e689bc0-f1c2-4c87-8d3b-fd0ba4f8fadf"
+    },
+    "artist:696d8523-39a0-44e2-9add-afaa183a2f46": {
+      "id": "artist:696d8523-39a0-44e2-9add-afaa183a2f46",
+      "type": "artist",
+      "name": "Sneaker Pimps",
+      "mbid": "696d8523-39a0-44e2-9add-afaa183a2f46"
+    },
+    "album:5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5": {
+      "id": "album:5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5",
+      "type": "album",
+      "name": "Benicàssim 2001",
+      "mbid": "5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5"
     }
   },
   "adjacency": {
@@ -911,6 +1529,70 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:9a04dc8c-82f1-457a-a25a-3ff19e1b471e": [
+      {
+        "target": "album:ca9cae85-5460-33eb-865b-41db028cab03",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:ca9cae85-5460-33eb-865b-41db028cab03": [
+      {
+        "target": "recording:4fcaa7d8-13fb-4e88-97ef-de8c7828751a",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:543edda0-d61e-4698-97fa-1f34a1322d20": [
+      {
+        "target": "album:43e86744-5a87-4805-8a45-988e1729075d",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:43e86744-5a87-4805-8a45-988e1729075d": [
+      {
+        "target": "recording:8814819d-81a6-408b-aaaa-806f622a4945",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:4f8a0d9b-5777-40da-b29a-e9753d5ae693": [
+      {
+        "target": "album:c75030f2-4b79-4e37-903d-a2cade7af418",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:c75030f2-4b79-4e37-903d-a2cade7af418": [
+      {
+        "target": "recording:3276d8c1-6c4f-4d06-b283-d05d2aee71d2",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:d217c8ff-7dcc-4c11-84f2-3b5cdf018523": [
+      {
+        "target": "album:38aab585-e167-439f-b476-6a8b82befdea",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:38aab585-e167-439f-b476-6a8b82befdea": [
+      {
+        "target": "recording:abc33b9f-6dff-4aa7-8e69-0a7be66baa83",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:c60e178f-36f1-4169-9c03-84addbdbf104": [
+      {
+        "target": "album:3e1799d9-70bc-49f9-9343-1caecffe2f7f",
+        "type": "HAS_ALBUM"
+      },
+      {
+        "target": "album:c6709d2f-507b-42cc-ae38-1e78198e0f06",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:3e1799d9-70bc-49f9-9343-1caecffe2f7f": [
+      {
+        "target": "recording:994064d4-bdd1-4aec-846d-70310062ff2e",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547": [
       {
         "target": "recording:5098d0a8-d3c3-424e-9367-1f2610724410",
@@ -919,6 +1601,30 @@
       {
         "target": "recording:83547106-f8a7-4790-85d9-37afae35bcc8",
         "type": "USES_SAMPLE"
+      }
+    ],
+    "artist:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d": [
+      {
+        "target": "album:f4b8b5f4-b334-46a0-acf6-356cb77836b7",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:f4b8b5f4-b334-46a0-acf6-356cb77836b7": [
+      {
+        "target": "recording:5098d0a8-d3c3-424e-9367-1f2610724410",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:775c0cf9-5d7e-4889-9393-d21e3105fc4b": [
+      {
+        "target": "album:f81d0adf-cef3-4f61-ab53-035f048c7fd9",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:f81d0adf-cef3-4f61-ab53-035f048c7fd9": [
+      {
+        "target": "recording:83547106-f8a7-4790-85d9-37afae35bcc8",
+        "type": "HAS_TRACK"
       }
     ],
     "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4": [
@@ -935,6 +1641,50 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea": [
+      {
+        "target": "album:b1a91911-22dd-4288-a567-a4e33a464d6f",
+        "type": "HAS_ALBUM"
+      },
+      {
+        "target": "album:0425074d-a3e9-4b4c-ba0e-de34f15384a9",
+        "type": "HAS_ALBUM"
+      },
+      {
+        "target": "album:ffce7f9d-4a98-396d-bab7-97e52930cab9",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:b1a91911-22dd-4288-a567-a4e33a464d6f": [
+      {
+        "target": "recording:17193298-96a1-4c3d-9366-adb2bedef8c8",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:bc16d640-a069-42ec-a8c1-c24fd5c3d206": [
+      {
+        "target": "album:2872fd53-dfb4-4783-8bc5-af09d3f04b10",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:2872fd53-dfb4-4783-8bc5-af09d3f04b10": [
+      {
+        "target": "recording:c4ddb4a4-5b09-477a-92a2-901e792ec889",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:ba503a17-848c-4773-aa58-208f4163124f": [
+      {
+        "target": "album:22b943b0-4d27-301b-8f4b-cecf7bc92596",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:22b943b0-4d27-301b-8f4b-cecf7bc92596": [
+      {
+        "target": "recording:038cc798-19ca-4026-a7b0-de2d4a1ab088",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:765e325f-b77d-4f83-b07b-80f92611789f": [
       {
         "target": "recording:05b6bdda-3219-4756-af17-d0d9cdcdb104",
@@ -949,6 +1699,42 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e": [
+      {
+        "target": "album:9b51a6b5-7f55-4dc7-8e10-a69410c7b306",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:9b51a6b5-7f55-4dc7-8e10-a69410c7b306": [
+      {
+        "target": "recording:05b6bdda-3219-4756-af17-d0d9cdcdb104",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:69f95e5c-4b34-4c8b-b8fe-c59f9296195a": [
+      {
+        "target": "album:ff0a67a4-3f26-4730-9b79-88a4c11a216e",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:ff0a67a4-3f26-4730-9b79-88a4c11a216e": [
+      {
+        "target": "recording:8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8": [
+      {
+        "target": "album:85362b08-e491-4394-9745-4428e94b7b89",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:85362b08-e491-4394-9745-4428e94b7b89": [
+      {
+        "target": "recording:f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:3a29f337-5572-4810-a26c-1178491511fd": [
       {
         "target": "recording:17d7c8c1-855a-4657-8af9-f88accc876c9",
@@ -957,6 +1743,30 @@
       {
         "target": "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa",
         "type": "USES_SAMPLE"
+      }
+    ],
+    "artist:5c51de66-d15e-48ed-9402-0f17ba2dfc52": [
+      {
+        "target": "album:76db7b45-af7f-4e34-bdd5-d922e016efd8",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:76db7b45-af7f-4e34-bdd5-d922e016efd8": [
+      {
+        "target": "recording:17d7c8c1-855a-4657-8af9-f88accc876c9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:219ce30a-0f3a-468c-9a13-55ee358ac0f0": [
+      {
+        "target": "album:4c18b6bd-603d-30bc-8152-92b7123c264a",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:4c18b6bd-603d-30bc-8152-92b7123c264a": [
+      {
+        "target": "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa",
+        "type": "HAS_TRACK"
       }
     ],
     "album:28516e36-1728-3584-b705-3d903b39dd05": [
@@ -1091,10 +1901,92 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:5ecc3f72-20a6-47a0-8dc5-fb0b3dadeea0": [
+      {
+        "target": "album:c0ec2364-a7ca-40d8-a256-31f24f38f7fd",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:c0ec2364-a7ca-40d8-a256-31f24f38f7fd": [
+      {
+        "target": "recording:df612667-86af-4dc0-b3ef-8c030fdae6c8",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:fb776bca-6139-4ff5-8d5e-5decd029cb96": [
+      {
+        "target": "album:5275abd4-b78c-4205-8a42-6c0b23dbeca0",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:5275abd4-b78c-4205-8a42-6c0b23dbeca0": [
+      {
+        "target": "recording:47560630-4e42-4c33-ac18-a082f7cb9999",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:e842abf7-8a63-4602-8879-75958c2884a1": [
+      {
+        "target": "album:69ac228f-7576-402e-9ff1-d811826c85a6",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:69ac228f-7576-402e-9ff1-d811826c85a6": [
+      {
+        "target": "recording:eb6764c6-0129-47c3-acc4-70659a710468",
+        "type": "HAS_TRACK"
+      },
+      {
+        "target": "recording:7732c34e-8b4e-4767-ae74-92ca3b2141fa",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:c6709d2f-507b-42cc-ae38-1e78198e0f06": [
+      {
+        "target": "recording:ae665c62-c18c-42e4-95fb-17d220e30452",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:e57f0cac-4f56-473c-8d7e-d93f753fd586": [
+      {
+        "target": "album:a5ba0eec-c54d-32f5-a879-d2787b082c50",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:a5ba0eec-c54d-32f5-a879-d2787b082c50": [
+      {
+        "target": "recording:53259175-2714-4c53-92a8-cd5afb1a0731",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:bb67b337-4502-45d7-b66a-63f18138c54c": [
+      {
+        "target": "album:e7e6caa2-fd69-309a-b684-57cf8cc8b23b",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:e7e6caa2-fd69-309a-b684-57cf8cc8b23b": [
+      {
+        "target": "recording:0dfc5bc7-2bca-4cf0-a869-e2be265feabe",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:436b4315-3db2-4c5f-84e5-234b4318dd20": [
       {
         "target": "recording:a08da581-5b89-47ca-a8d9-1cd6322d3adb",
         "type": "USES_SAMPLE"
+      }
+    ],
+    "artist:c4df30f5-5487-4806-9189-b69c9f27532c": [
+      {
+        "target": "album:4d1de86e-0cd4-43a0-a839-0f59ec23e645",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:4d1de86e-0cd4-43a0-a839-0f59ec23e645": [
+      {
+        "target": "recording:a08da581-5b89-47ca-a8d9-1cd6322d3adb",
+        "type": "HAS_TRACK"
       }
     ],
     "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65": [
@@ -1131,6 +2023,102 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:d5d97b2b-b83b-4976-814a-056d9076c8c3": [
+      {
+        "target": "album:ed2eb0db-4ef9-3658-a613-582dd359348e",
+        "type": "HAS_ALBUM"
+      },
+      {
+        "target": "album:c3b9d318-7f54-31ef-b670-12c57e612d55",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:ed2eb0db-4ef9-3658-a613-582dd359348e": [
+      {
+        "target": "recording:ed4a3111-b4b7-45ed-8f11-d69a461a0f8e",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:c3b9d318-7f54-31ef-b670-12c57e612d55": [
+      {
+        "target": "recording:e86ee6e1-ccd4-46fe-9781-cea01aa5db92",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:6ff13427-08ff-4da2-bee8-892e1fa22d3c": [
+      {
+        "target": "album:f0ee1c1e-c757-48a5-97cc-cc4d926a0846",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:f0ee1c1e-c757-48a5-97cc-cc4d926a0846": [
+      {
+        "target": "recording:5da15773-baab-4b11-8142-e5cbc52435ab",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde": [
+      {
+        "target": "album:fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d",
+        "type": "HAS_ALBUM"
+      },
+      {
+        "target": "album:fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa",
+        "type": "HAS_ALBUM"
+      },
+      {
+        "target": "album:742672e9-4b61-4fca-9db5-71e6cee4d649",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d": [
+      {
+        "target": "recording:1fb341e3-8088-4019-b8f6-91beb644270c",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa": [
+      {
+        "target": "recording:f717f05b-e18c-491e-8655-c190ad22190a",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:81e07550-d0e2-467e-bc71-44b5d52de8f4": [
+      {
+        "target": "album:d23320d3-e9b6-4922-8da9-6af0f59e05da",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:d23320d3-e9b6-4922-8da9-6af0f59e05da": [
+      {
+        "target": "recording:cb7c1a30-3e62-4424-b20e-7acd3b23904e",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:e0cd33e5-f664-4a21-b7eb-f0b07dd2c1d0": [
+      {
+        "target": "album:63e1d523-d17c-4872-8e6e-68f9dea1939e",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:63e1d523-d17c-4872-8e6e-68f9dea1939e": [
+      {
+        "target": "recording:37f7d587-ba71-4500-90bb-92e4f223f082",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:33b3c323-77c2-417c-a5b4-af7e6a111cc9": [
+      {
+        "target": "album:0f8ebeb2-fa96-4382-8dd7-e64f16808646",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:0f8ebeb2-fa96-4382-8dd7-e64f16808646": [
+      {
+        "target": "recording:359415a8-e758-4a2b-9907-4e5995613dda",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f": [
       {
         "target": "recording:85ea1351-d487-4abd-a807-ba43d7157b62",
@@ -1143,6 +2131,42 @@
       {
         "target": "recording:b7ecd665-2cb4-4f32-a353-9f6435d57fb7",
         "type": "USES_SAMPLE"
+      }
+    ],
+    "artist:5025b18d-f457-46cb-992d-13c342586dba": [
+      {
+        "target": "album:c942f19b-7de4-4d75-a0a1-2e6f5c9e5006",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:c942f19b-7de4-4d75-a0a1-2e6f5c9e5006": [
+      {
+        "target": "recording:85ea1351-d487-4abd-a807-ba43d7157b62",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:58c2a0ee-183d-463a-a8fb-9c388fedd33d": [
+      {
+        "target": "album:c071b836-d08c-4ee5-93d3-e897199faaaf",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:c071b836-d08c-4ee5-93d3-e897199faaaf": [
+      {
+        "target": "recording:6cbb3c7d-e543-461b-9c9e-5aabfcbc3488",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:c9bda94f-d379-4405-a20e-7de6a3ee9b77": [
+      {
+        "target": "album:d7b06730-074b-46b0-a248-55d4aed3da42",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:d7b06730-074b-46b0-a248-55d4aed3da42": [
+      {
+        "target": "recording:b7ecd665-2cb4-4f32-a353-9f6435d57fb7",
+        "type": "HAS_TRACK"
       }
     ],
     "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144": [
@@ -1175,6 +2199,84 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:5411f02b-e546-4e69-aac2-23598f1ee536": [
+      {
+        "target": "album:644d4e6f-fd99-44b8-98fe-c6482ccc8022",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:644d4e6f-fd99-44b8-98fe-c6482ccc8022": [
+      {
+        "target": "recording:a54e9a81-7be0-4ad1-a3a5-5562bc57f25d",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:545f9a53-f816-4b59-b196-07d16d01160a": [
+      {
+        "target": "album:99f70ae6-6db7-4a42-a756-a669273e933f",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:99f70ae6-6db7-4a42-a756-a669273e933f": [
+      {
+        "target": "recording:4701cba5-8941-4a5a-a7ae-c66d00fcdb9f",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:42700164-abe3-4b45-b627-f4c8deca5e82": [
+      {
+        "target": "album:e4b8dbd0-5544-40e8-b736-f86048d68914",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:e4b8dbd0-5544-40e8-b736-f86048d68914": [
+      {
+        "target": "recording:f6026bb3-0cae-45f7-8dce-c20738658f7f",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:0425074d-a3e9-4b4c-ba0e-de34f15384a9": [
+      {
+        "target": "recording:1eaf4ecb-56b6-4c92-b8ae-bb3d3de69809",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:59ae7a1a-f454-435b-8a5a-e327e692bb5a": [
+      {
+        "target": "album:4db6cbfc-a5c7-476b-a146-b1ec30c64107",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:4db6cbfc-a5c7-476b-a146-b1ec30c64107": [
+      {
+        "target": "recording:8c8c48e7-80d4-4c45-a0c9-31edaf20a822",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:4b0b1bd5-35e8-4764-b4f2-55ef56f595aa": [
+      {
+        "target": "album:d8d00d4b-01e1-4085-92be-a22e8b623cc5",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:d8d00d4b-01e1-4085-92be-a22e8b623cc5": [
+      {
+        "target": "recording:384a2656-d2d6-494a-98c7-72cc58d039af",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:a415f8c5-3b22-43bb-a1a8-cf9646ea21e0": [
+      {
+        "target": "album:c5a632b1-fa0a-48f6-a2d8-578966c54e14",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:c5a632b1-fa0a-48f6-a2d8-578966c54e14": [
+      {
+        "target": "recording:c70101d9-83db-41d8-8bc1-4e6a0f90a69a",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:3a5663da-8d85-401a-b9de-3befbced7ed7": [
       {
         "target": "recording:1a50d327-caf1-4506-bca7-a9db41cae179",
@@ -1193,6 +2295,36 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:db76c5ca-d555-4f09-b1db-baa1b713d875": [
+      {
+        "target": "album:0ed95424-50f7-4837-8ec2-38725a961d6b",
+        "type": "HAS_ALBUM"
+      },
+      {
+        "target": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:0ed95424-50f7-4837-8ec2-38725a961d6b": [
+      {
+        "target": "recording:1a50d327-caf1-4506-bca7-a9db41cae179",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67": [
+      {
+        "target": "recording:94763013-dc2f-43e2-b11c-2cfc2435b311",
+        "type": "HAS_TRACK"
+      },
+      {
+        "target": "recording:47262a1d-73e5-4987-a5ed-50f9770d6f60",
+        "type": "HAS_TRACK"
+      },
+      {
+        "target": "recording:2374c7ac-8960-441b-b029-289adc869e0f",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:8881e26b-4f85-4820-8281-d3698f4013ab": [
       {
         "target": "recording:a4fab216-e521-435d-9203-b74e7bd519f3",
@@ -1207,10 +2339,52 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "album:742672e9-4b61-4fca-9db5-71e6cee4d649": [
+      {
+        "target": "recording:a4fab216-e521-435d-9203-b74e7bd519f3",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:86c0f463-b054-4b10-a204-cdcc6538c7f5": [
+      {
+        "target": "album:7ab5a740-f6b9-48e7-ad76-95f453d61994",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:7ab5a740-f6b9-48e7-ad76-95f453d61994": [
+      {
+        "target": "recording:ecdea4ef-0e0f-482c-9d78-966774534108",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:a1235272-3650-4ed7-9317-5a55a08701ec": [
+      {
+        "target": "album:e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b": [
+      {
+        "target": "recording:f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4": [
       {
         "target": "recording:68b9b90a-84b0-4e70-b0d2-7ebcb95756a1",
         "type": "USES_SAMPLE"
+      }
+    ],
+    "artist:02349767-d5ac-4528-892d-17b6d40107a1": [
+      {
+        "target": "album:0c0e86c3-baf2-4123-a866-f60d6fd41977",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:0c0e86c3-baf2-4123-a866-f60d6fd41977": [
+      {
+        "target": "recording:68b9b90a-84b0-4e70-b0d2-7ebcb95756a1",
+        "type": "HAS_TRACK"
       }
     ],
     "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94": [
@@ -1227,6 +2401,36 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:d1501f92-f523-4e95-a787-432875c8d6dc": [
+      {
+        "target": "album:5d0966fa-8604-4e53-8aeb-dac0e2c49453",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:5d0966fa-8604-4e53-8aeb-dac0e2c49453": [
+      {
+        "target": "recording:0ef972b7-f255-4dc8-a62e-a363704c03fd",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "artist:6254fb8f-cf90-429a-b042-264295e62fb5": [
+      {
+        "target": "album:954b1a25-1a2b-4f32-805f-eb27bb26e502",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:954b1a25-1a2b-4f32-805f-eb27bb26e502": [
+      {
+        "target": "recording:c523ee7d-ec7a-4b99-8399-a1acf3b53aa8",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:ffce7f9d-4a98-396d-bab7-97e52930cab9": [
+      {
+        "target": "recording:62887274-2945-4493-84a9-cd8a0dfee542",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:b658ba14-d5f4-4492-a856-360b4d5c16bf": [
       {
         "target": "recording:45c95691-bc88-4e75-bb2f-a7f33070b4e5",
@@ -1235,6 +2439,22 @@
       {
         "target": "recording:245071ab-5a36-4acd-ad04-fae20a009c62",
         "type": "USES_SAMPLE"
+      }
+    ],
+    "artist:440cb8ef-cee3-4711-8408-b1bd6e93f390": [
+      {
+        "target": "album:7e69833b-98d3-403c-baff-ed5db00bec94",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:7e69833b-98d3-403c-baff-ed5db00bec94": [
+      {
+        "target": "recording:45c95691-bc88-4e75-bb2f-a7f33070b4e5",
+        "type": "HAS_TRACK"
+      },
+      {
+        "target": "recording:245071ab-5a36-4acd-ad04-fae20a009c62",
+        "type": "HAS_TRACK"
       }
     ],
     "track:2654e1c7-4c84-4ee6-83bd-24c2d1ef9ecf": [
@@ -1251,10 +2471,42 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:24164692-3223-48bf-9cea-2a76b5afce94": [
+      {
+        "target": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b": [
+      {
+        "target": "recording:4d633833-13b8-4600-a4a3-4d634bc2fcd6",
+        "type": "HAS_TRACK"
+      },
+      {
+        "target": "recording:2400d9b3-4e21-4992-a55d-a222663cbb3b",
+        "type": "HAS_TRACK"
+      },
+      {
+        "target": "recording:ad6ad5a5-4d87-4200-84dd-8fa3ef726506",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:eafd3e65-a23b-4d1f-bf07-a03762f70731": [
       {
         "target": "recording:cce22085-6f9e-4929-a69a-14a28ff7ff99",
         "type": "USES_SAMPLE"
+      }
+    ],
+    "artist:e9ec9892-19f9-4567-8522-9031696c6c34": [
+      {
+        "target": "album:8383c9ae-8295-4407-8376-1af93bc53855",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:8383c9ae-8295-4407-8376-1af93bc53855": [
+      {
+        "target": "recording:cce22085-6f9e-4929-a69a-14a28ff7ff99",
+        "type": "HAS_TRACK"
       }
     ],
     "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4": [
@@ -1383,6 +2635,18 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:d5be5333-4171-427e-8e12-732087c6b78e": [
+      {
+        "target": "album:11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e": [
+      {
+        "target": "recording:971fabf6-c76a-4316-8b52-3e7579a64500",
+        "type": "HAS_TRACK"
+      }
+    ],
     "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf": [
       {
         "target": "track:3cecaa3c-d889-4797-b79b-9e383d467cc0",
@@ -1451,10 +2715,1464 @@
         "type": "USES_SAMPLE"
       }
     ],
+    "artist:cabb4fcf-4067-4ba5-908d-76ee66fcf0c6": [
+      {
+        "target": "album:68aad759-9aa7-4a47-94ce-ee9e9207e843",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:68aad759-9aa7-4a47-94ce-ee9e9207e843": [
+      {
+        "target": "recording:df19172f-431a-422b-95cd-744793f3e99d",
+        "type": "HAS_TRACK"
+      }
+    ],
     "track:faf8b02f-3003-49fc-8e82-f970aa2504a1": [
       {
         "target": "recording:8e689bc0-f1c2-4c87-8d3b-fd0ba4f8fadf",
         "type": "USES_SAMPLE"
+      }
+    ],
+    "artist:696d8523-39a0-44e2-9add-afaa183a2f46": [
+      {
+        "target": "album:5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "album:5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5": [
+      {
+        "target": "recording:8e689bc0-f1c2-4c87-8d3b-fd0ba4f8fadf",
+        "type": "HAS_TRACK"
+      }
+    ]
+  },
+  "reverseAdjacency": {
+    "album:02adb8a7-496c-3a9a-a324-662df73fdba5": [
+      {
+        "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:4fcaa7d8-13fb-4e88-97ef-de8c7828751a": [
+      {
+        "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:ca9cae85-5460-33eb-865b-41db028cab03",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:ca9cae85-5460-33eb-865b-41db028cab03": [
+      {
+        "source": "artist:9a04dc8c-82f1-457a-a25a-3ff19e1b471e",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:8814819d-81a6-408b-aaaa-806f622a4945": [
+      {
+        "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:43e86744-5a87-4805-8a45-988e1729075d",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:43e86744-5a87-4805-8a45-988e1729075d": [
+      {
+        "source": "artist:543edda0-d61e-4698-97fa-1f34a1322d20",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:3276d8c1-6c4f-4d06-b283-d05d2aee71d2": [
+      {
+        "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:c75030f2-4b79-4e37-903d-a2cade7af418",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:c75030f2-4b79-4e37-903d-a2cade7af418": [
+      {
+        "source": "artist:4f8a0d9b-5777-40da-b29a-e9753d5ae693",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:abc33b9f-6dff-4aa7-8e69-0a7be66baa83": [
+      {
+        "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:38aab585-e167-439f-b476-6a8b82befdea",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:38aab585-e167-439f-b476-6a8b82befdea": [
+      {
+        "source": "artist:d217c8ff-7dcc-4c11-84f2-3b5cdf018523",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:994064d4-bdd1-4aec-846d-70310062ff2e": [
+      {
+        "source": "track:73f620b1-e96f-4ed9-a127-5270dafb0bb4",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:3e1799d9-70bc-49f9-9343-1caecffe2f7f",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:3e1799d9-70bc-49f9-9343-1caecffe2f7f": [
+      {
+        "source": "artist:c60e178f-36f1-4169-9c03-84addbdbf104",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:5098d0a8-d3c3-424e-9367-1f2610724410": [
+      {
+        "source": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:f4b8b5f4-b334-46a0-acf6-356cb77836b7",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:f4b8b5f4-b334-46a0-acf6-356cb77836b7": [
+      {
+        "source": "artist:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:83547106-f8a7-4790-85d9-37afae35bcc8": [
+      {
+        "source": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:f81d0adf-cef3-4f61-ab53-035f048c7fd9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:f81d0adf-cef3-4f61-ab53-035f048c7fd9": [
+      {
+        "source": "artist:775c0cf9-5d7e-4889-9393-d21e3105fc4b",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:17193298-96a1-4c3d-9366-adb2bedef8c8": [
+      {
+        "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:b1a91911-22dd-4288-a567-a4e33a464d6f",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:b1a91911-22dd-4288-a567-a4e33a464d6f": [
+      {
+        "source": "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:c4ddb4a4-5b09-477a-92a2-901e792ec889": [
+      {
+        "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:2872fd53-dfb4-4783-8bc5-af09d3f04b10",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:2872fd53-dfb4-4783-8bc5-af09d3f04b10": [
+      {
+        "source": "artist:bc16d640-a069-42ec-a8c1-c24fd5c3d206",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:038cc798-19ca-4026-a7b0-de2d4a1ab088": [
+      {
+        "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:22b943b0-4d27-301b-8f4b-cecf7bc92596",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:22b943b0-4d27-301b-8f4b-cecf7bc92596": [
+      {
+        "source": "artist:ba503a17-848c-4773-aa58-208f4163124f",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:765e325f-b77d-4f83-b07b-80f92611789f": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:05b6bdda-3219-4756-af17-d0d9cdcdb104": [
+      {
+        "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:9b51a6b5-7f55-4dc7-8e10-a69410c7b306",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:9b51a6b5-7f55-4dc7-8e10-a69410c7b306": [
+      {
+        "source": "artist:1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93": [
+      {
+        "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:ff0a67a4-3f26-4730-9b79-88a4c11a216e",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:ff0a67a4-3f26-4730-9b79-88a4c11a216e": [
+      {
+        "source": "artist:69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf": [
+      {
+        "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:85362b08-e491-4394-9745-4428e94b7b89",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:85362b08-e491-4394-9745-4428e94b7b89": [
+      {
+        "source": "artist:a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:3a29f337-5572-4810-a26c-1178491511fd": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:17d7c8c1-855a-4657-8af9-f88accc876c9": [
+      {
+        "source": "track:3a29f337-5572-4810-a26c-1178491511fd",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:76db7b45-af7f-4e34-bdd5-d922e016efd8",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:76db7b45-af7f-4e34-bdd5-d922e016efd8": [
+      {
+        "source": "artist:5c51de66-d15e-48ed-9402-0f17ba2dfc52",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa": [
+      {
+        "source": "track:3a29f337-5572-4810-a26c-1178491511fd",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:4c18b6bd-603d-30bc-8152-92b7123c264a",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:4c18b6bd-603d-30bc-8152-92b7123c264a": [
+      {
+        "source": "artist:219ce30a-0f3a-468c-9a13-55ee358ac0f0",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:58be3c7d-4b9f-4e4b-a5f8-a7e74e5fae78": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:735c7120-b098-47c1-99af-2f132a876b9c": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:cf5502bb-7cb9-4f79-a593-51df18592815": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:37257907-9625-455c-bccf-b86e4367bd4e": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:571bda56-b68c-4f53-bd47-324cbcec0be4": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:7ef4adb1-467c-419b-bd4f-58bc5e360042": [
+      {
+        "source": "album:02adb8a7-496c-3a9a-a324-662df73fdba5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:28516e36-1728-3584-b705-3d903b39dd05": [
+      {
+        "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:4bd3726c-c926-4637-b3b2-b5a5bf5417bf": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:df612667-86af-4dc0-b3ef-8c030fdae6c8": [
+      {
+        "source": "track:4bd3726c-c926-4637-b3b2-b5a5bf5417bf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:c0ec2364-a7ca-40d8-a256-31f24f38f7fd",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:c0ec2364-a7ca-40d8-a256-31f24f38f7fd": [
+      {
+        "source": "artist:5ecc3f72-20a6-47a0-8dc5-fb0b3dadeea0",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:47560630-4e42-4c33-ac18-a082f7cb9999": [
+      {
+        "source": "track:4bd3726c-c926-4637-b3b2-b5a5bf5417bf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:5275abd4-b78c-4205-8a42-6c0b23dbeca0",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:5275abd4-b78c-4205-8a42-6c0b23dbeca0": [
+      {
+        "source": "artist:fb776bca-6139-4ff5-8d5e-5decd029cb96",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:eb6764c6-0129-47c3-acc4-70659a710468": [
+      {
+        "source": "track:4bd3726c-c926-4637-b3b2-b5a5bf5417bf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:69ac228f-7576-402e-9ff1-d811826c85a6",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:69ac228f-7576-402e-9ff1-d811826c85a6": [
+      {
+        "source": "artist:e842abf7-8a63-4602-8879-75958c2884a1",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:ae665c62-c18c-42e4-95fb-17d220e30452": [
+      {
+        "source": "track:4bd3726c-c926-4637-b3b2-b5a5bf5417bf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:c6709d2f-507b-42cc-ae38-1e78198e0f06",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:c6709d2f-507b-42cc-ae38-1e78198e0f06": [
+      {
+        "source": "artist:c60e178f-36f1-4169-9c03-84addbdbf104",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:53259175-2714-4c53-92a8-cd5afb1a0731": [
+      {
+        "source": "track:4bd3726c-c926-4637-b3b2-b5a5bf5417bf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:a5ba0eec-c54d-32f5-a879-d2787b082c50",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:a5ba0eec-c54d-32f5-a879-d2787b082c50": [
+      {
+        "source": "artist:e57f0cac-4f56-473c-8d7e-d93f753fd586",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:0dfc5bc7-2bca-4cf0-a869-e2be265feabe": [
+      {
+        "source": "track:4bd3726c-c926-4637-b3b2-b5a5bf5417bf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:e7e6caa2-fd69-309a-b684-57cf8cc8b23b",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:e7e6caa2-fd69-309a-b684-57cf8cc8b23b": [
+      {
+        "source": "artist:bb67b337-4502-45d7-b66a-63f18138c54c",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:436b4315-3db2-4c5f-84e5-234b4318dd20": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:a08da581-5b89-47ca-a8d9-1cd6322d3adb": [
+      {
+        "source": "track:436b4315-3db2-4c5f-84e5-234b4318dd20",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:4d1de86e-0cd4-43a0-a839-0f59ec23e645",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:4d1de86e-0cd4-43a0-a839-0f59ec23e645": [
+      {
+        "source": "artist:c4df30f5-5487-4806-9189-b69c9f27532c",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:5b8abe76-5740-4691-b575-262b241b538d": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:76b2c3c1-65a9-42ba-84fd-41e39d9b5e36": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:ed4a3111-b4b7-45ed-8f11-d69a461a0f8e": [
+      {
+        "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:ed2eb0db-4ef9-3658-a613-582dd359348e",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:ed2eb0db-4ef9-3658-a613-582dd359348e": [
+      {
+        "source": "artist:d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:e86ee6e1-ccd4-46fe-9781-cea01aa5db92": [
+      {
+        "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:c3b9d318-7f54-31ef-b670-12c57e612d55",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:c3b9d318-7f54-31ef-b670-12c57e612d55": [
+      {
+        "source": "artist:d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:5da15773-baab-4b11-8142-e5cbc52435ab": [
+      {
+        "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:f0ee1c1e-c757-48a5-97cc-cc4d926a0846",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:f0ee1c1e-c757-48a5-97cc-cc4d926a0846": [
+      {
+        "source": "artist:6ff13427-08ff-4da2-bee8-892e1fa22d3c",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:1fb341e3-8088-4019-b8f6-91beb644270c": [
+      {
+        "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d": [
+      {
+        "source": "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:f717f05b-e18c-491e-8655-c190ad22190a": [
+      {
+        "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa": [
+      {
+        "source": "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:cb7c1a30-3e62-4424-b20e-7acd3b23904e": [
+      {
+        "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:d23320d3-e9b6-4922-8da9-6af0f59e05da",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:d23320d3-e9b6-4922-8da9-6af0f59e05da": [
+      {
+        "source": "artist:81e07550-d0e2-467e-bc71-44b5d52de8f4",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:37f7d587-ba71-4500-90bb-92e4f223f082": [
+      {
+        "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:63e1d523-d17c-4872-8e6e-68f9dea1939e",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:63e1d523-d17c-4872-8e6e-68f9dea1939e": [
+      {
+        "source": "artist:e0cd33e5-f664-4a21-b7eb-f0b07dd2c1d0",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:359415a8-e758-4a2b-9907-4e5995613dda": [
+      {
+        "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:0f8ebeb2-fa96-4382-8dd7-e64f16808646",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:0f8ebeb2-fa96-4382-8dd7-e64f16808646": [
+      {
+        "source": "artist:33b3c323-77c2-417c-a5b4-af7e6a111cc9",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:85ea1351-d487-4abd-a807-ba43d7157b62": [
+      {
+        "source": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:c942f19b-7de4-4d75-a0a1-2e6f5c9e5006",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:c942f19b-7de4-4d75-a0a1-2e6f5c9e5006": [
+      {
+        "source": "artist:5025b18d-f457-46cb-992d-13c342586dba",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:6cbb3c7d-e543-461b-9c9e-5aabfcbc3488": [
+      {
+        "source": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:c071b836-d08c-4ee5-93d3-e897199faaaf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:c071b836-d08c-4ee5-93d3-e897199faaaf": [
+      {
+        "source": "artist:58c2a0ee-183d-463a-a8fb-9c388fedd33d",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:b7ecd665-2cb4-4f32-a353-9f6435d57fb7": [
+      {
+        "source": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:d7b06730-074b-46b0-a248-55d4aed3da42",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:d7b06730-074b-46b0-a248-55d4aed3da42": [
+      {
+        "source": "artist:c9bda94f-d379-4405-a20e-7de6a3ee9b77",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:413c5904-2a4f-4e0f-b7b6-d8526024d284": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:8868eccc-9d00-4b6e-8a71-826a1503ac7d": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      },
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:a54e9a81-7be0-4ad1-a3a5-5562bc57f25d": [
+      {
+        "source": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:644d4e6f-fd99-44b8-98fe-c6482ccc8022",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:644d4e6f-fd99-44b8-98fe-c6482ccc8022": [
+      {
+        "source": "artist:5411f02b-e546-4e69-aac2-23598f1ee536",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:4701cba5-8941-4a5a-a7ae-c66d00fcdb9f": [
+      {
+        "source": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:99f70ae6-6db7-4a42-a756-a669273e933f",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:99f70ae6-6db7-4a42-a756-a669273e933f": [
+      {
+        "source": "artist:545f9a53-f816-4b59-b196-07d16d01160a",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:f6026bb3-0cae-45f7-8dce-c20738658f7f": [
+      {
+        "source": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:e4b8dbd0-5544-40e8-b736-f86048d68914",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:e4b8dbd0-5544-40e8-b736-f86048d68914": [
+      {
+        "source": "artist:42700164-abe3-4b45-b627-f4c8deca5e82",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:1eaf4ecb-56b6-4c92-b8ae-bb3d3de69809": [
+      {
+        "source": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:0425074d-a3e9-4b4c-ba0e-de34f15384a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:0425074d-a3e9-4b4c-ba0e-de34f15384a9": [
+      {
+        "source": "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:8c8c48e7-80d4-4c45-a0c9-31edaf20a822": [
+      {
+        "source": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:4db6cbfc-a5c7-476b-a146-b1ec30c64107",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:4db6cbfc-a5c7-476b-a146-b1ec30c64107": [
+      {
+        "source": "artist:59ae7a1a-f454-435b-8a5a-e327e692bb5a",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:384a2656-d2d6-494a-98c7-72cc58d039af": [
+      {
+        "source": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:d8d00d4b-01e1-4085-92be-a22e8b623cc5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:d8d00d4b-01e1-4085-92be-a22e8b623cc5": [
+      {
+        "source": "artist:4b0b1bd5-35e8-4764-b4f2-55ef56f595aa",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:c70101d9-83db-41d8-8bc1-4e6a0f90a69a": [
+      {
+        "source": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:c5a632b1-fa0a-48f6-a2d8-578966c54e14",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:c5a632b1-fa0a-48f6-a2d8-578966c54e14": [
+      {
+        "source": "artist:a415f8c5-3b22-43bb-a1a8-cf9646ea21e0",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:3a5663da-8d85-401a-b9de-3befbced7ed7": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:1a50d327-caf1-4506-bca7-a9db41cae179": [
+      {
+        "source": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:0ed95424-50f7-4837-8ec2-38725a961d6b",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:0ed95424-50f7-4837-8ec2-38725a961d6b": [
+      {
+        "source": "artist:db76c5ca-d555-4f09-b1db-baa1b713d875",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:94763013-dc2f-43e2-b11c-2cfc2435b311": [
+      {
+        "source": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67": [
+      {
+        "source": "artist:db76c5ca-d555-4f09-b1db-baa1b713d875",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:47262a1d-73e5-4987-a5ed-50f9770d6f60": [
+      {
+        "source": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:2374c7ac-8960-441b-b029-289adc869e0f": [
+      {
+        "source": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:8881e26b-4f85-4820-8281-d3698f4013ab": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:a4fab216-e521-435d-9203-b74e7bd519f3": [
+      {
+        "source": "track:8881e26b-4f85-4820-8281-d3698f4013ab",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:742672e9-4b61-4fca-9db5-71e6cee4d649",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:742672e9-4b61-4fca-9db5-71e6cee4d649": [
+      {
+        "source": "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:ecdea4ef-0e0f-482c-9d78-966774534108": [
+      {
+        "source": "track:8881e26b-4f85-4820-8281-d3698f4013ab",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:7ab5a740-f6b9-48e7-ad76-95f453d61994",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:7ab5a740-f6b9-48e7-ad76-95f453d61994": [
+      {
+        "source": "artist:86c0f463-b054-4b10-a204-cdcc6538c7f5",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee": [
+      {
+        "source": "track:8881e26b-4f85-4820-8281-d3698f4013ab",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b": [
+      {
+        "source": "artist:a1235272-3650-4ed7-9317-5a55a08701ec",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:68b9b90a-84b0-4e70-b0d2-7ebcb95756a1": [
+      {
+        "source": "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:0c0e86c3-baf2-4123-a866-f60d6fd41977",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:0c0e86c3-baf2-4123-a866-f60d6fd41977": [
+      {
+        "source": "artist:02349767-d5ac-4528-892d-17b6d40107a1",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:0ef972b7-f255-4dc8-a62e-a363704c03fd": [
+      {
+        "source": "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:5d0966fa-8604-4e53-8aeb-dac0e2c49453",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:5d0966fa-8604-4e53-8aeb-dac0e2c49453": [
+      {
+        "source": "artist:d1501f92-f523-4e95-a787-432875c8d6dc",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:c523ee7d-ec7a-4b99-8399-a1acf3b53aa8": [
+      {
+        "source": "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:954b1a25-1a2b-4f32-805f-eb27bb26e502",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:954b1a25-1a2b-4f32-805f-eb27bb26e502": [
+      {
+        "source": "artist:6254fb8f-cf90-429a-b042-264295e62fb5",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:62887274-2945-4493-84a9-cd8a0dfee542": [
+      {
+        "source": "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:ffce7f9d-4a98-396d-bab7-97e52930cab9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:ffce7f9d-4a98-396d-bab7-97e52930cab9": [
+      {
+        "source": "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:a75f3fff-66e9-413b-832a-fce7a7a8291e": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:b658ba14-d5f4-4492-a856-360b4d5c16bf": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:45c95691-bc88-4e75-bb2f-a7f33070b4e5": [
+      {
+        "source": "track:b658ba14-d5f4-4492-a856-360b4d5c16bf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:7e69833b-98d3-403c-baff-ed5db00bec94",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:7e69833b-98d3-403c-baff-ed5db00bec94": [
+      {
+        "source": "artist:440cb8ef-cee3-4711-8408-b1bd6e93f390",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:245071ab-5a36-4acd-ad04-fae20a009c62": [
+      {
+        "source": "track:b658ba14-d5f4-4492-a856-360b4d5c16bf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:7e69833b-98d3-403c-baff-ed5db00bec94",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:109347b8-4360-41af-ba96-69766233a444": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:52e547ff-2f44-4e27-8f56-8fc2f7c41d05": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:e0c3fec4-4c80-4b5c-9c4f-f9c3aeb4037a": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:2654e1c7-4c84-4ee6-83bd-24c2d1ef9ecf": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:4d633833-13b8-4600-a4a3-4d634bc2fcd6": [
+      {
+        "source": "track:2654e1c7-4c84-4ee6-83bd-24c2d1ef9ecf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b": [
+      {
+        "source": "artist:24164692-3223-48bf-9cea-2a76b5afce94",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "recording:2400d9b3-4e21-4992-a55d-a222663cbb3b": [
+      {
+        "source": "track:2654e1c7-4c84-4ee6-83bd-24c2d1ef9ecf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:ad6ad5a5-4d87-4200-84dd-8fa3ef726506": [
+      {
+        "source": "track:2654e1c7-4c84-4ee6-83bd-24c2d1ef9ecf",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:4ddad66b-b574-46f9-ab39-9481aec5b2ec": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:eafd3e65-a23b-4d1f-bf07-a03762f70731": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:cce22085-6f9e-4929-a69a-14a28ff7ff99": [
+      {
+        "source": "track:eafd3e65-a23b-4d1f-bf07-a03762f70731",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:8383c9ae-8295-4407-8376-1af93bc53855",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:8383c9ae-8295-4407-8376-1af93bc53855": [
+      {
+        "source": "artist:e9ec9892-19f9-4567-8522-9031696c6c34",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:801978c8-2809-4c43-b979-a5f23ec5b81b": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:76cc9406-1c34-4c6a-affa-dc7e70bf23cd": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:eed0ead3-d6ca-4c22-be2b-1bf234a7680b": [
+      {
+        "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4": [
+      {
+        "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:31875283-601a-4250-94f7-4b440d9a2ef9": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:0ee4dc16-8b4c-468d-b2a3-9de1b430b2be": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:632a03eb-ccc8-4d88-bb85-e8b653a54c1f": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:ba85b8b3-6a2a-450d-bd03-24c239c64605": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:73b86dda-d8f5-4421-b120-7cdb1b5ca52c": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:a50b6c47-e73e-42c9-a298-f3567e9e702c": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:ea55f5c7-efa3-4250-9d0a-95e01d0a15e2": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:2e2aeb49-f882-4131-9a0b-b990aaade8af": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:58d54bb1-0333-44d4-8168-710b553fd204": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:6f5cc5b7-0ab6-4a34-8a96-134e32054050": [
+      {
+        "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:473f23b1-0cd5-3520-a4ac-3e92862398a9": [
+      {
+        "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:4ae82e91-60f4-4ac1-88be-09b4aa8671fc": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:9efd462c-5c91-450b-b9e6-690bacfe8b73": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:971fabf6-c76a-4316-8b52-3e7579a64500": [
+      {
+        "source": "track:9efd462c-5c91-450b-b9e6-690bacfe8b73",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e": [
+      {
+        "source": "artist:d5be5333-4171-427e-8e12-732087c6b78e",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:45c80ccc-343f-4d03-bafb-93d7e6079577": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:465c68a1-74aa-4fef-b175-b0cdaad7acf4": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:19af8ed8-e3d3-481e-b4a1-2ed5eb3cea28": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:7bea9331-0083-461c-806b-9408f288b78a": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:b59323b2-7837-4e4a-b432-ceceb4d60be1": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:d7123733-f003-491d-9fef-84a5dd5a3fe4": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:28f60d54-e671-411b-a684-800460ae3107": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:7c32ae19-e833-4592-ba53-835480f3a428": [
+      {
+        "source": "album:473f23b1-0cd5-3520-a4ac-3e92862398a9",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf": [
+      {
+        "source": "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:3cecaa3c-d889-4797-b79b-9e383d467cc0": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:b3e85b43-de1e-42bb-ba87-d441a98e3652": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:37a665d2-79b3-4bac-98bd-cf1a293add13": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:1efea483-4b84-459e-8da0-9dd71ae53dec": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:db6f2ea5-fd15-40b5-8adc-067606b37ba7": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:5d5dd8b5-fbd2-46dc-8ac6-eb2f45f459fc": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:33479c24-e884-49fa-9236-bdabef824571": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:cf6428b1-956b-4129-b033-998a367f26c2": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:7732c34e-8b4e-4767-ae74-92ca3b2141fa": [
+      {
+        "source": "track:cf6428b1-956b-4129-b033-998a367f26c2",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:69ac228f-7576-402e-9ff1-d811826c85a6",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:df19172f-431a-422b-95cd-744793f3e99d": [
+      {
+        "source": "track:cf6428b1-956b-4129-b033-998a367f26c2",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:68aad759-9aa7-4a47-94ce-ee9e9207e843",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:68aad759-9aa7-4a47-94ce-ee9e9207e843": [
+      {
+        "source": "artist:cabb4fcf-4067-4ba5-908d-76ee66fcf0c6",
+        "type": "HAS_ALBUM"
+      }
+    ],
+    "track:699e8d26-511f-4797-a5b9-9ea2dec7002e": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:36c3cf8f-1ef9-4e4a-908b-2a4ac914f103": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:cc6ef66b-faf1-4a91-abca-6c094411e714": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:366e79db-5a04-4a60-94e3-3f252ee1ea4e": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:ab67f4a6-050b-4ea8-b297-66d589d44f8a": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "track:faf8b02f-3003-49fc-8e82-f970aa2504a1": [
+      {
+        "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "recording:8e689bc0-f1c2-4c87-8d3b-fd0ba4f8fadf": [
+      {
+        "source": "track:faf8b02f-3003-49fc-8e82-f970aa2504a1",
+        "type": "USES_SAMPLE"
+      },
+      {
+        "source": "album:5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5",
+        "type": "HAS_TRACK"
+      }
+    ],
+    "album:5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5": [
+      {
+        "source": "artist:696d8523-39a0-44e2-9add-afaa183a2f46",
+        "type": "HAS_ALBUM"
       }
     ]
   },
@@ -1484,10 +4202,34 @@
       "mbid": "4fcaa7d8-13fb-4e88-97ef-de8c7828751a"
     },
     {
+      "id": "artist:9a04dc8c-82f1-457a-a25a-3ff19e1b471e",
+      "type": "artist",
+      "name": "St Germain",
+      "mbid": "9a04dc8c-82f1-457a-a25a-3ff19e1b471e"
+    },
+    {
+      "id": "album:ca9cae85-5460-33eb-865b-41db028cab03",
+      "type": "album",
+      "name": "Boulevard 1/3",
+      "mbid": "ca9cae85-5460-33eb-865b-41db028cab03"
+    },
+    {
       "id": "recording:8814819d-81a6-408b-aaaa-806f622a4945",
       "type": "recording",
       "name": "Nitty Gritty",
       "mbid": "8814819d-81a6-408b-aaaa-806f622a4945"
+    },
+    {
+      "id": "artist:543edda0-d61e-4698-97fa-1f34a1322d20",
+      "type": "artist",
+      "name": "KMD",
+      "mbid": "543edda0-d61e-4698-97fa-1f34a1322d20"
+    },
+    {
+      "id": "album:43e86744-5a87-4805-8a45-988e1729075d",
+      "type": "album",
+      "name": "Mr. Hood",
+      "mbid": "43e86744-5a87-4805-8a45-988e1729075d"
     },
     {
       "id": "recording:3276d8c1-6c4f-4d06-b283-d05d2aee71d2",
@@ -1496,16 +4238,52 @@
       "mbid": "3276d8c1-6c4f-4d06-b283-d05d2aee71d2"
     },
     {
+      "id": "artist:4f8a0d9b-5777-40da-b29a-e9753d5ae693",
+      "type": "artist",
+      "name": "Jimmy Smith",
+      "mbid": "4f8a0d9b-5777-40da-b29a-e9753d5ae693"
+    },
+    {
+      "id": "album:c75030f2-4b79-4e37-903d-a2cade7af418",
+      "type": "album",
+      "name": "Blacksmith",
+      "mbid": "c75030f2-4b79-4e37-903d-a2cade7af418"
+    },
+    {
       "id": "recording:abc33b9f-6dff-4aa7-8e69-0a7be66baa83",
       "type": "recording",
       "name": "Thank You Falletin Me Be Mice Elf Agin",
       "mbid": "abc33b9f-6dff-4aa7-8e69-0a7be66baa83"
     },
     {
+      "id": "artist:d217c8ff-7dcc-4c11-84f2-3b5cdf018523",
+      "type": "artist",
+      "name": "Junior Mance",
+      "mbid": "d217c8ff-7dcc-4c11-84f2-3b5cdf018523"
+    },
+    {
+      "id": "album:38aab585-e167-439f-b476-6a8b82befdea",
+      "type": "album",
+      "name": "With a Lotta Help From My Friends",
+      "mbid": "38aab585-e167-439f-b476-6a8b82befdea"
+    },
+    {
       "id": "recording:994064d4-bdd1-4aec-846d-70310062ff2e",
       "type": "recording",
       "name": "Loran’s Dance",
       "mbid": "994064d4-bdd1-4aec-846d-70310062ff2e"
+    },
+    {
+      "id": "artist:c60e178f-36f1-4169-9c03-84addbdbf104",
+      "type": "artist",
+      "name": "Grover Washington, Jr.",
+      "mbid": "c60e178f-36f1-4169-9c03-84addbdbf104"
+    },
+    {
+      "id": "album:3e1799d9-70bc-49f9-9343-1caecffe2f7f",
+      "type": "album",
+      "name": "Reed Seed",
+      "mbid": "3e1799d9-70bc-49f9-9343-1caecffe2f7f"
     },
     {
       "id": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
@@ -1520,10 +4298,34 @@
       "mbid": "5098d0a8-d3c3-424e-9367-1f2610724410"
     },
     {
+      "id": "artist:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "type": "artist",
+      "name": "The Beatles",
+      "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+    },
+    {
+      "id": "album:f4b8b5f4-b334-46a0-acf6-356cb77836b7",
+      "type": "album",
+      "name": "All You Need Is Love",
+      "mbid": "f4b8b5f4-b334-46a0-acf6-356cb77836b7"
+    },
+    {
       "id": "recording:83547106-f8a7-4790-85d9-37afae35bcc8",
       "type": "recording",
       "name": "Forty Days",
       "mbid": "83547106-f8a7-4790-85d9-37afae35bcc8"
+    },
+    {
+      "id": "artist:775c0cf9-5d7e-4889-9393-d21e3105fc4b",
+      "type": "artist",
+      "name": "Billy Brooks",
+      "mbid": "775c0cf9-5d7e-4889-9393-d21e3105fc4b"
+    },
+    {
+      "id": "album:f81d0adf-cef3-4f61-ab53-035f048c7fd9",
+      "type": "album",
+      "name": "Windows of the Mind",
+      "mbid": "f81d0adf-cef3-4f61-ab53-035f048c7fd9"
     },
     {
       "id": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
@@ -1538,16 +4340,52 @@
       "mbid": "17193298-96a1-4c3d-9366-adb2bedef8c8"
     },
     {
+      "id": "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+      "type": "artist",
+      "name": "Sly & the Family Stone",
+      "mbid": "b7ec4c54-1f93-4bf2-957f-7b9921ab84ea"
+    },
+    {
+      "id": "album:b1a91911-22dd-4288-a567-a4e33a464d6f",
+      "type": "album",
+      "name": "Back on the Right Track",
+      "mbid": "b1a91911-22dd-4288-a567-a4e33a464d6f"
+    },
+    {
       "id": "recording:c4ddb4a4-5b09-477a-92a2-901e792ec889",
       "type": "recording",
       "name": "North Carolina",
       "mbid": "c4ddb4a4-5b09-477a-92a2-901e792ec889"
     },
     {
+      "id": "artist:bc16d640-a069-42ec-a8c1-c24fd5c3d206",
+      "type": "artist",
+      "name": "Les McCann",
+      "mbid": "bc16d640-a069-42ec-a8c1-c24fd5c3d206"
+    },
+    {
+      "id": "album:2872fd53-dfb4-4783-8bc5-af09d3f04b10",
+      "type": "album",
+      "name": "Talk to the People",
+      "mbid": "2872fd53-dfb4-4783-8bc5-af09d3f04b10"
+    },
+    {
       "id": "recording:038cc798-19ca-4026-a7b0-de2d4a1ab088",
       "type": "recording",
       "name": "Crap Game",
       "mbid": "038cc798-19ca-4026-a7b0-de2d4a1ab088"
+    },
+    {
+      "id": "artist:ba503a17-848c-4773-aa58-208f4163124f",
+      "type": "artist",
+      "name": "Richard Pryor",
+      "mbid": "ba503a17-848c-4773-aa58-208f4163124f"
+    },
+    {
+      "id": "album:22b943b0-4d27-301b-8f4b-cecf7bc92596",
+      "type": "album",
+      "name": "Craps (After Hours)",
+      "mbid": "22b943b0-4d27-301b-8f4b-cecf7bc92596"
     },
     {
       "id": "track:765e325f-b77d-4f83-b07b-80f92611789f",
@@ -1562,16 +4400,52 @@
       "mbid": "05b6bdda-3219-4756-af17-d0d9cdcdb104"
     },
     {
+      "id": "artist:1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e",
+      "type": "artist",
+      "name": "Stevie Wonder",
+      "mbid": "1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e"
+    },
+    {
+      "id": "album:9b51a6b5-7f55-4dc7-8e10-a69410c7b306",
+      "type": "album",
+      "name": "Songs in the Key of Life",
+      "mbid": "9b51a6b5-7f55-4dc7-8e10-a69410c7b306"
+    },
+    {
       "id": "recording:8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93",
       "type": "recording",
       "name": "Think Twice",
       "mbid": "8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93"
     },
     {
+      "id": "artist:69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
+      "type": "artist",
+      "name": "Donald Byrd",
+      "mbid": "69f95e5c-4b34-4c8b-b8fe-c59f9296195a"
+    },
+    {
+      "id": "album:ff0a67a4-3f26-4730-9b79-88a4c11a216e",
+      "type": "album",
+      "name": "Stepping Into Tomorrow",
+      "mbid": "ff0a67a4-3f26-4730-9b79-88a4c11a216e"
+    },
+    {
       "id": "recording:f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf",
       "type": "recording",
       "name": "Walk Tall",
       "mbid": "f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf"
+    },
+    {
+      "id": "artist:a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8",
+      "type": "artist",
+      "name": "Cannonball Adderley",
+      "mbid": "a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8"
+    },
+    {
+      "id": "album:85362b08-e491-4394-9745-4428e94b7b89",
+      "type": "album",
+      "name": "Phenix",
+      "mbid": "85362b08-e491-4394-9745-4428e94b7b89"
     },
     {
       "id": "track:3a29f337-5572-4810-a26c-1178491511fd",
@@ -1586,10 +4460,34 @@
       "mbid": "17d7c8c1-855a-4657-8af9-f88accc876c9"
     },
     {
+      "id": "artist:5c51de66-d15e-48ed-9402-0f17ba2dfc52",
+      "type": "artist",
+      "name": "The Chambers Brothers",
+      "mbid": "5c51de66-d15e-48ed-9402-0f17ba2dfc52"
+    },
+    {
+      "id": "album:76db7b45-af7f-4e34-bdd5-d922e016efd8",
+      "type": "album",
+      "name": "New Generation",
+      "mbid": "76db7b45-af7f-4e34-bdd5-d922e016efd8"
+    },
+    {
       "id": "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa",
       "type": "recording",
       "name": "Sueno",
       "mbid": "14196d4a-b22a-4c4d-a42c-3b240f051cfa"
+    },
+    {
+      "id": "artist:219ce30a-0f3a-468c-9a13-55ee358ac0f0",
+      "type": "artist",
+      "name": "The Rascals",
+      "mbid": "219ce30a-0f3a-468c-9a13-55ee358ac0f0"
+    },
+    {
+      "id": "album:4c18b6bd-603d-30bc-8152-92b7123c264a",
+      "type": "album",
+      "name": "Groovin’",
+      "mbid": "4c18b6bd-603d-30bc-8152-92b7123c264a"
     },
     {
       "id": "track:58be3c7d-4b9f-4e4b-a5f8-a7e74e5fae78",
@@ -1646,10 +4544,34 @@
       "mbid": "df612667-86af-4dc0-b3ef-8c030fdae6c8"
     },
     {
+      "id": "artist:5ecc3f72-20a6-47a0-8dc5-fb0b3dadeea0",
+      "type": "artist",
+      "name": "Run‐D.M.C.",
+      "mbid": "5ecc3f72-20a6-47a0-8dc5-fb0b3dadeea0"
+    },
+    {
+      "id": "album:c0ec2364-a7ca-40d8-a256-31f24f38f7fd",
+      "type": "album",
+      "name": "Down With the King",
+      "mbid": "c0ec2364-a7ca-40d8-a256-31f24f38f7fd"
+    },
+    {
       "id": "recording:47560630-4e42-4c33-ac18-a082f7cb9999",
       "type": "recording",
       "name": "Love Your Life",
       "mbid": "47560630-4e42-4c33-ac18-a082f7cb9999"
+    },
+    {
+      "id": "artist:fb776bca-6139-4ff5-8d5e-5decd029cb96",
+      "type": "artist",
+      "name": "Average White Band",
+      "mbid": "fb776bca-6139-4ff5-8d5e-5decd029cb96"
+    },
+    {
+      "id": "album:5275abd4-b78c-4205-8a42-6c0b23dbeca0",
+      "type": "album",
+      "name": "Soul Searching",
+      "mbid": "5275abd4-b78c-4205-8a42-6c0b23dbeca0"
     },
     {
       "id": "recording:eb6764c6-0129-47c3-acc4-70659a710468",
@@ -1658,10 +4580,28 @@
       "mbid": "eb6764c6-0129-47c3-acc4-70659a710468"
     },
     {
+      "id": "artist:e842abf7-8a63-4602-8879-75958c2884a1",
+      "type": "artist",
+      "name": "Minnie Riperton",
+      "mbid": "e842abf7-8a63-4602-8879-75958c2884a1"
+    },
+    {
+      "id": "album:69ac228f-7576-402e-9ff1-d811826c85a6",
+      "type": "album",
+      "name": "Adventures in Paradise",
+      "mbid": "69ac228f-7576-402e-9ff1-d811826c85a6"
+    },
+    {
       "id": "recording:ae665c62-c18c-42e4-95fb-17d220e30452",
       "type": "recording",
       "name": "Hydra",
       "mbid": "ae665c62-c18c-42e4-95fb-17d220e30452"
+    },
+    {
+      "id": "album:c6709d2f-507b-42cc-ae38-1e78198e0f06",
+      "type": "album",
+      "name": "Feels So Good",
+      "mbid": "c6709d2f-507b-42cc-ae38-1e78198e0f06"
     },
     {
       "id": "recording:53259175-2714-4c53-92a8-cd5afb1a0731",
@@ -1670,10 +4610,34 @@
       "mbid": "53259175-2714-4c53-92a8-cd5afb1a0731"
     },
     {
+      "id": "artist:e57f0cac-4f56-473c-8d7e-d93f753fd586",
+      "type": "artist",
+      "name": "Steve Miller Band",
+      "mbid": "e57f0cac-4f56-473c-8d7e-d93f753fd586"
+    },
+    {
+      "id": "album:a5ba0eec-c54d-32f5-a879-d2787b082c50",
+      "type": "album",
+      "name": "Fly Like an Eagle",
+      "mbid": "a5ba0eec-c54d-32f5-a879-d2787b082c50"
+    },
+    {
       "id": "recording:0dfc5bc7-2bca-4cf0-a869-e2be265feabe",
       "type": "recording",
       "name": "Tout doit disparaître",
       "mbid": "0dfc5bc7-2bca-4cf0-a869-e2be265feabe"
+    },
+    {
+      "id": "artist:bb67b337-4502-45d7-b66a-63f18138c54c",
+      "type": "artist",
+      "name": "Minos pour main basse (sur la ville)",
+      "mbid": "bb67b337-4502-45d7-b66a-63f18138c54c"
+    },
+    {
+      "id": "album:e7e6caa2-fd69-309a-b684-57cf8cc8b23b",
+      "type": "album",
+      "name": "Super Discount",
+      "mbid": "e7e6caa2-fd69-309a-b684-57cf8cc8b23b"
     },
     {
       "id": "track:436b4315-3db2-4c5f-84e5-234b4318dd20",
@@ -1686,6 +4650,18 @@
       "type": "recording",
       "name": "Why (radio edit)",
       "mbid": "a08da581-5b89-47ca-a8d9-1cd6322d3adb"
+    },
+    {
+      "id": "artist:c4df30f5-5487-4806-9189-b69c9f27532c",
+      "type": "artist",
+      "name": "Carly Simon",
+      "mbid": "c4df30f5-5487-4806-9189-b69c9f27532c"
+    },
+    {
+      "id": "album:4d1de86e-0cd4-43a0-a839-0f59ec23e645",
+      "type": "album",
+      "name": "Why",
+      "mbid": "4d1de86e-0cd4-43a0-a839-0f59ec23e645"
     },
     {
       "id": "track:5b8abe76-5740-4691-b575-262b241b538d",
@@ -1712,10 +4688,28 @@
       "mbid": "ed4a3111-b4b7-45ed-8f11-d69a461a0f8e"
     },
     {
+      "id": "artist:d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "type": "artist",
+      "name": "The Notorious B.I.G.",
+      "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+    },
+    {
+      "id": "album:ed2eb0db-4ef9-3658-a613-582dd359348e",
+      "type": "album",
+      "name": "Ready to Die",
+      "mbid": "ed2eb0db-4ef9-3658-a613-582dd359348e"
+    },
+    {
       "id": "recording:e86ee6e1-ccd4-46fe-9781-cea01aa5db92",
       "type": "recording",
       "name": "Gimme the Loot",
       "mbid": "e86ee6e1-ccd4-46fe-9781-cea01aa5db92"
+    },
+    {
+      "id": "album:c3b9d318-7f54-31ef-b670-12c57e612d55",
+      "type": "album",
+      "name": "Ready to Die",
+      "mbid": "c3b9d318-7f54-31ef-b670-12c57e612d55"
     },
     {
       "id": "recording:5da15773-baab-4b11-8142-e5cbc52435ab",
@@ -1724,10 +4718,34 @@
       "mbid": "5da15773-baab-4b11-8142-e5cbc52435ab"
     },
     {
+      "id": "artist:6ff13427-08ff-4da2-bee8-892e1fa22d3c",
+      "type": "artist",
+      "name": "The Emotions",
+      "mbid": "6ff13427-08ff-4da2-bee8-892e1fa22d3c"
+    },
+    {
+      "id": "album:f0ee1c1e-c757-48a5-97cc-cc4d926a0846",
+      "type": "album",
+      "name": "Untouched",
+      "mbid": "f0ee1c1e-c757-48a5-97cc-cc4d926a0846"
+    },
+    {
       "id": "recording:1fb341e3-8088-4019-b8f6-91beb644270c",
       "type": "recording",
       "name": "Give It Up",
       "mbid": "1fb341e3-8088-4019-b8f6-91beb644270c"
+    },
+    {
+      "id": "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde",
+      "type": "artist",
+      "name": "Kool & the Gang",
+      "mbid": "2469950a-f0ca-425a-bfbc-baf55ea3afde"
+    },
+    {
+      "id": "album:fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d",
+      "type": "album",
+      "name": "Kool and The Gang",
+      "mbid": "fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d"
     },
     {
       "id": "recording:f717f05b-e18c-491e-8655-c190ad22190a",
@@ -1736,10 +4754,28 @@
       "mbid": "f717f05b-e18c-491e-8655-c190ad22190a"
     },
     {
+      "id": "album:fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa",
+      "type": "album",
+      "name": "Music Is the Message",
+      "mbid": "fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa"
+    },
+    {
       "id": "recording:cb7c1a30-3e62-4424-b20e-7acd3b23904e",
       "type": "recording",
       "name": "Ecstasy",
       "mbid": "cb7c1a30-3e62-4424-b20e-7acd3b23904e"
+    },
+    {
+      "id": "artist:81e07550-d0e2-467e-bc71-44b5d52de8f4",
+      "type": "artist",
+      "name": "Ohio Players",
+      "mbid": "81e07550-d0e2-467e-bc71-44b5d52de8f4"
+    },
+    {
+      "id": "album:d23320d3-e9b6-4922-8da9-6af0f59e05da",
+      "type": "album",
+      "name": "Ecstasy",
+      "mbid": "d23320d3-e9b6-4922-8da9-6af0f59e05da"
     },
     {
       "id": "recording:37f7d587-ba71-4500-90bb-92e4f223f082",
@@ -1748,10 +4784,34 @@
       "mbid": "37f7d587-ba71-4500-90bb-92e4f223f082"
     },
     {
+      "id": "artist:e0cd33e5-f664-4a21-b7eb-f0b07dd2c1d0",
+      "type": "artist",
+      "name": "“Brother” Jack McDuff",
+      "mbid": "e0cd33e5-f664-4a21-b7eb-f0b07dd2c1d0"
+    },
+    {
+      "id": "album:63e1d523-d17c-4872-8e6e-68f9dea1939e",
+      "type": "album",
+      "name": "Moon Rappin'",
+      "mbid": "63e1d523-d17c-4872-8e6e-68f9dea1939e"
+    },
+    {
       "id": "recording:359415a8-e758-4a2b-9907-4e5995613dda",
       "type": "recording",
       "name": "Little Miss Lover",
       "mbid": "359415a8-e758-4a2b-9907-4e5995613dda"
+    },
+    {
+      "id": "artist:33b3c323-77c2-417c-a5b4-af7e6a111cc9",
+      "type": "artist",
+      "name": "The Jimi Hendrix Experience",
+      "mbid": "33b3c323-77c2-417c-a5b4-af7e6a111cc9"
+    },
+    {
+      "id": "album:0f8ebeb2-fa96-4382-8dd7-e64f16808646",
+      "type": "album",
+      "name": "Axis: Bold as Love",
+      "mbid": "0f8ebeb2-fa96-4382-8dd7-e64f16808646"
     },
     {
       "id": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
@@ -1766,16 +4826,52 @@
       "mbid": "85ea1351-d487-4abd-a807-ba43d7157b62"
     },
     {
+      "id": "artist:5025b18d-f457-46cb-992d-13c342586dba",
+      "type": "artist",
+      "name": "Jack DeJohnette's Directions",
+      "mbid": "5025b18d-f457-46cb-992d-13c342586dba"
+    },
+    {
+      "id": "album:c942f19b-7de4-4d75-a0a1-2e6f5c9e5006",
+      "type": "album",
+      "name": "New Rags",
+      "mbid": "c942f19b-7de4-4d75-a0a1-2e6f5c9e5006"
+    },
+    {
       "id": "recording:6cbb3c7d-e543-461b-9c9e-5aabfcbc3488",
       "type": "recording",
       "name": "Spinning Wheel",
       "mbid": "6cbb3c7d-e543-461b-9c9e-5aabfcbc3488"
     },
     {
+      "id": "artist:58c2a0ee-183d-463a-a8fb-9c388fedd33d",
+      "type": "artist",
+      "name": "Dr. Lonnie Smith",
+      "mbid": "58c2a0ee-183d-463a-a8fb-9c388fedd33d"
+    },
+    {
+      "id": "album:c071b836-d08c-4ee5-93d3-e897199faaaf",
+      "type": "album",
+      "name": "Drives",
+      "mbid": "c071b836-d08c-4ee5-93d3-e897199faaaf"
+    },
+    {
       "id": "recording:b7ecd665-2cb4-4f32-a353-9f6435d57fb7",
       "type": "recording",
       "name": "Ekim",
       "mbid": "b7ecd665-2cb4-4f32-a353-9f6435d57fb7"
+    },
+    {
+      "id": "artist:c9bda94f-d379-4405-a20e-7de6a3ee9b77",
+      "type": "artist",
+      "name": "Michał Urbaniak",
+      "mbid": "c9bda94f-d379-4405-a20e-7de6a3ee9b77"
+    },
+    {
+      "id": "album:d7b06730-074b-46b0-a248-55d4aed3da42",
+      "type": "album",
+      "name": "The Beginning",
+      "mbid": "d7b06730-074b-46b0-a248-55d4aed3da42"
     },
     {
       "id": "track:413c5904-2a4f-4e0f-b7b6-d8526024d284",
@@ -1802,10 +4898,34 @@
       "mbid": "a54e9a81-7be0-4ad1-a3a5-5562bc57f25d"
     },
     {
+      "id": "artist:5411f02b-e546-4e69-aac2-23598f1ee536",
+      "type": "artist",
+      "name": "Smokin Suckaz Wit Logic",
+      "mbid": "5411f02b-e546-4e69-aac2-23598f1ee536"
+    },
+    {
+      "id": "album:644d4e6f-fd99-44b8-98fe-c6482ccc8022",
+      "type": "album",
+      "name": "Playin' Foolz",
+      "mbid": "644d4e6f-fd99-44b8-98fe-c6482ccc8022"
+    },
+    {
       "id": "recording:4701cba5-8941-4a5a-a7ae-c66d00fcdb9f",
       "type": "recording",
       "name": "Easy Back It Up",
       "mbid": "4701cba5-8941-4a5a-a7ae-c66d00fcdb9f"
+    },
+    {
+      "id": "artist:545f9a53-f816-4b59-b196-07d16d01160a",
+      "type": "artist",
+      "name": "Styles of Beyond",
+      "mbid": "545f9a53-f816-4b59-b196-07d16d01160a"
+    },
+    {
+      "id": "album:99f70ae6-6db7-4a42-a756-a669273e933f",
+      "type": "album",
+      "name": "2000 Fold",
+      "mbid": "99f70ae6-6db7-4a42-a756-a669273e933f"
     },
     {
       "id": "recording:f6026bb3-0cae-45f7-8dce-c20738658f7f",
@@ -1814,10 +4934,28 @@
       "mbid": "f6026bb3-0cae-45f7-8dce-c20738658f7f"
     },
     {
+      "id": "artist:42700164-abe3-4b45-b627-f4c8deca5e82",
+      "type": "artist",
+      "name": "Five Stairsteps",
+      "mbid": "42700164-abe3-4b45-b627-f4c8deca5e82"
+    },
+    {
+      "id": "album:e4b8dbd0-5544-40e8-b736-f86048d68914",
+      "type": "album",
+      "name": "Love's Happening",
+      "mbid": "e4b8dbd0-5544-40e8-b736-f86048d68914"
+    },
+    {
       "id": "recording:1eaf4ecb-56b6-4c92-b8ae-bb3d3de69809",
       "type": "recording",
       "name": "Sing a Simple Song",
       "mbid": "1eaf4ecb-56b6-4c92-b8ae-bb3d3de69809"
+    },
+    {
+      "id": "album:0425074d-a3e9-4b4c-ba0e-de34f15384a9",
+      "type": "album",
+      "name": "Stand!",
+      "mbid": "0425074d-a3e9-4b4c-ba0e-de34f15384a9"
     },
     {
       "id": "recording:8c8c48e7-80d4-4c45-a0c9-31edaf20a822",
@@ -1826,16 +4964,52 @@
       "mbid": "8c8c48e7-80d4-4c45-a0c9-31edaf20a822"
     },
     {
+      "id": "artist:59ae7a1a-f454-435b-8a5a-e327e692bb5a",
+      "type": "artist",
+      "name": "Freddie Hubbard",
+      "mbid": "59ae7a1a-f454-435b-8a5a-e327e692bb5a"
+    },
+    {
+      "id": "album:4db6cbfc-a5c7-476b-a146-b1ec30c64107",
+      "type": "album",
+      "name": "Red Clay",
+      "mbid": "4db6cbfc-a5c7-476b-a146-b1ec30c64107"
+    },
+    {
       "id": "recording:384a2656-d2d6-494a-98c7-72cc58d039af",
       "type": "recording",
       "name": "Green Dolphin Street",
       "mbid": "384a2656-d2d6-494a-98c7-72cc58d039af"
     },
     {
+      "id": "artist:4b0b1bd5-35e8-4764-b4f2-55ef56f595aa",
+      "type": "artist",
+      "name": "Lucky Thompson",
+      "mbid": "4b0b1bd5-35e8-4764-b4f2-55ef56f595aa"
+    },
+    {
+      "id": "album:d8d00d4b-01e1-4085-92be-a22e8b623cc5",
+      "type": "album",
+      "name": "Lucky Thompson",
+      "mbid": "d8d00d4b-01e1-4085-92be-a22e8b623cc5"
+    },
+    {
       "id": "recording:c70101d9-83db-41d8-8bc1-4e6a0f90a69a",
       "type": "recording",
       "name": "Long Red",
       "mbid": "c70101d9-83db-41d8-8bc1-4e6a0f90a69a"
+    },
+    {
+      "id": "artist:a415f8c5-3b22-43bb-a1a8-cf9646ea21e0",
+      "type": "artist",
+      "name": "Leslie West",
+      "mbid": "a415f8c5-3b22-43bb-a1a8-cf9646ea21e0"
+    },
+    {
+      "id": "album:c5a632b1-fa0a-48f6-a2d8-578966c54e14",
+      "type": "album",
+      "name": "Mountain",
+      "mbid": "c5a632b1-fa0a-48f6-a2d8-578966c54e14"
     },
     {
       "id": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
@@ -1850,10 +5024,28 @@
       "mbid": "1a50d327-caf1-4506-bca7-a9db41cae179"
     },
     {
+      "id": "artist:db76c5ca-d555-4f09-b1db-baa1b713d875",
+      "type": "artist",
+      "name": "Mary J. Blige",
+      "mbid": "db76c5ca-d555-4f09-b1db-baa1b713d875"
+    },
+    {
+      "id": "album:0ed95424-50f7-4837-8ec2-38725a961d6b",
+      "type": "album",
+      "name": "Love & Life",
+      "mbid": "0ed95424-50f7-4837-8ec2-38725a961d6b"
+    },
+    {
       "id": "recording:94763013-dc2f-43e2-b11c-2cfc2435b311",
       "type": "recording",
       "name": "Love @ 1st Sight (instrumental)",
       "mbid": "94763013-dc2f-43e2-b11c-2cfc2435b311"
+    },
+    {
+      "id": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+      "type": "album",
+      "name": "Love @ 1st Sight",
+      "mbid": "db6a433a-2f58-4a4d-9e47-e3f3ac372a67"
     },
     {
       "id": "recording:47262a1d-73e5-4987-a5ed-50f9770d6f60",
@@ -1880,16 +5072,46 @@
       "mbid": "a4fab216-e521-435d-9203-b74e7bd519f3"
     },
     {
+      "id": "album:742672e9-4b61-4fca-9db5-71e6cee4d649",
+      "type": "album",
+      "name": "Who’s Gonna Take the Weight",
+      "mbid": "742672e9-4b61-4fca-9db5-71e6cee4d649"
+    },
+    {
       "id": "recording:ecdea4ef-0e0f-482c-9d78-966774534108",
       "type": "recording",
       "name": "Why Can't People Be Colors Too?",
       "mbid": "ecdea4ef-0e0f-482c-9d78-966774534108"
     },
     {
+      "id": "artist:86c0f463-b054-4b10-a204-cdcc6538c7f5",
+      "type": "artist",
+      "name": "The Whatnauts",
+      "mbid": "86c0f463-b054-4b10-a204-cdcc6538c7f5"
+    },
+    {
+      "id": "album:7ab5a740-f6b9-48e7-ad76-95f453d61994",
+      "type": "album",
+      "name": "Whatnauts on the Rocks",
+      "mbid": "7ab5a740-f6b9-48e7-ad76-95f453d61994"
+    },
+    {
       "id": "recording:f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee",
       "type": "recording",
       "name": "Absolutions",
       "mbid": "f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee"
+    },
+    {
+      "id": "artist:a1235272-3650-4ed7-9317-5a55a08701ec",
+      "type": "artist",
+      "name": "Lee Morgan",
+      "mbid": "a1235272-3650-4ed7-9317-5a55a08701ec"
+    },
+    {
+      "id": "album:e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b",
+      "type": "album",
+      "name": "Live at the Lighthouse",
+      "mbid": "e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b"
     },
     {
       "id": "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4",
@@ -1904,6 +5126,18 @@
       "mbid": "68b9b90a-84b0-4e70-b0d2-7ebcb95756a1"
     },
     {
+      "id": "artist:02349767-d5ac-4528-892d-17b6d40107a1",
+      "type": "artist",
+      "name": "Anita Baker",
+      "mbid": "02349767-d5ac-4528-892d-17b6d40107a1"
+    },
+    {
+      "id": "album:0c0e86c3-baf2-4123-a866-f60d6fd41977",
+      "type": "album",
+      "name": "Giving You the Best That I Got",
+      "mbid": "0c0e86c3-baf2-4123-a866-f60d6fd41977"
+    },
+    {
       "id": "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94",
       "type": "track",
       "name": "Description of a Fool",
@@ -1916,16 +5150,46 @@
       "mbid": "0ef972b7-f255-4dc8-a62e-a363704c03fd"
     },
     {
+      "id": "artist:d1501f92-f523-4e95-a787-432875c8d6dc",
+      "type": "artist",
+      "name": "Roy Ayers Ubiquity",
+      "mbid": "d1501f92-f523-4e95-a787-432875c8d6dc"
+    },
+    {
+      "id": "album:5d0966fa-8604-4e53-8aeb-dac0e2c49453",
+      "type": "album",
+      "name": "Lifeline",
+      "mbid": "5d0966fa-8604-4e53-8aeb-dac0e2c49453"
+    },
+    {
       "id": "recording:c523ee7d-ec7a-4b99-8399-a1acf3b53aa8",
       "type": "recording",
       "name": "Still Good - Still Like It",
       "mbid": "c523ee7d-ec7a-4b99-8399-a1acf3b53aa8"
     },
     {
+      "id": "artist:6254fb8f-cf90-429a-b042-264295e62fb5",
+      "type": "artist",
+      "name": "B.T. Express",
+      "mbid": "6254fb8f-cf90-429a-b042-264295e62fb5"
+    },
+    {
+      "id": "album:954b1a25-1a2b-4f32-805f-eb27bb26e502",
+      "type": "album",
+      "name": "Non-Stop",
+      "mbid": "954b1a25-1a2b-4f32-805f-eb27bb26e502"
+    },
+    {
       "id": "recording:62887274-2945-4493-84a9-cd8a0dfee542",
       "type": "recording",
       "name": "Runnin’ Away",
       "mbid": "62887274-2945-4493-84a9-cd8a0dfee542"
+    },
+    {
+      "id": "album:ffce7f9d-4a98-396d-bab7-97e52930cab9",
+      "type": "album",
+      "name": "There’s a Riot Goin’ On",
+      "mbid": "ffce7f9d-4a98-396d-bab7-97e52930cab9"
     },
     {
       "id": "track:a75f3fff-66e9-413b-832a-fce7a7a8291e",
@@ -1944,6 +5208,18 @@
       "type": "recording",
       "name": "Technova (La Em Copacabana)",
       "mbid": "45c95691-bc88-4e75-bb2f-a7f33070b4e5"
+    },
+    {
+      "id": "artist:440cb8ef-cee3-4711-8408-b1bd6e93f390",
+      "type": "artist",
+      "name": "TOWA TEI",
+      "mbid": "440cb8ef-cee3-4711-8408-b1bd6e93f390"
+    },
+    {
+      "id": "album:7e69833b-98d3-403c-baff-ed5db00bec94",
+      "type": "album",
+      "name": "Future Listening!",
+      "mbid": "7e69833b-98d3-403c-baff-ed5db00bec94"
     },
     {
       "id": "recording:245071ab-5a36-4acd-ad04-fae20a009c62",
@@ -1982,6 +5258,18 @@
       "mbid": "4d633833-13b8-4600-a4a3-4d634bc2fcd6"
     },
     {
+      "id": "artist:24164692-3223-48bf-9cea-2a76b5afce94",
+      "type": "artist",
+      "name": "長沼英樹",
+      "mbid": "24164692-3223-48bf-9cea-2a76b5afce94"
+    },
+    {
+      "id": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+      "type": "album",
+      "name": "SONIC RUSH: Original Groove Rush.",
+      "mbid": "d96bf9fa-1cc5-4f7d-b230-598c493adb8b"
+    },
+    {
       "id": "recording:2400d9b3-4e21-4992-a55d-a222663cbb3b",
       "type": "recording",
       "name": "Ska Cha Cha",
@@ -2010,6 +5298,18 @@
       "type": "recording",
       "name": "Dragons Over Tokyo-to",
       "mbid": "cce22085-6f9e-4929-a69a-14a28ff7ff99"
+    },
+    {
+      "id": "artist:e9ec9892-19f9-4567-8522-9031696c6c34",
+      "type": "artist",
+      "name": "Christa Lee",
+      "mbid": "e9ec9892-19f9-4567-8522-9031696c6c34"
+    },
+    {
+      "id": "album:8383c9ae-8295-4407-8376-1af93bc53855",
+      "type": "album",
+      "name": "Welcome to the Fantasy Zone",
+      "mbid": "8383c9ae-8295-4407-8376-1af93bc53855"
     },
     {
       "id": "track:801978c8-2809-4c43-b979-a5f23ec5b81b",
@@ -2118,6 +5418,18 @@
       "type": "recording",
       "name": "Joints & Jam",
       "mbid": "971fabf6-c76a-4316-8b52-3e7579a64500"
+    },
+    {
+      "id": "artist:d5be5333-4171-427e-8e12-732087c6b78e",
+      "type": "artist",
+      "name": "Black Eyed Peas",
+      "mbid": "d5be5333-4171-427e-8e12-732087c6b78e"
+    },
+    {
+      "id": "album:11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e",
+      "type": "album",
+      "name": "Behind the Front",
+      "mbid": "11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e"
     },
     {
       "id": "track:45c80ccc-343f-4d03-bafb-93d7e6079577",
@@ -2234,6 +5546,18 @@
       "mbid": "df19172f-431a-422b-95cd-744793f3e99d"
     },
     {
+      "id": "artist:cabb4fcf-4067-4ba5-908d-76ee66fcf0c6",
+      "type": "artist",
+      "name": "Diddy",
+      "mbid": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+    },
+    {
+      "id": "album:68aad759-9aa7-4a47-94ce-ee9e9207e843",
+      "type": "album",
+      "name": "The Saga Continues…",
+      "mbid": "68aad759-9aa7-4a47-94ce-ee9e9207e843"
+    },
+    {
       "id": "track:699e8d26-511f-4797-a5b9-9ea2dec7002e",
       "type": "track",
       "name": "Stay Cool (Snippet)",
@@ -2274,6 +5598,18 @@
       "type": "recording",
       "name": "Black Sheep",
       "mbid": "8e689bc0-f1c2-4c87-8d3b-fd0ba4f8fadf"
+    },
+    {
+      "id": "artist:696d8523-39a0-44e2-9add-afaa183a2f46",
+      "type": "artist",
+      "name": "Sneaker Pimps",
+      "mbid": "696d8523-39a0-44e2-9add-afaa183a2f46"
+    },
+    {
+      "id": "album:5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5",
+      "type": "album",
+      "name": "Benicàssim 2001",
+      "mbid": "5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5"
     }
   ],
   "links": [
@@ -2383,6 +5719,61 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:9a04dc8c-82f1-457a-a25a-3ff19e1b471e",
+      "target": "album:ca9cae85-5460-33eb-865b-41db028cab03",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:ca9cae85-5460-33eb-865b-41db028cab03",
+      "target": "recording:4fcaa7d8-13fb-4e88-97ef-de8c7828751a",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:543edda0-d61e-4698-97fa-1f34a1322d20",
+      "target": "album:43e86744-5a87-4805-8a45-988e1729075d",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:43e86744-5a87-4805-8a45-988e1729075d",
+      "target": "recording:8814819d-81a6-408b-aaaa-806f622a4945",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:4f8a0d9b-5777-40da-b29a-e9753d5ae693",
+      "target": "album:c75030f2-4b79-4e37-903d-a2cade7af418",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:c75030f2-4b79-4e37-903d-a2cade7af418",
+      "target": "recording:3276d8c1-6c4f-4d06-b283-d05d2aee71d2",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:d217c8ff-7dcc-4c11-84f2-3b5cdf018523",
+      "target": "album:38aab585-e167-439f-b476-6a8b82befdea",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:38aab585-e167-439f-b476-6a8b82befdea",
+      "target": "recording:abc33b9f-6dff-4aa7-8e69-0a7be66baa83",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:c60e178f-36f1-4169-9c03-84addbdbf104",
+      "target": "album:3e1799d9-70bc-49f9-9343-1caecffe2f7f",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:c60e178f-36f1-4169-9c03-84addbdbf104",
+      "target": "album:c6709d2f-507b-42cc-ae38-1e78198e0f06",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:3e1799d9-70bc-49f9-9343-1caecffe2f7f",
+      "target": "recording:994064d4-bdd1-4aec-846d-70310062ff2e",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
       "target": "recording:5098d0a8-d3c3-424e-9367-1f2610724410",
       "type": "USES_SAMPLE"
@@ -2391,6 +5782,26 @@
       "source": "track:4e4eb697-75b2-47a8-9a21-8c2cac73c547",
       "target": "recording:83547106-f8a7-4790-85d9-37afae35bcc8",
       "type": "USES_SAMPLE"
+    },
+    {
+      "source": "artist:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "target": "album:f4b8b5f4-b334-46a0-acf6-356cb77836b7",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:f4b8b5f4-b334-46a0-acf6-356cb77836b7",
+      "target": "recording:5098d0a8-d3c3-424e-9367-1f2610724410",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:775c0cf9-5d7e-4889-9393-d21e3105fc4b",
+      "target": "album:f81d0adf-cef3-4f61-ab53-035f048c7fd9",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:f81d0adf-cef3-4f61-ab53-035f048c7fd9",
+      "target": "recording:83547106-f8a7-4790-85d9-37afae35bcc8",
+      "type": "HAS_TRACK"
     },
     {
       "source": "track:d327735a-7816-434f-9b3c-ce66c6e0e5a4",
@@ -2408,6 +5819,46 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+      "target": "album:b1a91911-22dd-4288-a567-a4e33a464d6f",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+      "target": "album:0425074d-a3e9-4b4c-ba0e-de34f15384a9",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+      "target": "album:ffce7f9d-4a98-396d-bab7-97e52930cab9",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:b1a91911-22dd-4288-a567-a4e33a464d6f",
+      "target": "recording:17193298-96a1-4c3d-9366-adb2bedef8c8",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:bc16d640-a069-42ec-a8c1-c24fd5c3d206",
+      "target": "album:2872fd53-dfb4-4783-8bc5-af09d3f04b10",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:2872fd53-dfb4-4783-8bc5-af09d3f04b10",
+      "target": "recording:c4ddb4a4-5b09-477a-92a2-901e792ec889",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:ba503a17-848c-4773-aa58-208f4163124f",
+      "target": "album:22b943b0-4d27-301b-8f4b-cecf7bc92596",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:22b943b0-4d27-301b-8f4b-cecf7bc92596",
+      "target": "recording:038cc798-19ca-4026-a7b0-de2d4a1ab088",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:765e325f-b77d-4f83-b07b-80f92611789f",
       "target": "recording:05b6bdda-3219-4756-af17-d0d9cdcdb104",
       "type": "USES_SAMPLE"
@@ -2423,6 +5874,36 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e",
+      "target": "album:9b51a6b5-7f55-4dc7-8e10-a69410c7b306",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:9b51a6b5-7f55-4dc7-8e10-a69410c7b306",
+      "target": "recording:05b6bdda-3219-4756-af17-d0d9cdcdb104",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:69f95e5c-4b34-4c8b-b8fe-c59f9296195a",
+      "target": "album:ff0a67a4-3f26-4730-9b79-88a4c11a216e",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:ff0a67a4-3f26-4730-9b79-88a4c11a216e",
+      "target": "recording:8fa34d9a-7bfc-48a0-9035-e92c9fdf6c93",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:a4c73ebe-b2c7-4f13-b99d-2fe1f9f27da8",
+      "target": "album:85362b08-e491-4394-9745-4428e94b7b89",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:85362b08-e491-4394-9745-4428e94b7b89",
+      "target": "recording:f25b1a34-0916-4a3b-aedc-c3fdf7f4fccf",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:3a29f337-5572-4810-a26c-1178491511fd",
       "target": "recording:17d7c8c1-855a-4657-8af9-f88accc876c9",
       "type": "USES_SAMPLE"
@@ -2431,6 +5912,26 @@
       "source": "track:3a29f337-5572-4810-a26c-1178491511fd",
       "target": "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa",
       "type": "USES_SAMPLE"
+    },
+    {
+      "source": "artist:5c51de66-d15e-48ed-9402-0f17ba2dfc52",
+      "target": "album:76db7b45-af7f-4e34-bdd5-d922e016efd8",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:76db7b45-af7f-4e34-bdd5-d922e016efd8",
+      "target": "recording:17d7c8c1-855a-4657-8af9-f88accc876c9",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:219ce30a-0f3a-468c-9a13-55ee358ac0f0",
+      "target": "album:4c18b6bd-603d-30bc-8152-92b7123c264a",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:4c18b6bd-603d-30bc-8152-92b7123c264a",
+      "target": "recording:14196d4a-b22a-4c4d-a42c-3b240f051cfa",
+      "type": "HAS_TRACK"
     },
     {
       "source": "album:28516e36-1728-3584-b705-3d903b39dd05",
@@ -2593,9 +6094,79 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:5ecc3f72-20a6-47a0-8dc5-fb0b3dadeea0",
+      "target": "album:c0ec2364-a7ca-40d8-a256-31f24f38f7fd",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:c0ec2364-a7ca-40d8-a256-31f24f38f7fd",
+      "target": "recording:df612667-86af-4dc0-b3ef-8c030fdae6c8",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:fb776bca-6139-4ff5-8d5e-5decd029cb96",
+      "target": "album:5275abd4-b78c-4205-8a42-6c0b23dbeca0",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:5275abd4-b78c-4205-8a42-6c0b23dbeca0",
+      "target": "recording:47560630-4e42-4c33-ac18-a082f7cb9999",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:e842abf7-8a63-4602-8879-75958c2884a1",
+      "target": "album:69ac228f-7576-402e-9ff1-d811826c85a6",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:69ac228f-7576-402e-9ff1-d811826c85a6",
+      "target": "recording:eb6764c6-0129-47c3-acc4-70659a710468",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:69ac228f-7576-402e-9ff1-d811826c85a6",
+      "target": "recording:7732c34e-8b4e-4767-ae74-92ca3b2141fa",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:c6709d2f-507b-42cc-ae38-1e78198e0f06",
+      "target": "recording:ae665c62-c18c-42e4-95fb-17d220e30452",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:e57f0cac-4f56-473c-8d7e-d93f753fd586",
+      "target": "album:a5ba0eec-c54d-32f5-a879-d2787b082c50",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:a5ba0eec-c54d-32f5-a879-d2787b082c50",
+      "target": "recording:53259175-2714-4c53-92a8-cd5afb1a0731",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:bb67b337-4502-45d7-b66a-63f18138c54c",
+      "target": "album:e7e6caa2-fd69-309a-b684-57cf8cc8b23b",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:e7e6caa2-fd69-309a-b684-57cf8cc8b23b",
+      "target": "recording:0dfc5bc7-2bca-4cf0-a869-e2be265feabe",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:436b4315-3db2-4c5f-84e5-234b4318dd20",
       "target": "recording:a08da581-5b89-47ca-a8d9-1cd6322d3adb",
       "type": "USES_SAMPLE"
+    },
+    {
+      "source": "artist:c4df30f5-5487-4806-9189-b69c9f27532c",
+      "target": "album:4d1de86e-0cd4-43a0-a839-0f59ec23e645",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:4d1de86e-0cd4-43a0-a839-0f59ec23e645",
+      "target": "recording:a08da581-5b89-47ca-a8d9-1cd6322d3adb",
+      "type": "HAS_TRACK"
     },
     {
       "source": "track:edb2f3f1-9cfa-4d70-8be0-3c78da2c7b65",
@@ -2638,6 +6209,91 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "target": "album:ed2eb0db-4ef9-3658-a613-582dd359348e",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "target": "album:c3b9d318-7f54-31ef-b670-12c57e612d55",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:ed2eb0db-4ef9-3658-a613-582dd359348e",
+      "target": "recording:ed4a3111-b4b7-45ed-8f11-d69a461a0f8e",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:c3b9d318-7f54-31ef-b670-12c57e612d55",
+      "target": "recording:e86ee6e1-ccd4-46fe-9781-cea01aa5db92",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:6ff13427-08ff-4da2-bee8-892e1fa22d3c",
+      "target": "album:f0ee1c1e-c757-48a5-97cc-cc4d926a0846",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:f0ee1c1e-c757-48a5-97cc-cc4d926a0846",
+      "target": "recording:5da15773-baab-4b11-8142-e5cbc52435ab",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde",
+      "target": "album:fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde",
+      "target": "album:fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:2469950a-f0ca-425a-bfbc-baf55ea3afde",
+      "target": "album:742672e9-4b61-4fca-9db5-71e6cee4d649",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:fc6d720d-1dca-4f16-ac8a-2b9d3f3fdf9d",
+      "target": "recording:1fb341e3-8088-4019-b8f6-91beb644270c",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:fd9e09e3-4fa2-4ed2-92a3-6f55335e08aa",
+      "target": "recording:f717f05b-e18c-491e-8655-c190ad22190a",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:81e07550-d0e2-467e-bc71-44b5d52de8f4",
+      "target": "album:d23320d3-e9b6-4922-8da9-6af0f59e05da",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:d23320d3-e9b6-4922-8da9-6af0f59e05da",
+      "target": "recording:cb7c1a30-3e62-4424-b20e-7acd3b23904e",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:e0cd33e5-f664-4a21-b7eb-f0b07dd2c1d0",
+      "target": "album:63e1d523-d17c-4872-8e6e-68f9dea1939e",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:63e1d523-d17c-4872-8e6e-68f9dea1939e",
+      "target": "recording:37f7d587-ba71-4500-90bb-92e4f223f082",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:33b3c323-77c2-417c-a5b4-af7e6a111cc9",
+      "target": "album:0f8ebeb2-fa96-4382-8dd7-e64f16808646",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:0f8ebeb2-fa96-4382-8dd7-e64f16808646",
+      "target": "recording:359415a8-e758-4a2b-9907-4e5995613dda",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
       "target": "recording:85ea1351-d487-4abd-a807-ba43d7157b62",
       "type": "USES_SAMPLE"
@@ -2651,6 +6307,36 @@
       "source": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
       "target": "recording:b7ecd665-2cb4-4f32-a353-9f6435d57fb7",
       "type": "USES_SAMPLE"
+    },
+    {
+      "source": "artist:5025b18d-f457-46cb-992d-13c342586dba",
+      "target": "album:c942f19b-7de4-4d75-a0a1-2e6f5c9e5006",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:c942f19b-7de4-4d75-a0a1-2e6f5c9e5006",
+      "target": "recording:85ea1351-d487-4abd-a807-ba43d7157b62",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:58c2a0ee-183d-463a-a8fb-9c388fedd33d",
+      "target": "album:c071b836-d08c-4ee5-93d3-e897199faaaf",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:c071b836-d08c-4ee5-93d3-e897199faaaf",
+      "target": "recording:6cbb3c7d-e543-461b-9c9e-5aabfcbc3488",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:c9bda94f-d379-4405-a20e-7de6a3ee9b77",
+      "target": "album:d7b06730-074b-46b0-a248-55d4aed3da42",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:d7b06730-074b-46b0-a248-55d4aed3da42",
+      "target": "recording:b7ecd665-2cb4-4f32-a353-9f6435d57fb7",
+      "type": "HAS_TRACK"
     },
     {
       "source": "track:e1603c1f-c03e-4d5d-9232-f5092a3c9144",
@@ -2688,6 +6374,71 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:5411f02b-e546-4e69-aac2-23598f1ee536",
+      "target": "album:644d4e6f-fd99-44b8-98fe-c6482ccc8022",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:644d4e6f-fd99-44b8-98fe-c6482ccc8022",
+      "target": "recording:a54e9a81-7be0-4ad1-a3a5-5562bc57f25d",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:545f9a53-f816-4b59-b196-07d16d01160a",
+      "target": "album:99f70ae6-6db7-4a42-a756-a669273e933f",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:99f70ae6-6db7-4a42-a756-a669273e933f",
+      "target": "recording:4701cba5-8941-4a5a-a7ae-c66d00fcdb9f",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:42700164-abe3-4b45-b627-f4c8deca5e82",
+      "target": "album:e4b8dbd0-5544-40e8-b736-f86048d68914",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:e4b8dbd0-5544-40e8-b736-f86048d68914",
+      "target": "recording:f6026bb3-0cae-45f7-8dce-c20738658f7f",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:0425074d-a3e9-4b4c-ba0e-de34f15384a9",
+      "target": "recording:1eaf4ecb-56b6-4c92-b8ae-bb3d3de69809",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:59ae7a1a-f454-435b-8a5a-e327e692bb5a",
+      "target": "album:4db6cbfc-a5c7-476b-a146-b1ec30c64107",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:4db6cbfc-a5c7-476b-a146-b1ec30c64107",
+      "target": "recording:8c8c48e7-80d4-4c45-a0c9-31edaf20a822",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:4b0b1bd5-35e8-4764-b4f2-55ef56f595aa",
+      "target": "album:d8d00d4b-01e1-4085-92be-a22e8b623cc5",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:d8d00d4b-01e1-4085-92be-a22e8b623cc5",
+      "target": "recording:384a2656-d2d6-494a-98c7-72cc58d039af",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:a415f8c5-3b22-43bb-a1a8-cf9646ea21e0",
+      "target": "album:c5a632b1-fa0a-48f6-a2d8-578966c54e14",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:c5a632b1-fa0a-48f6-a2d8-578966c54e14",
+      "target": "recording:c70101d9-83db-41d8-8bc1-4e6a0f90a69a",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:3a5663da-8d85-401a-b9de-3befbced7ed7",
       "target": "recording:1a50d327-caf1-4506-bca7-a9db41cae179",
       "type": "USES_SAMPLE"
@@ -2708,6 +6459,36 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:db76c5ca-d555-4f09-b1db-baa1b713d875",
+      "target": "album:0ed95424-50f7-4837-8ec2-38725a961d6b",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "artist:db76c5ca-d555-4f09-b1db-baa1b713d875",
+      "target": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:0ed95424-50f7-4837-8ec2-38725a961d6b",
+      "target": "recording:1a50d327-caf1-4506-bca7-a9db41cae179",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+      "target": "recording:94763013-dc2f-43e2-b11c-2cfc2435b311",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+      "target": "recording:47262a1d-73e5-4987-a5ed-50f9770d6f60",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:db6a433a-2f58-4a4d-9e47-e3f3ac372a67",
+      "target": "recording:2374c7ac-8960-441b-b029-289adc869e0f",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:8881e26b-4f85-4820-8281-d3698f4013ab",
       "target": "recording:a4fab216-e521-435d-9203-b74e7bd519f3",
       "type": "USES_SAMPLE"
@@ -2723,9 +6504,44 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "album:742672e9-4b61-4fca-9db5-71e6cee4d649",
+      "target": "recording:a4fab216-e521-435d-9203-b74e7bd519f3",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:86c0f463-b054-4b10-a204-cdcc6538c7f5",
+      "target": "album:7ab5a740-f6b9-48e7-ad76-95f453d61994",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:7ab5a740-f6b9-48e7-ad76-95f453d61994",
+      "target": "recording:ecdea4ef-0e0f-482c-9d78-966774534108",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:a1235272-3650-4ed7-9317-5a55a08701ec",
+      "target": "album:e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b",
+      "target": "recording:f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:733b8dbc-88fc-4086-9b99-d64938bdc3b4",
       "target": "recording:68b9b90a-84b0-4e70-b0d2-7ebcb95756a1",
       "type": "USES_SAMPLE"
+    },
+    {
+      "source": "artist:02349767-d5ac-4528-892d-17b6d40107a1",
+      "target": "album:0c0e86c3-baf2-4123-a866-f60d6fd41977",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:0c0e86c3-baf2-4123-a866-f60d6fd41977",
+      "target": "recording:68b9b90a-84b0-4e70-b0d2-7ebcb95756a1",
+      "type": "HAS_TRACK"
     },
     {
       "source": "track:5b101c81-f70c-4ff6-9e61-9dba8fae1d94",
@@ -2743,6 +6559,31 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:d1501f92-f523-4e95-a787-432875c8d6dc",
+      "target": "album:5d0966fa-8604-4e53-8aeb-dac0e2c49453",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:5d0966fa-8604-4e53-8aeb-dac0e2c49453",
+      "target": "recording:0ef972b7-f255-4dc8-a62e-a363704c03fd",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "artist:6254fb8f-cf90-429a-b042-264295e62fb5",
+      "target": "album:954b1a25-1a2b-4f32-805f-eb27bb26e502",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:954b1a25-1a2b-4f32-805f-eb27bb26e502",
+      "target": "recording:c523ee7d-ec7a-4b99-8399-a1acf3b53aa8",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:ffce7f9d-4a98-396d-bab7-97e52930cab9",
+      "target": "recording:62887274-2945-4493-84a9-cd8a0dfee542",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:b658ba14-d5f4-4492-a856-360b4d5c16bf",
       "target": "recording:45c95691-bc88-4e75-bb2f-a7f33070b4e5",
       "type": "USES_SAMPLE"
@@ -2751,6 +6592,21 @@
       "source": "track:b658ba14-d5f4-4492-a856-360b4d5c16bf",
       "target": "recording:245071ab-5a36-4acd-ad04-fae20a009c62",
       "type": "USES_SAMPLE"
+    },
+    {
+      "source": "artist:440cb8ef-cee3-4711-8408-b1bd6e93f390",
+      "target": "album:7e69833b-98d3-403c-baff-ed5db00bec94",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:7e69833b-98d3-403c-baff-ed5db00bec94",
+      "target": "recording:45c95691-bc88-4e75-bb2f-a7f33070b4e5",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:7e69833b-98d3-403c-baff-ed5db00bec94",
+      "target": "recording:245071ab-5a36-4acd-ad04-fae20a009c62",
+      "type": "HAS_TRACK"
     },
     {
       "source": "track:2654e1c7-4c84-4ee6-83bd-24c2d1ef9ecf",
@@ -2768,9 +6624,39 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:24164692-3223-48bf-9cea-2a76b5afce94",
+      "target": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+      "target": "recording:4d633833-13b8-4600-a4a3-4d634bc2fcd6",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+      "target": "recording:2400d9b3-4e21-4992-a55d-a222663cbb3b",
+      "type": "HAS_TRACK"
+    },
+    {
+      "source": "album:d96bf9fa-1cc5-4f7d-b230-598c493adb8b",
+      "target": "recording:ad6ad5a5-4d87-4200-84dd-8fa3ef726506",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:eafd3e65-a23b-4d1f-bf07-a03762f70731",
       "target": "recording:cce22085-6f9e-4929-a69a-14a28ff7ff99",
       "type": "USES_SAMPLE"
+    },
+    {
+      "source": "artist:e9ec9892-19f9-4567-8522-9031696c6c34",
+      "target": "album:8383c9ae-8295-4407-8376-1af93bc53855",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:8383c9ae-8295-4407-8376-1af93bc53855",
+      "target": "recording:cce22085-6f9e-4929-a69a-14a28ff7ff99",
+      "type": "HAS_TRACK"
     },
     {
       "source": "album:3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
@@ -2923,6 +6809,16 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:d5be5333-4171-427e-8e12-732087c6b78e",
+      "target": "album:11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:11666a9a-fb6c-3cc9-ac6c-1ffd5c870d4e",
+      "target": "recording:971fabf6-c76a-4316-8b52-3e7579a64500",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "album:4e66d853-5df5-45a7-a40f-a17a69bd46cf",
       "target": "track:3cecaa3c-d889-4797-b79b-9e383d467cc0",
       "type": "HAS_TRACK"
@@ -3003,9 +6899,29 @@
       "type": "USES_SAMPLE"
     },
     {
+      "source": "artist:cabb4fcf-4067-4ba5-908d-76ee66fcf0c6",
+      "target": "album:68aad759-9aa7-4a47-94ce-ee9e9207e843",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:68aad759-9aa7-4a47-94ce-ee9e9207e843",
+      "target": "recording:df19172f-431a-422b-95cd-744793f3e99d",
+      "type": "HAS_TRACK"
+    },
+    {
       "source": "track:faf8b02f-3003-49fc-8e82-f970aa2504a1",
       "target": "recording:8e689bc0-f1c2-4c87-8d3b-fd0ba4f8fadf",
       "type": "USES_SAMPLE"
+    },
+    {
+      "source": "artist:696d8523-39a0-44e2-9add-afaa183a2f46",
+      "target": "album:5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5",
+      "type": "HAS_ALBUM"
+    },
+    {
+      "source": "album:5f76f2d5-a3fb-43c5-8c4b-fff69bae49f5",
+      "target": "recording:8e689bc0-f1c2-4c87-8d3b-fd0ba4f8fadf",
+      "type": "HAS_TRACK"
     }
   ]
 }

@@ -1,31 +1,3 @@
-// const fetch = require("node-fetch");
-
-// async function getTracksFromRelease(releaseId) {
-//     const url = `https://musicbrainz.org/ws/2/release/${releaseId}?inc=recordings&fmt=json`;
-
-//     const res = await fetch(url, {
-//         headers: {
-//         "User-Agent": "my-music-app/1.0 ( your@email.com )"
-//         }
-//     });
-
-//     const data = await res.json();
-
-//     const tracks = [];
-
-//     data.media.forEach(medium => {
-//         medium.tracks.forEach(track => {
-//         tracks.push({
-//             title: track.title,
-//             id: track.recording.id
-//         });
-//         });
-//     });
-
-//     return tracks;
-// }
-
-// module.exports = getTracksFromRelease;
 const fetch = require("node-fetch");
 const { readCache, writeCache } = require("../../utils/cache");
 

@@ -1,20 +1,3 @@
-// const fetch = require("node-fetch");
-
-// async function getAlbums(artistId) {
-//     const url = `https://musicbrainz.org/ws/2/release-group?artist=${artistId}&type=album&fmt=json`;
-
-//     const res = await fetch(url, {
-//         headers: {
-//         "User-Agent": "my-music-app/1.0 ( your@email.com )"
-//         }
-//     });
-
-//     const data = await res.json();
-
-//     return data["release-groups"];
-// }
-
-// module.exports = getAlbums;
 const fetch = require("node-fetch");
 const { readCache, writeCache } = require("../../utils/cache");
 

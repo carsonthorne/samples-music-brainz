@@ -1,6 +1,7 @@
 import { collapseNode } from "./collapseNode";
 import { expandNode } from "./expandNode";
 import { renderBreadcrumbs } from "./renderBreadcrumbs";
+import getLineage from "./utils/getLineage"; // <-- 1. Import your lineage calculator
 
 export function createGraphEvents(
   state,
@@ -20,6 +21,11 @@ export function createGraphEvents(
 
     state.setFocus(node.id);
     
+    if (state.graph && state.graph.reverseAdjacency)
+    {
+      state.breadcrumbs = getLineage(state.graph, node.id);
+    }
+
     getGraph().graphData(
       state.toForceGraph()
     );
@@ -73,8 +79,8 @@ export function createGraphEvents(
       );
     });
   }
-
   
+
   function focusCameraOnNode(nodeId)
   {
     const graph = getGraph();
@@ -87,13 +93,12 @@ export function createGraphEvents(
       {
         x: node.x,
         y: node.y,
-        z: node.z + 200 // zoom out a bit so we see context
+        z: node.z + 200
       },
       node,
-      3000 // animation duration (ms)
+      3000
     );
   }
-
 
   function expandAll()
   {
@@ -107,7 +112,6 @@ export function createGraphEvents(
     );
   }
 
-
   function collapseAll()
   {
     state.expanded.clear();
@@ -117,7 +121,6 @@ export function createGraphEvents(
     state.focusNode = root;
     state.breadcrumbs = [];
 
-    // focusCameraOnNode(root);
     setTimeout(() =>
     {
       focusCameraOnNode(root);
@@ -133,7 +136,7 @@ export function createGraphEvents(
     );
   }
   
-
+  
   return {
     handleNodeClick,
     handleBreadcrumbClick,

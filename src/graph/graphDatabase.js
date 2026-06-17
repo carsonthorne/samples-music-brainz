@@ -9,6 +9,7 @@ class GraphDatabase
     this.nodesById = new Map();
 
     this.adjacency = new Map();
+    this.reverseAdjacency = new Map();
 
     this.nodeIds = new Set();
     this.edgeIds = new Set();
@@ -38,6 +39,17 @@ class GraphDatabase
 
     this.adjacency.get(source).push({
       target,
+      type
+    });
+
+    // reverse adjacency
+    if (!this.reverseAdjacency.has(target))
+    {
+      this.reverseAdjacency.set(target, []);
+    }
+
+    this.reverseAdjacency.get(target).push({
+      source,
       type
     });
   }
@@ -73,6 +85,7 @@ class GraphDatabase
       rootArtist: this.rootArtist,
       nodesById: Object.fromEntries(this.nodesById),
       adjacency: Object.fromEntries(this.adjacency),
+      reverseAdjacency: Object.fromEntries(this.reverseAdjacency),
       nodes,
       links
     };
