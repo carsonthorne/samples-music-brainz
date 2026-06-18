@@ -1,7 +1,7 @@
-function buildAlbumNode(graphStore, album) {
+function buildAlbumNode(graphDatabase, album) {
   const albumId = `album:${album.id}`;
 
-  graphStore.addNode({
+  graphDatabase.addNode({
     id: albumId,
     type: "album",
     name: album.title,
@@ -11,8 +11,8 @@ function buildAlbumNode(graphStore, album) {
   return albumId;
 }
 
-function linkArtistToAlbum(graphStore, artistId, albumId) {
-  graphStore.addLink(artistId, albumId, "HAS_ALBUM");
+function linkArtistToAlbum(graphDatabase, artistId, albumId) {
+  graphDatabase.addLink(artistId, albumId, "HAS_ALBUM");
 }
 
 module.exports = {

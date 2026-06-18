@@ -1,11 +1,13 @@
 const { buildArtistNode } = require("./artistBuilder");
 const { buildAlbumNode, linkArtistToAlbum } = require("./albumBuilder");
 const { linkAlbumToTrack } = require("./trackBuilder");
+const getRecordingContextCachedMemory =
+  require("../getRecordingContextCachedMemory");
 
-function buildSampleNode(graphStore, sample) {
+function buildSampleNode(graphDatabase, sample) {
   const sampleId = `recording:${sample.id}`;
 
-  graphStore.addNode({
+  graphDatabase.addNode({
     id: sampleId,
     type: "recording",
     name: sample.title || "Unknown Sample",
@@ -15,53 +17,66 @@ function buildSampleNode(graphStore, sample) {
   return sampleId;
 }
 
-function linkTrackToSample(graphStore, trackId, sampleId) {
-  graphStore.addLink(trackId, sampleId, "USES_SAMPLE");
+function linkTrackToSample(graphDatabase, trackId, sampleId) {
+  graphDatabase.addLink(trackId, sampleId, "USES_SAMPLE");
 }
 
 // Simple internal delay helper to protect your MusicBrainz rate limit
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function expandTrackSamples(
-  graphStore,
+  graphDatabase,
   trackId,
   recordingId,
   depth,
   maxDepth,
   getSamplesFromRecording,
-  getRecordingContext // Pass this in from buildGraph
+  getRecordingContext, // Pass this in from buildGraph
+  visitedSamples
 ) {
   if (depth >= maxDepth) return;
 
+  if (visitedSamples.has(recordingId)) {
+    return;
+  }
+
   const samples = await getSamplesFromRecording(recordingId);
+  
+  visitedSamples.add(recordingId);
+  
   await sleep(1000); // Respect MusicBrainz 1 req/sec rule
 
   for (const sample of samples) {
     // Build and link the core sample recording node
-    const sampleId = buildSampleNode(graphStore, sample);
-    linkTrackToSample(graphStore, trackId, sampleId);
+    const sampleId = buildSampleNode(graphDatabase, sample);
+    linkTrackToSample(graphDatabase, trackId, sampleId);
 
     // Fetch the upstream context (Album & Artist) for this sample
     try {
-      const context = await getRecordingContext(sample.id);
+      // const context = await getRecordingContext(sample.id);
+      const context =
+        await getRecordingContextCachedMemory(
+          sample.id,
+          getRecordingContext
+        );
       await sleep(1000); // Respect rate limits
 
       if (context && context.releaseId && context.artistId) {
         // Build Artist (Pass raw data; builder handles prefixing)
-        const sampleArtistId = buildArtistNode(graphStore, {
+        const sampleArtistId = buildArtistNode(graphDatabase, {
           id: context.artistId,
           name: context.artistName
         });
 
         // Build Album (Pass raw data; builder handles prefixing)
-        const sampleAlbumId = buildAlbumNode(graphStore, {
+        const sampleAlbumId = buildAlbumNode(graphDatabase, {
           id: context.releaseId,
           title: context.releaseTitle
         });
 
         // Establish the upstream relationships
-        linkArtistToAlbum(graphStore, sampleArtistId, sampleAlbumId);
-        linkAlbumToTrack(graphStore, sampleAlbumId, sampleId);
+        linkArtistToAlbum(graphDatabase, sampleArtistId, sampleAlbumId);
+        linkAlbumToTrack(graphDatabase, sampleAlbumId, sampleId);
       }
     } catch (err) {
       console.error(`Failed to fetch context for recording ${sample.id}:`, err.message);
@@ -69,13 +84,14 @@ async function expandTrackSamples(
 
     // Recurse deeper if allowed
     await expandTrackSamples(
-      graphStore,
+      graphDatabase,
       sampleId,
       sample.id,
       depth + 1,
       maxDepth,
       getSamplesFromRecording,
-      getRecordingContext
+      getRecordingContext,
+      visitedSamples
     );
   }
 }

@@ -22,6 +22,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function buildGraph() {
   const db = new GraphDatabase();
 
+  const visitedSamples = new Set();
+
   // Store Root Artist
   const artist = await searchArtist("a tribe called quest"); 
   const artistId = buildArtistNode(db, artist);
@@ -31,7 +33,8 @@ async function buildGraph() {
   const albums = await getAlbums(artist.id);
   await sleep(1000);
 
-  for (const album of albums.slice(0, LIMITS.albumsPerArtist)) {
+  for (const album of albums.slice(0, LIMITS.albumsPerArtist))
+  {
     const albumId = buildAlbumNode(db, album);
     linkArtistToAlbum(db, artistId, albumId);
 
@@ -46,7 +49,7 @@ async function buildGraph() {
       const trackId = buildTrackNode(db, track);
       linkAlbumToTrack(db, albumId, trackId);
 
-      // This now handles sample nodes, their albums, and their artists cleanly
+      // This now handles sample nodes, their albums, and their artists
       await expandTrackSamples(
         db,
         trackId,
@@ -54,7 +57,8 @@ async function buildGraph() {
         0,
         LIMITS.sampleDepth,
         getSamplesFromRecording,
-        getRecordingContext
+        getRecordingContext,
+        visitedSamples
       );
     }
   }

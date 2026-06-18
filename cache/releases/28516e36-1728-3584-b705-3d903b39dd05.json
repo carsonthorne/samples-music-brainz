@@ -1,0 +1,41 @@
+{
+  "date": "1999",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "barcode": "9326382001048",
+  "id": "1ca08f73-47a6-4909-98ab-4744199f1fe7",
+  "quality": "normal",
+  "disambiguation": "",
+  "asin": null,
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "cover-art-archive": {
+    "back": false,
+    "artwork": false,
+    "front": false,
+    "count": 0,
+    "darkened": false
+  },
+  "release-events": [
+    {
+      "date": "1999",
+      "area": {
+        "disambiguation": "",
+        "iso-3166-1-codes": [
+          "AU"
+        ],
+        "name": "Australia",
+        "type": null,
+        "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+        "sort-name": "Australia",
+        "type-id": null
+      }
+    }
+  ],
+  "packaging": "Jewel Case",
+  "title": "The Anthology",
+  "status": "Official",
+  "country": "AU",
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  }
+}

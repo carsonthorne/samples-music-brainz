@@ -1,12 +1,12 @@
 function buildArtistNode(
-  graphStore,
+  graphDatabase,
   artist
 )
 {
   const artistId =
     `artist:${artist.id}`;
 
-  graphStore.addNode({
+  graphDatabase.addNode({
     id: artistId,
     type: "artist",
     name: artist.name,

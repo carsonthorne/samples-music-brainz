@@ -1,0 +1,41 @@
+{
+  "asin": null,
+  "packaging": null,
+  "packaging-id": null,
+  "release-events": [
+    {
+      "area": {
+        "name": "[Worldwide]",
+        "iso-3166-1-codes": [
+          "XW"
+        ],
+        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+        "disambiguation": "",
+        "sort-name": "[Worldwide]",
+        "type": null,
+        "type-id": null
+      },
+      "date": "2012"
+    }
+  ],
+  "status": "Bootleg",
+  "quality": "normal",
+  "title": "Abstract Revelations",
+  "cover-art-archive": {
+    "artwork": true,
+    "front": true,
+    "count": 1,
+    "darkened": false,
+    "back": false
+  },
+  "id": "2bde1e49-f629-4aef-a034-e7ee9ddcb214",
+  "disambiguation": "",
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "date": "2012",
+  "country": "XW",
+  "barcode": null,
+  "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9"
+}

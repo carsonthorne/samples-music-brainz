@@ -1,7 +1,7 @@
-function buildTrackNode(graphStore, track) {
+function buildTrackNode(graphDatabase, track) {
   const trackId = `track:${track.recordingId}`;
 
-  graphStore.addNode({
+  graphDatabase.addNode({
     id: trackId,
     type: "track",
     name: track.title,
@@ -11,8 +11,8 @@ function buildTrackNode(graphStore, track) {
   return trackId;
 }
 
-function linkAlbumToTrack(graphStore, albumId, trackId) {
-  graphStore.addLink(albumId, trackId, "HAS_TRACK");
+function linkAlbumToTrack(graphDatabase, albumId, trackId) {
+  graphDatabase.addLink(albumId, trackId, "HAS_TRACK");
 }
 
 module.exports = {
