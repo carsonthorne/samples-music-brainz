@@ -1,272 +1,272 @@
 [
   {
-    "id": "02adb8a7-496c-3a9a-a324-662df73fdba5",
-    "first-release-date": "1990-04-17",
-    "title": "People’s Instinctive Travels and the Paths of Rhythm",
     "secondary-types": [],
-    "disambiguation": "",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
     "primary-type": "Album",
-    "secondary-type-ids": []
+    "secondary-type-ids": [],
+    "id": "02adb8a7-496c-3a9a-a324-662df73fdba5",
+    "disambiguation": "",
+    "title": "People’s Instinctive Travels and the Paths of Rhythm",
+    "first-release-date": "1990-04-17",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
   },
   {
-    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
     "secondary-types": [
       "Compilation"
     ],
     "title": "The Anthology",
-    "first-release-date": "1999-10-25",
     "id": "28516e36-1728-3584-b705-3d903b39dd05",
-    "secondary-type-ids": [
-      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
-    ],
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
-  },
-  {
-    "secondary-type-ids": [
-      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
-    ],
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "primary-type": "Album",
     "disambiguation": "",
-    "title": "Native Tongues Unreleased & Unleashed",
-    "secondary-types": [
-      "Compilation"
-    ],
-    "id": "3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
-    "first-release-date": "2002"
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1999-10-25"
   },
   {
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
     "secondary-type-ids": [
       "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
     ],
-    "first-release-date": "2003-06-17",
-    "id": "473f23b1-0cd5-3520-a4ac-3e92862398a9",
+    "primary-type": "Album",
     "secondary-types": [
       "Compilation"
     ],
+    "first-release-date": "2002",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "id": "3e47dbef-3f05-3cd5-a756-f67ce9c731d4",
+    "title": "Native Tongues Unreleased & Unleashed"
+  },
+  {
+    "first-release-date": "2003-06-17",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "473f23b1-0cd5-3520-a4ac-3e92862398a9",
+    "disambiguation": "",
     "title": "Hits, Rarities & Remixes",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "secondary-types": [
+      "Compilation"
+    ]
+  },
+  {
+    "secondary-types": [
+      "Compilation"
+    ],
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2012-12-11",
+    "title": "Abstract Revelations",
+    "id": "4e66d853-5df5-45a7-a40f-a17a69bd46cf",
     "disambiguation": ""
   },
   {
-    "disambiguation": "",
     "secondary-types": [
       "Compilation"
     ],
-    "title": "Abstract Revelations",
-    "first-release-date": "2012-12-11",
-    "id": "4e66d853-5df5-45a7-a40f-a17a69bd46cf",
+    "primary-type": "Album",
     "secondary-type-ids": [
       "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
     ],
-    "primary-type": "Album",
+    "id": "534415e2-81ac-4d9e-8943-2884b054affd",
+    "disambiguation": "",
+    "title": "The Collection",
+    "first-release-date": "2009",
     "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
   },
   {
-    "disambiguation": "",
-    "id": "534415e2-81ac-4d9e-8943-2884b054affd",
-    "first-release-date": "2009",
-    "title": "The Collection",
     "secondary-types": [
       "Compilation"
-    ],
-    "secondary-type-ids": [
-      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
-    ],
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "primary-type": "Album"
-  },
-  {
-    "secondary-type-ids": [
-      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
     ],
     "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "disambiguation": "",
-    "secondary-types": [
-      "Compilation"
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
     ],
     "title": "Instrumental",
-    "first-release-date": "2004",
-    "id": "780dfc32-ce32-4604-aea1-246b36679bd8"
+    "id": "780dfc32-ce32-4604-aea1-246b36679bd8",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2004"
   },
   {
+    "id": "7b1a95c1-96b1-3925-8771-51aaada86f3f",
+    "disambiguation": "",
+    "title": "The Lost Demos",
+    "first-release-date": "",
     "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
     "primary-type": "Album",
     "secondary-type-ids": [
       "0c60f497-ff81-3818-befd-abfc84a4858b"
     ],
-    "id": "7b1a95c1-96b1-3925-8771-51aaada86f3f",
-    "first-release-date": "",
-    "title": "The Lost Demos",
     "secondary-types": [
       "Remix"
-    ],
-    "disambiguation": ""
+    ]
   },
   {
-    "secondary-type-ids": [
-      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
-    ],
-    "primary-type": "Album",
+    "first-release-date": "2011",
     "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "7bf4f4e8-6fa2-4e72-8a23-68c531142506",
     "disambiguation": "",
+    "title": "Excursions: A Tribe Called Quest",
     "secondary-types": [
       "Compilation"
     ],
-    "title": "Excursions: A Tribe Called Quest",
-    "first-release-date": "2011",
-    "id": "7bf4f4e8-6fa2-4e72-8a23-68c531142506"
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
   },
   {
-    "disambiguation": "",
     "secondary-types": [
       "Live"
     ],
-    "title": "Live in Chicago '98",
-    "first-release-date": "2019-09-27",
-    "id": "83f09fc8-770b-488f-a590-eb788a9e2704",
+    "primary-type": "Album",
     "secondary-type-ids": [
       "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
     ],
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+    "title": "Live in Chicago '98",
+    "disambiguation": "",
+    "id": "83f09fc8-770b-488f-a590-eb788a9e2704",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2019-09-27"
   },
   {
-    "first-release-date": "2009-12",
-    "id": "86681ddd-6fac-4d6f-ada5-8f7597535f3b",
     "secondary-types": [
       "Compilation"
     ],
-    "title": "Rare and Unreleased Instrumentals Vol. 1",
-    "disambiguation": "",
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
     "secondary-type-ids": [
       "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
-    ]
-  },
-  {
-    "disambiguation": "",
-    "first-release-date": "1998-09-09",
-    "id": "8a5d3fc4-5c7d-3971-a2b6-5fae14f465ed",
-    "secondary-types": [],
-    "title": "The Love Movement",
-    "secondary-type-ids": [],
+    ],
     "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2009-12",
+    "title": "Rare and Unreleased Instrumentals Vol. 1",
+    "disambiguation": "",
+    "id": "86681ddd-6fac-4d6f-ada5-8f7597535f3b"
   },
   {
+    "secondary-types": [],
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1998-09-09",
+    "title": "The Love Movement",
+    "id": "8a5d3fc4-5c7d-3971-a2b6-5fae14f465ed",
+    "disambiguation": ""
+  },
+  {
+    "primary-type": "Album",
     "secondary-type-ids": [
       "0c60f497-ff81-3818-befd-abfc84a4858b"
     ],
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "primary-type": "Album",
-    "disambiguation": "",
-    "title": "Revised Quest for the Seasoned Traveller",
     "secondary-types": [
       "Remix"
     ],
+    "first-release-date": "1992-11-16",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
     "id": "8fcfcc4f-59bf-366f-a5af-012cd8ddcc78",
-    "first-release-date": "1992-11-16"
+    "disambiguation": "",
+    "title": "Revised Quest for the Seasoned Traveller"
   },
   {
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "secondary-type-ids": [],
-    "first-release-date": "1996-07-29",
-    "id": "af2a22ae-15c9-3c73-9a35-7b4f503d8f7c",
     "secondary-types": [],
+    "primary-type": "Album",
+    "secondary-type-ids": [],
     "title": "Beats, Rhymes and Life",
-    "disambiguation": ""
+    "disambiguation": "",
+    "id": "af2a22ae-15c9-3c73-9a35-7b4f503d8f7c",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1996-07-29"
   },
   {
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "secondary-types": [
+      "Compilation"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
     "first-release-date": "2006-03-15",
-    "id": "af744787-bb83-3a79-87ec-d32ee9eaaa34",
-    "secondary-types": [
-      "Compilation"
-    ],
     "title": "The Lost Tribes",
-    "disambiguation": "",
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "secondary-type-ids": [
-      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
-    ]
+    "id": "af744787-bb83-3a79-87ec-d32ee9eaaa34",
+    "disambiguation": ""
   },
   {
-    "secondary-type-ids": [],
     "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "primary-type": "Album",
-    "disambiguation": "",
+    "first-release-date": "2016-11-11",
     "title": "We got it from Here… Thank You 4 Your service",
-    "secondary-types": [],
+    "disambiguation": "",
     "id": "b445860f-edd9-4160-841c-fccf5533ecbd",
-    "first-release-date": "2016-11-11"
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": []
   },
   {
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "secondary-type-ids": [
-      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
-    ],
     "first-release-date": "2008-03-24",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
     "id": "b7195450-c48b-34bc-bf79-b48c8113405f",
+    "disambiguation": "",
+    "title": "The Best of A Tribe Called Quest",
     "secondary-types": [
       "Compilation"
     ],
-    "title": "The Best of A Tribe Called Quest",
-    "disambiguation": ""
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album"
   },
   {
-    "secondary-type-ids": [],
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "disambiguation": "",
     "secondary-types": [],
+    "primary-type": "Album",
+    "secondary-type-ids": [],
     "title": "Midnight Marauders",
-    "first-release-date": "1993-11-09",
-    "id": "c2afedfb-034a-3683-ad47-e4404cd7c485"
-  },
-  {
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "primary-type": "Album",
-    "secondary-type-ids": [],
-    "id": "c3733436-fcba-3c08-b082-d548df5c5139",
-    "first-release-date": "1991-09-24",
-    "title": "The Low End Theory",
-    "secondary-types": [],
-    "disambiguation": ""
-  },
-  {
+    "id": "c2afedfb-034a-3683-ad47-e4404cd7c485",
     "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1993-11-09"
+  },
+  {
+    "first-release-date": "1991-09-24",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "c3733436-fcba-3c08-b082-d548df5c5139",
+    "disambiguation": "",
+    "title": "The Low End Theory",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "secondary-types": []
+  },
+  {
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
     "secondary-types": [
       "Compilation"
     ],
     "title": "Rare and Unreleased Instrumentals Vol. 2",
-    "first-release-date": "2010-03",
+    "disambiguation": "",
     "id": "d62da087-8eaf-4ab7-ad48-d5c22b39ac9a",
-    "secondary-type-ids": [
-      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
-    ],
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2010-03"
   },
   {
-    "disambiguation": "",
-    "first-release-date": "1991",
-    "id": "dc1d99b5-b1a0-3cb4-8039-59b7600ba997",
-    "secondary-types": [
-      "Remix"
-    ],
-    "title": "People’s Instinctive Remixes",
+    "primary-type": "Album",
     "secondary-type-ids": [
       "0c60f497-ff81-3818-befd-abfc84a4858b"
     ],
-    "primary-type": "Album",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+    "secondary-types": [
+      "Remix"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1991",
+    "title": "People’s Instinctive Remixes",
+    "disambiguation": "",
+    "id": "dc1d99b5-b1a0-3cb4-8039-59b7600ba997"
   }
 ]

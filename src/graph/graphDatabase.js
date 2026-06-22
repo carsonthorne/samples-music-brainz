@@ -13,6 +13,26 @@ class GraphDatabase
 
     this.nodeIds = new Set();
     this.edgeIds = new Set();
+
+    this.trackRegistry = new Map();
+  }
+
+  registerTrackTitle(albumId, title, trackId)
+  {
+    if (!albumId || !title) return;
+    const key = `${albumId}|${title.toLowerCase().trim()}`;
+    if (!this.trackRegistry.has(key)) 
+    {
+      this.trackRegistry.set(key, trackId);
+    }
+  }
+
+
+  getTrackIdByTitle(albumId, title)
+  {
+    if (!albumId || !title) return null;
+    const key = `${albumId}|${title.toLowerCase().trim()}`;
+    return this.trackRegistry.get(key) || null;
   }
 
 

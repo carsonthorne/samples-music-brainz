@@ -12,7 +12,7 @@ async function getRecordingContext(recordingId)
       );
 
       const url =
-        `https://musicbrainz.org/ws/2/recording/${recordingId}?inc=releases+artist-credits&fmt=json`;
+        `https://musicbrainz.org/ws/2/recording/${recordingId}?inc=releases+release-groups+artist-credits&fmt=json`;
 
       const res = await fetch(url, {
         headers: {
@@ -23,11 +23,14 @@ async function getRecordingContext(recordingId)
       const data = await res.json();
 
       const release = data["releases"]?.[0];
+
+      const releaseGroup = release?.["release-group"];
+
       const artist = data["artist-credit"]?.[0]?.artist || null;
 
       const context =  {
         recordingId,
-        releaseId: release?.id,
+        releaseId: releaseGroup?.id || release?.id,
         releaseTitle: release?.title,
         artistId: artist?.id,
         artistName: artist?.name

@@ -1,41 +1,41 @@
 {
+  "country": "US",
+  "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
   "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
   "cover-art-archive": {
+    "count": 2,
     "front": true,
-    "artwork": true,
     "back": false,
     "darkened": false,
-    "count": 2
+    "artwork": true
   },
-  "release-events": [
-    {
-      "area": {
-        "sort-name": "United States",
-        "type-id": null,
-        "disambiguation": "",
-        "iso-3166-1-codes": [
-          "US"
-        ],
-        "type": null,
-        "name": "United States",
-        "id": "489ce91b-6658-3307-9877-795b68554c98"
-      },
-      "date": "2002"
-    }
-  ],
+  "quality": "normal",
+  "barcode": "",
   "packaging": "Cardboard/Paper Sleeve",
-  "title": "Native Tongues Unreleased & Unleashed",
-  "status": "Bootleg",
-  "country": "US",
   "text-representation": {
     "script": "Latn",
     "language": "eng"
   },
-  "date": "2002",
-  "barcode": "",
-  "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+  "asin": null,
+  "status": "Bootleg",
+  "title": "Native Tongues Unreleased & Unleashed",
   "id": "d4ed4a67-0b02-4b2b-b599-0a9adc889248",
-  "quality": "normal",
+  "release-events": [
+    {
+      "date": "2002",
+      "area": {
+        "type": null,
+        "disambiguation": "",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "sort-name": "United States",
+        "type-id": null,
+        "name": "United States"
+      }
+    }
+  ],
   "disambiguation": "",
-  "asin": null
+  "date": "2002"
 }

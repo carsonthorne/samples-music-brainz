@@ -14,7 +14,7 @@ const GraphDatabase = require("./graphDatabase");
 
 const LIMITS = {
   albumsPerArtist: 5,
-  sampleDepth: 1
+  sampleDepth: 2
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -22,7 +22,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function buildGraph() {
   const db = new GraphDatabase();
 
-  const visitedSamples = new Set();
+  const visitedRecordings = new Set();
 
   // Store Root Artist
   const artist = await searchArtist("a tribe called quest"); 
@@ -46,24 +46,31 @@ async function buildGraph() {
     await sleep(1000);
     
     for (const track of tracks) {
-      const trackId = buildTrackNode(db, track);
+      const trackId = buildTrackNode(db, track, albumId);
       linkAlbumToTrack(db, albumId, trackId);
 
-      // This now handles sample nodes, their albums, and their artists
-      await expandTrackSamples(
-        db,
-        trackId,
-        track.recordingId,
-        0,
-        LIMITS.sampleDepth,
-        getSamplesFromRecording,
-        getRecordingContext,
-        visitedSamples
-      );
+      await expandTrackSamples({
+        graphDatabase: db,
+        parentTrackId: trackId,
+        recordingId: track.recordingId,
+        depth: 0,
+        maxDepth: LIMITS.sampleDepth,
+        visitedRecordings: visitedRecordings
+      });
     }
   }
 
-  writeGraph(db.getGraph());
+  const graph = db.getGraph();
+
+  console.log(
+    `Nodes: ${graph.nodes.length}`
+  );
+
+  console.log(
+    `Links: ${graph.links.length}`
+  );
+
+  writeGraph(graph);
   console.log("Graph written successfully!");
 }
 

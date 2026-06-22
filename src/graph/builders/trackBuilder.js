@@ -1,4 +1,12 @@
-function buildTrackNode(graphDatabase, track) {
+function buildTrackNode(graphDatabase, track, albumId) {
+  
+  const existingTrackId = graphDatabase.getTrackIdByTitle(albumId, track.title);
+  
+  if (existingTrackId)
+  {
+    return existingTrackId;
+  }
+
   const trackId = `track:${track.recordingId}`;
 
   graphDatabase.addNode({
@@ -7,6 +15,8 @@ function buildTrackNode(graphDatabase, track) {
     name: track.title,
     mbid: track.recordingId
   });
+
+  graphDatabase.registerTrackTitle(albumId, track.title, trackId);
 
   return trackId;
 }

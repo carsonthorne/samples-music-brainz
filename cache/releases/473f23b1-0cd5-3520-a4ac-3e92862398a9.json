@@ -1,41 +1,41 @@
 {
-  "id": "351d7a0f-deb0-4c09-93f1-20ecdbab5b3c",
-  "disambiguation": "2 Disc Release: 1xCD & 1xDVD",
-  "country": "GB",
-  "barcode": "0828765434829",
-  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-  "text-representation": {
-    "script": "Latn",
-    "language": "eng"
-  },
-  "date": "2003-07-14",
-  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
   "status": "Official",
+  "quality": "normal",
+  "cover-art-archive": {
+    "back": true,
+    "darkened": false,
+    "front": true,
+    "count": 3,
+    "artwork": true
+  },
+  "title": "Hits, Rarities & Remixes",
+  "asin": "B0000A4F3G",
+  "id": "351d7a0f-deb0-4c09-93f1-20ecdbab5b3c",
+  "packaging": "Jewel Case",
+  "country": "GB",
+  "disambiguation": "2 Disc Release: 1xCD & 1xDVD",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
   "release-events": [
     {
+      "date": "2003-07-14",
       "area": {
-        "name": "United Kingdom",
         "iso-3166-1-codes": [
           "GB"
         ],
-        "sort-name": "United Kingdom",
-        "disambiguation": "",
-        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
         "type-id": null,
-        "type": null
-      },
-      "date": "2003-07-14"
+        "disambiguation": "",
+        "name": "United Kingdom",
+        "type": null,
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "sort-name": "United Kingdom"
+      }
     }
   ],
-  "asin": "B0000A4F3G",
-  "packaging": "Jewel Case",
-  "quality": "normal",
-  "title": "Hits, Rarities & Remixes",
-  "cover-art-archive": {
-    "darkened": false,
-    "back": true,
-    "count": 3,
-    "artwork": true,
-    "front": true
-  }
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "barcode": "0828765434829",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "date": "2003-07-14"
 }
