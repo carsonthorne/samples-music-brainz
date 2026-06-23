@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-23T18:22:01.978Z",
+  "generatedAt": "2026-06-23T21:17:20.156Z",
   "rootArtist": "A Tribe Called Quest",
   "nodesById": {
     "artist:9689aa5a-4471-4fb4-9721-07cecda0fa9f": {
@@ -61,7 +61,7 @@
       "type": "album",
       "name": "Mr. Hood",
       "mbid": "0c6545ed-5509-3f9a-a015-b87a3ce3a33a",
-      "artwork": null
+      "artwork": "/artwork/0c6545ed-5509-3f9a-a015-b87a3ce3a33a.jpg"
     },
     "track:3276d8c1-6c4f-4d06-b283-d05d2aee71d2": {
       "id": "track:3276d8c1-6c4f-4d06-b283-d05d2aee71d2",
@@ -213,7 +213,7 @@
       "type": "album",
       "name": "Talk to the People",
       "mbid": "9496ad04-b934-31a8-8757-41e40d1c51db",
-      "artwork": null
+      "artwork": "/artwork/9496ad04-b934-31a8-8757-41e40d1c51db.jpg"
     },
     "track:038cc798-19ca-4026-a7b0-de2d4a1ab088": {
       "id": "track:038cc798-19ca-4026-a7b0-de2d4a1ab088",
@@ -434,7 +434,7 @@
       "type": "album",
       "name": "Soul Searching",
       "mbid": "e9d43a6d-37ab-3082-930e-c2c0375269c6",
-      "artwork": null
+      "artwork": "/artwork/e9d43a6d-37ab-3082-930e-c2c0375269c6.jpg"
     },
     "track:eb6764c6-0129-47c3-acc4-70659a710468": {
       "id": "track:eb6764c6-0129-47c3-acc4-70659a710468",
@@ -467,7 +467,7 @@
       "type": "album",
       "name": "Feels So Good",
       "mbid": "ff7a2376-f3a0-35e7-bb7c-35005823a486",
-      "artwork": null
+      "artwork": "/artwork/ff7a2376-f3a0-35e7-bb7c-35005823a486.jpg"
     },
     "track:53259175-2714-4c53-92a8-cd5afb1a0731": {
       "id": "track:53259175-2714-4c53-92a8-cd5afb1a0731",
@@ -644,7 +644,7 @@
       "type": "album",
       "name": "Ecstasy",
       "mbid": "6bab3432-7475-36a6-bc11-d8d181dd6dd9",
-      "artwork": null
+      "artwork": "/artwork/6bab3432-7475-36a6-bc11-d8d181dd6dd9.jpg"
     },
     "track:37f7d587-ba71-4500-90bb-92e4f223f082": {
       "id": "track:37f7d587-ba71-4500-90bb-92e4f223f082",
@@ -684,7 +684,7 @@
       "type": "album",
       "name": "Axis: Bold as Love",
       "mbid": "d0b1e21e-cef6-4575-8d92-1afea1894ca3",
-      "artwork": null
+      "artwork": "/artwork/d0b1e21e-cef6-4575-8d92-1afea1894ca3.jpg"
     },
     "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f": {
       "id": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
@@ -841,7 +841,7 @@
       "type": "album",
       "name": "Stand!",
       "mbid": "86871123-60e4-30a5-aae3-36e810e0964b",
-      "artwork": null
+      "artwork": "/artwork/86871123-60e4-30a5-aae3-36e810e0964b.jpg"
     },
     "track:8c8c48e7-80d4-4c45-a0c9-31edaf20a822": {
       "id": "track:8c8c48e7-80d4-4c45-a0c9-31edaf20a822",
@@ -991,7 +991,7 @@
       "type": "album",
       "name": "Whatnauts on the Rocks",
       "mbid": "e0fd2fe2-8a9a-4843-87da-3f92945cfd49",
-      "artwork": null
+      "artwork": "/artwork/e0fd2fe2-8a9a-4843-87da-3f92945cfd49.jpg"
     },
     "track:f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee": {
       "id": "track:f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee",
@@ -1395,7 +1395,7 @@
       "type": "album",
       "name": "Abstract Revelations",
       "mbid": "4e66d853-5df5-45a7-a40f-a17a69bd46cf",
-      "artwork": null
+      "artwork": "/artwork/4e66d853-5df5-45a7-a40f-a17a69bd46cf.jpg"
     },
     "track:3cecaa3c-d889-4797-b79b-9e383d467cc0": {
       "id": "track:3cecaa3c-d889-4797-b79b-9e383d467cc0",
@@ -4277,7 +4277,7 @@
       "type": "album",
       "name": "Mr. Hood",
       "mbid": "0c6545ed-5509-3f9a-a015-b87a3ce3a33a",
-      "artwork": null
+      "artwork": "/artwork/0c6545ed-5509-3f9a-a015-b87a3ce3a33a.jpg"
     },
     {
       "id": "track:3276d8c1-6c4f-4d06-b283-d05d2aee71d2",
@@ -4429,7 +4429,7 @@
       "type": "album",
       "name": "Talk to the People",
       "mbid": "9496ad04-b934-31a8-8757-41e40d1c51db",
-      "artwork": null
+      "artwork": "/artwork/9496ad04-b934-31a8-8757-41e40d1c51db.jpg"
     },
     {
       "id": "track:038cc798-19ca-4026-a7b0-de2d4a1ab088",
@@ -4650,7 +4650,7 @@
       "type": "album",
       "name": "Soul Searching",
       "mbid": "e9d43a6d-37ab-3082-930e-c2c0375269c6",
-      "artwork": null
+      "artwork": "/artwork/e9d43a6d-37ab-3082-930e-c2c0375269c6.jpg"
     },
     {
       "id": "track:eb6764c6-0129-47c3-acc4-70659a710468",
@@ -4683,7 +4683,7 @@
       "type": "album",
       "name": "Feels So Good",
       "mbid": "ff7a2376-f3a0-35e7-bb7c-35005823a486",
-      "artwork": null
+      "artwork": "/artwork/ff7a2376-f3a0-35e7-bb7c-35005823a486.jpg"
     },
     {
       "id": "track:53259175-2714-4c53-92a8-cd5afb1a0731",
@@ -4860,7 +4860,7 @@
       "type": "album",
       "name": "Ecstasy",
       "mbid": "6bab3432-7475-36a6-bc11-d8d181dd6dd9",
-      "artwork": null
+      "artwork": "/artwork/6bab3432-7475-36a6-bc11-d8d181dd6dd9.jpg"
     },
     {
       "id": "track:37f7d587-ba71-4500-90bb-92e4f223f082",
@@ -4900,7 +4900,7 @@
       "type": "album",
       "name": "Axis: Bold as Love",
       "mbid": "d0b1e21e-cef6-4575-8d92-1afea1894ca3",
-      "artwork": null
+      "artwork": "/artwork/d0b1e21e-cef6-4575-8d92-1afea1894ca3.jpg"
     },
     {
       "id": "track:dea63c52-2a1e-4bbf-a51a-08c98bfdb38f",
@@ -5057,7 +5057,7 @@
       "type": "album",
       "name": "Stand!",
       "mbid": "86871123-60e4-30a5-aae3-36e810e0964b",
-      "artwork": null
+      "artwork": "/artwork/86871123-60e4-30a5-aae3-36e810e0964b.jpg"
     },
     {
       "id": "track:8c8c48e7-80d4-4c45-a0c9-31edaf20a822",
@@ -5207,7 +5207,7 @@
       "type": "album",
       "name": "Whatnauts on the Rocks",
       "mbid": "e0fd2fe2-8a9a-4843-87da-3f92945cfd49",
-      "artwork": null
+      "artwork": "/artwork/e0fd2fe2-8a9a-4843-87da-3f92945cfd49.jpg"
     },
     {
       "id": "track:f15ecbf4-9ef7-470a-a42a-c06ff8e3a2ee",
@@ -5611,7 +5611,7 @@
       "type": "album",
       "name": "Abstract Revelations",
       "mbid": "4e66d853-5df5-45a7-a40f-a17a69bd46cf",
-      "artwork": null
+      "artwork": "/artwork/4e66d853-5df5-45a7-a40f-a17a69bd46cf.jpg"
     },
     {
       "id": "track:3cecaa3c-d889-4797-b79b-9e383d467cc0",
