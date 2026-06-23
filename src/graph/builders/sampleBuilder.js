@@ -82,7 +82,7 @@ async function expandTrackSamples({
         name: context.artistName
       });
 
-      const sampleAlbumNodeId = buildAlbumNode(graphDatabase, {
+      const sampleAlbumNodeId = await buildAlbumNode(graphDatabase, {
         id: context.releaseId,
         title: context.releaseTitle
       });

@@ -35,7 +35,7 @@ async function buildGraph() {
 
   for (const album of albums.slice(0, LIMITS.albumsPerArtist))
   {
-    const albumId = buildAlbumNode(db, album);
+    const albumId = await buildAlbumNode(db, album);
     linkArtistToAlbum(db, artistId, albumId);
 
     const release = await getReleaseFromGroup(album.id);
