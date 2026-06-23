@@ -1,41 +1,41 @@
 {
-  "quality": "normal",
-  "id": "2bde1e49-f629-4aef-a034-e7ee9ddcb214",
-  "asin": null,
-  "disambiguation": "",
-  "date": "2012",
-  "barcode": null,
-  "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
-  "status": "Bootleg",
   "packaging": null,
+  "status": "Bootleg",
   "title": "Abstract Revelations",
-  "text-representation": {
-    "script": "Latn",
-    "language": "eng"
-  },
   "country": "XW",
-  "cover-art-archive": {
-    "back": false,
-    "artwork": true,
-    "front": true,
-    "count": 1,
-    "darkened": false
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
   },
   "packaging-id": null,
+  "cover-art-archive": {
+    "darkened": false,
+    "count": 1,
+    "front": true,
+    "artwork": true,
+    "back": false
+  },
   "release-events": [
     {
       "area": {
+        "type": null,
+        "name": "[Worldwide]",
         "iso-3166-1-codes": [
           "XW"
         ],
         "disambiguation": "",
-        "type": null,
-        "name": "[Worldwide]",
         "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-        "sort-name": "[Worldwide]",
-        "type-id": null
+        "type-id": null,
+        "sort-name": "[Worldwide]"
       },
       "date": "2012"
     }
-  ]
+  ],
+  "id": "2bde1e49-f629-4aef-a034-e7ee9ddcb214",
+  "quality": "normal",
+  "disambiguation": "",
+  "asin": null,
+  "date": "2012",
+  "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+  "barcode": null
 }

@@ -1,41 +1,41 @@
 {
+  "status": "Official",
+  "quality": "normal",
+  "disambiguation": "",
+  "id": "0d03d65f-69d2-4bc0-bd98-cfd94449c06a",
+  "barcode": "012414133113",
   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
-  "cover-art-archive": {
-    "back": false,
-    "darkened": false,
-    "count": 1,
-    "artwork": true,
-    "front": true
-  },
   "packaging": "Cardboard/Paper Sleeve",
   "title": "People’s Instinctive Travels and the Paths of Rhythm",
-  "id": "0d03d65f-69d2-4bc0-bd98-cfd94449c06a",
-  "status": "Official",
+  "asin": null,
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+  "date": "1990-04-17",
+  "country": "US",
   "release-events": [
     {
       "date": "1990-04-17",
       "area": {
-        "disambiguation": "",
-        "name": "United States",
-        "sort-name": "United States",
         "iso-3166-1-codes": [
           "US"
         ],
+        "disambiguation": "",
+        "sort-name": "United States",
         "type-id": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
         "type": null,
-        "id": "489ce91b-6658-3307-9877-795b68554c98"
+        "name": "United States"
       }
     }
   ],
-  "text-representation": {
-    "language": "eng",
-    "script": "Latn"
-  },
-  "quality": "normal",
-  "barcode": "012414133113",
-  "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
-  "disambiguation": "",
-  "country": "US",
-  "date": "1990-04-17",
-  "asin": null
+  "cover-art-archive": {
+    "count": 1,
+    "artwork": true,
+    "back": false,
+    "darkened": false,
+    "front": true
+  }
 }

@@ -1,4 +1,6 @@
-function buildArtistNode(
+const downloadArtistAvatar = require("../../utils/downloadArtistAvatar");
+
+async function buildArtistNode(
   graphDatabase,
   artist
 )
@@ -6,11 +8,14 @@ function buildArtistNode(
   const artistId =
     `artist:${artist.id}`;
 
+  const localAvatar = await downloadArtistAvatar(artist.id);
+
   graphDatabase.addNode({
     id: artistId,
     type: "artist",
     name: artist.name,
-    mbid: artist.id
+    mbid: artist.id,
+    avatar: localAvatar
   });
 
   return artistId;

@@ -14,7 +14,7 @@ const GraphDatabase = require("./graphDatabase");
 
 const LIMITS = {
   albumsPerArtist: 5,
-  sampleDepth: 2
+  sampleDepth: 1
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -26,7 +26,7 @@ async function buildGraph() {
 
   // Store Root Artist
   const artist = await searchArtist("a tribe called quest"); 
-  const artistId = buildArtistNode(db, artist);
+  const artistId = await buildArtistNode(db, artist);
   await sleep(1000);
 
   // Store albums

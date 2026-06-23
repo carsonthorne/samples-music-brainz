@@ -77,7 +77,7 @@ async function expandTrackSamples({
 
     // Establish Upstream Context Relational Trees
     if (context && context.releaseId && context.artistId) {
-      const sampleArtistId = buildArtistNode(graphDatabase, {
+      const sampleArtistId = await buildArtistNode(graphDatabase, {
         id: context.artistId,
         name: context.artistName
       });
