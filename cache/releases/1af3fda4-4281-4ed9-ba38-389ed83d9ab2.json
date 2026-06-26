@@ -1,0 +1,41 @@
+{
+  "date": "2019-06-11",
+  "title": "MINIDISCS [HACKED]",
+  "id": "0c282baf-5d74-4485-aa4e-cc8d65ae5713",
+  "disambiguation": "",
+  "release-events": [
+    {
+      "area": {
+        "sort-name": "[Worldwide]",
+        "iso-3166-1-codes": [
+          "XW"
+        ],
+        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+        "disambiguation": "",
+        "type": null,
+        "name": "[Worldwide]",
+        "type-id": null
+      },
+      "date": "2019-06-11"
+    }
+  ],
+  "status": "Bootleg",
+  "asin": null,
+  "packaging": null,
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "barcode": null,
+  "quality": "normal",
+  "country": "XW",
+  "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+  "cover-art-archive": {
+    "count": 1,
+    "back": false,
+    "darkened": false,
+    "front": true,
+    "artwork": true
+  },
+  "packaging-id": null
+}

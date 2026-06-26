@@ -1,13 +1,8 @@
-function buildTrackNode(graphDatabase, track, albumId) {
-  
-  const existingTrackId = graphDatabase.getTrackIdByTitle(albumId, track.title);
-  
-  if (existingTrackId)
-  {
-    return existingTrackId;
-  }
+const { recordingId } = require("../schema");
 
-  const trackId = `track:${track.recordingId}`;
+function buildTrackNode(graphDatabase, track, albumId) {
+
+  const trackId = recordingId(track.recordingId);
 
   graphDatabase.addNode({
     id: trackId,
@@ -16,13 +11,11 @@ function buildTrackNode(graphDatabase, track, albumId) {
     mbid: track.recordingId
   });
 
-  graphDatabase.registerTrackTitle(albumId, track.title, trackId);
-
   return trackId;
 }
 
 function linkAlbumToTrack(graphDatabase, albumId, trackId) {
-  graphDatabase.addLink(albumId, trackId, "HAS_TRACK");
+  graphDatabase.addLink(albumId, trackId, "CONTAINS");
 }
 
 module.exports = {

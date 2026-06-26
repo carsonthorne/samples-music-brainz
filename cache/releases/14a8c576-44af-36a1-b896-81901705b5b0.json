@@ -1,0 +1,41 @@
+{
+  "title": "Selmasongs",
+  "cover-art-archive": {
+    "count": 3,
+    "back": true,
+    "darkened": false,
+    "front": true,
+    "artwork": true
+  },
+  "packaging": null,
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "status": "Official",
+  "id": "00a6b580-afc6-372b-94f2-a4b46a1cf6ae",
+  "disambiguation": "",
+  "country": "JP",
+  "release-events": [
+    {
+      "area": {
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "type": null,
+        "type-id": null,
+        "iso-3166-1-codes": [
+          "JP"
+        ],
+        "sort-name": "Japan",
+        "name": "Japan",
+        "disambiguation": ""
+      },
+      "date": "2000-08-30"
+    }
+  ],
+  "packaging-id": null,
+  "barcode": "4988005251602",
+  "quality": "normal",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "date": "2000-08-30",
+  "asin": null
+}

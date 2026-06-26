@@ -1,0 +1,252 @@
+{
+  "id": "561d854a-6a28-4aa7-8c99-323e6ce46c2a",
+  "type": "Person",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "score": 100,
+  "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+  "name": "Miles Davis",
+  "sort-name": "Davis, Miles",
+  "gender": "male",
+  "country": "US",
+  "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+      "ended": null
+    }
+  },
+  "begin-area": {
+    "id": "39e1719e-2604-4b59-b698-dab7caf85b33",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Alton",
+    "sort-name": "Alton",
+    "life-span": {
+      "ended": null
+    }
+  },
+  "end-area": {
+    "id": "dbacf2e3-7e3e-4cee-8804-999b109285fa",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Santa Monica",
+    "sort-name": "Santa Monica",
+    "life-span": {
+      "ended": null
+    }
+  },
+  "disambiguation": "jazz trumpeter, bandleader, songwriter",
+  "ipis": [
+    "00007619785"
+  ],
+  "isnis": [
+    "000000012144707X"
+  ],
+  "life-span": {
+    "begin": "1926-05-26",
+    "end": "1991-09-28",
+    "ended": true
+  },
+  "aliases": [
+    {
+      "sort-name": "Miles Dewey Davis III",
+      "name": "Miles Dewey Davis III",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Davis, Miles",
+      "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+      "name": "Miles Davis",
+      "locale": "en",
+      "type": "Artist name",
+      "primary": true,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Davis",
+      "name": "Davis",
+      "locale": "en",
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Дейвис, Майлз",
+      "name": "Майлз Дейвис",
+      "locale": "bg",
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Miles Davies",
+      "name": "Miles Davies",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Favis, Miles",
+      "name": "Miles Favis",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    }
+  ],
+  "tags": [
+    {
+      "count": 1,
+      "name": "rock"
+    },
+    {
+      "count": 1,
+      "name": "classical"
+    },
+    {
+      "count": 26,
+      "name": "jazz"
+    },
+    {
+      "count": -1,
+      "name": "american"
+    },
+    {
+      "count": 1,
+      "name": "funk"
+    },
+    {
+      "count": -1,
+      "name": "fusion"
+    },
+    {
+      "count": 0,
+      "name": "trumpet"
+    },
+    {
+      "count": 0,
+      "name": "jazz rock"
+    },
+    {
+      "count": 12,
+      "name": "jazz fusion"
+    },
+    {
+      "count": 4,
+      "name": "post-bop"
+    },
+    {
+      "count": 6,
+      "name": "hard bop"
+    },
+    {
+      "count": 10,
+      "name": "modal jazz"
+    },
+    {
+      "count": 2,
+      "name": "bebop"
+    },
+    {
+      "count": 1,
+      "name": "jazz-funk"
+    },
+    {
+      "count": 9,
+      "name": "cool jazz"
+    },
+    {
+      "count": 0,
+      "name": "jazz-rock"
+    },
+    {
+      "count": -2,
+      "name": "musical"
+    },
+    {
+      "count": 0,
+      "name": "trumpeter"
+    },
+    {
+      "count": 0,
+      "name": "composers"
+    },
+    {
+      "count": -1,
+      "name": "jazz and blues"
+    },
+    {
+      "count": -1,
+      "name": "miles davis"
+    },
+    {
+      "count": -2,
+      "name": "george gershwin"
+    },
+    {
+      "count": 0,
+      "name": "acting"
+    },
+    {
+      "count": 0,
+      "name": "instrumental jazz"
+    },
+    {
+      "count": 0,
+      "name": "jazz musicians"
+    },
+    {
+      "count": 0,
+      "name": "third stream"
+    },
+    {
+      "count": 0,
+      "name": "composition"
+    },
+    {
+      "count": -2,
+      "name": "death by stroke"
+    },
+    {
+      "count": -2,
+      "name": "death by pneumonia"
+    },
+    {
+      "count": -1,
+      "name": "midnight"
+    },
+    {
+      "count": 0,
+      "name": "modal music"
+    },
+    {
+      "count": 0,
+      "name": "the best of"
+    },
+    {
+      "count": -1,
+      "name": "3356571013121"
+    },
+    {
+      "count": -1,
+      "name": "had feet"
+    },
+    {
+      "count": 0,
+      "name": "trumpeters"
+    }
+  ]
+}

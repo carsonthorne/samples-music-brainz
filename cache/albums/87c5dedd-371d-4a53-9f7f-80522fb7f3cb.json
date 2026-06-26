@@ -1,0 +1,316 @@
+[
+  {
+    "primary-type": "Album",
+    "title": "Greatest Hits",
+    "disambiguation": "",
+    "id": "07d2f772-531d-3d19-920a-72337891800d",
+    "first-release-date": "2002-11-01",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "primary-type": "Album",
+    "title": "Selmasongs",
+    "disambiguation": "",
+    "secondary-types": [
+      "Soundtrack"
+    ],
+    "first-release-date": "2000-08-30",
+    "id": "14a8c576-44af-36a1-b896-81901705b5b0",
+    "secondary-type-ids": [
+      "22a628ad-c082-3c4f-b1b6-d41665107b88"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "disambiguation": "",
+    "title": "Apple Music Live: NYE 2025",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+      "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [
+      "Compilation",
+      "Live",
+      "DJ-mix"
+    ],
+    "first-release-date": "2024-12-31",
+    "id": "247da9d3-02cf-4805-b26e-fbfb5a22dd76"
+  },
+  {
+    "primary-type": "Album",
+    "disambiguation": "",
+    "title": "Vespertine",
+    "id": "271faeb3-fdd1-3ebb-80aa-97b3116e9341",
+    "first-release-date": "2001-08-18",
+    "secondary-types": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  },
+  {
+    "primary-type": "Album",
+    "disambiguation": "",
+    "title": "Volumen",
+    "id": "2fd44412-8e17-36fa-afe8-5abcc9c8ef97",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "1998-11",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "primary-type": "Album",
+    "title": "Army of Me – Remixes and Covers",
+    "disambiguation": "",
+    "id": "37f548cf-5f0c-4784-aeae-cb7ad7507406",
+    "first-release-date": "2005-05-02",
+    "secondary-types": [
+      "Compilation",
+      "Remix"
+    ],
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "0c60f497-ff81-3818-befd-abfc84a4858b"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "title": "Family Tree",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "first-release-date": "2002-04-11",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "id": "48c15e79-797e-331a-b6f7-64d015b101a3"
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "first-release-date": "2004-08-25",
+    "id": "4b2ee53c-6527-30e5-940c-c426a7a6f618",
+    "title": "Medúlla",
+    "disambiguation": "",
+    "primary-type": "Album"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "id": "4c7c14bc-c591-3f07-af65-4507ef899127",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "2003-06-10",
+    "disambiguation": "",
+    "title": "Greatest Hits: Volumen 1993–2003",
+    "primary-type": "Album"
+  },
+  {
+    "primary-type": "Album",
+    "title": "Voltaïc",
+    "disambiguation": "",
+    "first-release-date": "2009-04-21",
+    "secondary-types": [
+      "Compilation",
+      "Live"
+    ],
+    "id": "5019707a-d9fd-304e-a3f0-64091ac2e112",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ]
+  },
+  {
+    "primary-type": "Album",
+    "disambiguation": "",
+    "title": "Biophilia",
+    "id": "61db2db8-1775-4663-9dff-d5ec2139dbea",
+    "first-release-date": "2011-10-05",
+    "secondary-types": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  },
+  {
+    "title": "Debut",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1993-07-12",
+    "secondary-types": [],
+    "id": "6891a28c-5865-36e2-9e5f-c9fac1d3595f"
+  },
+  {
+    "primary-type": "Album",
+    "title": "Vulnicura",
+    "disambiguation": "",
+    "id": "73efadfc-07db-42bd-81ab-7a35a2601990",
+    "first-release-date": "2015-01-20",
+    "secondary-types": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  },
+  {
+    "first-release-date": "2005-07-25",
+    "secondary-types": [
+      "Soundtrack"
+    ],
+    "id": "74cb57f7-b5f9-3464-aa12-914a4d306598",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "22a628ad-c082-3c4f-b1b6-d41665107b88"
+    ],
+    "primary-type": "Album",
+    "title": "Drawing Restraint 9",
+    "disambiguation": ""
+  },
+  {
+    "disambiguation": "",
+    "title": "Gling‐Gló",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "1990-10",
+    "id": "7b0e60ce-ad06-3578-ad5e-5d5ca4353379"
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "first-release-date": "1997-09-20",
+    "id": "810272e0-aef1-3d85-b2d3-e512e87fc38c",
+    "title": "Homogenic",
+    "disambiguation": "",
+    "primary-type": "Album"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "2009",
+    "id": "988fa5ad-3d93-4d86-b355-6a520cca9824",
+    "disambiguation": "",
+    "title": "Debut / Post",
+    "primary-type": "Album"
+  },
+  {
+    "first-release-date": "2001-11",
+    "secondary-types": [
+      "Compilation",
+      "Live"
+    ],
+    "id": "adb4a492-6f8d-3e43-8de1-22f86f277ba0",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "title": "MTV Unplugged & Live"
+  },
+  {
+    "disambiguation": "",
+    "title": "Fossora",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "first-release-date": "2022-09-30",
+    "secondary-types": [],
+    "id": "b1977359-d45c-4e49-8ae7-1dbbb37f0811"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "id": "b2a6e057-087d-3ae5-a6e5-7f5fa39808ff",
+    "secondary-types": [],
+    "first-release-date": "1995-06-09",
+    "disambiguation": "",
+    "title": "Post",
+    "primary-type": "Album"
+  },
+  {
+    "primary-type": "Album",
+    "title": "(____surrounded):",
+    "disambiguation": "",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "2006-07-10",
+    "id": "ba2a96b6-51e8-33b5-98c1-e8b38ba852bd",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "first-release-date": "2003-08-26",
+    "secondary-types": [
+      "Compilation",
+      "Live"
+    ],
+    "id": "bb35b015-71be-4411-b4d6-3a6cac340dd8",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ],
+    "primary-type": "Album",
+    "disambiguation": "",
+    "title": "Livebox"
+  },
+  {
+    "secondary-types": [],
+    "first-release-date": "2017-11-24",
+    "id": "c137e1f0-00bf-4bee-8d69-631664b52d1f",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "title": "Utopia",
+    "disambiguation": ""
+  },
+  {
+    "id": "dd749dc7-dd75-35e7-86fe-3c1db24483c0",
+    "secondary-types": [],
+    "first-release-date": "2007-04-23",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "title": "Volta",
+    "disambiguation": ""
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1977-12-18",
+    "secondary-types": [],
+    "id": "e7190579-8711-3422-af2f-16337139ed67",
+    "disambiguation": "",
+    "title": "Björk",
+    "primary-type": "Album"
+  }
+]

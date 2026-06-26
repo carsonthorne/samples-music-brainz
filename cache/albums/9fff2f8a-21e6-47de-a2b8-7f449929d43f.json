@@ -1,0 +1,302 @@
+[
+  {
+    "disambiguation": "",
+    "title": "Nothing Was the Same",
+    "secondary-types": [],
+    "id": "0b6c2da8-ac60-4663-beae-bd3dc6dea94a",
+    "first-release-date": "2013-09-19",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "title": "No More Thank Yous",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "id": "13603534-2596-44fd-804f-68f6689f9fe3",
+    "first-release-date": "2010",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "id": "26d2e1f2-a76e-46ff-a2b5-b4200ac883d5",
+    "first-release-date": "2022-06-17",
+    "title": "Honestly, Nevermind",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "title": "So Far Gone",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "id": "29ab0cbf-ee1d-3832-b930-daddcabd8351",
+    "first-release-date": "2009-02-13",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ]
+  },
+  {
+    "first-release-date": "2026-05-15",
+    "id": "34009a25-def9-4e37-b3be-803b154902c0",
+    "secondary-types": [],
+    "title": "ICEMAN",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  },
+  {
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "first-release-date": "2010",
+    "id": "3cc7e78e-b6af-42fa-9c79-17279d6c2991",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "title": "Young & Successful",
+    "disambiguation": ""
+  },
+  {
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "title": "6 God",
+    "first-release-date": "2014-11-22",
+    "id": "4390ef65-e9e5-4d81-bd2b-4c14211fca27"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "id": "47809021-4515-4215-beea-db3f5dfb6267",
+    "first-release-date": "2011-11-14",
+    "title": "Take Care",
+    "secondary-types": [],
+    "disambiguation": ""
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "id": "4aaaa715-df17-43b8-987e-04b54ec4a697",
+    "first-release-date": "2016-04-29",
+    "title": "Views",
+    "secondary-types": []
+  },
+  {
+    "disambiguation": "",
+    "first-release-date": "2018-11-06",
+    "id": "502fa40b-c6e4-4881-b1d1-562c31868b21",
+    "secondary-types": [
+      "Remix"
+    ],
+    "title": "LOFI PAPI",
+    "secondary-type-ids": [
+      "0c60f497-ff81-3818-befd-abfc84a4858b"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "disambiguation": "",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "title": "Heartbreak Drake",
+    "first-release-date": "2008-06-12",
+    "id": "55362bb1-468e-3da8-8ae9-b3d30fff670d",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "title": "Certified Lover Boy",
+    "secondary-types": [],
+    "id": "5c2e6a17-dc0b-42bc-8fcb-a60770505e37",
+    "first-release-date": "2021-09-03"
+  },
+  {
+    "title": "If You’re Reading This It’s Too Late",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "id": "68d79778-aceb-486c-88a7-0abb3665344b",
+    "first-release-date": "2015-02-12",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "id": "722c008a-5f1f-35da-9943-5013de20cde7",
+    "first-release-date": "2006-02-14",
+    "title": "Room for Improvement",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "first-release-date": "2025-02-14",
+    "id": "786a089a-9266-4fd3-984a-1df9e0ca34b4",
+    "secondary-types": [],
+    "title": "$ome $exy $ongs 4 U",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "title": "Thank Me Later",
+    "secondary-types": [],
+    "id": "7c0efd43-6023-400d-8d5c-d808b1cb4094",
+    "first-release-date": "2010-06-14",
+    "disambiguation": ""
+  },
+  {
+    "disambiguation": "",
+    "secondary-types": [],
+    "title": "Her Loss",
+    "first-release-date": "2022-11-04",
+    "id": "81463cd8-2608-41d7-9112-acf9981dd054",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "title": "Scorpion",
+    "secondary-types": [],
+    "id": "857db798-5c31-4d5f-991a-6667f41d8899",
+    "first-release-date": "2018-06-29"
+  },
+  {
+    "title": "For All the Dogs",
+    "secondary-types": [],
+    "id": "a1552752-3b43-43b7-aeef-1f282360c993",
+    "first-release-date": "2023-10-06",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": []
+  },
+  {
+    "title": "Thank Us Later: The Remix Album",
+    "secondary-types": [
+      "Remix",
+      "Mixtape/Street"
+    ],
+    "id": "a5da9d1a-c3dc-4787-a218-622f14981b72",
+    "first-release-date": "2010-06-16",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "0c60f497-ff81-3818-befd-abfc84a4858b",
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "id": "b39d5a7e-bf6d-4d6c-b49c-a2c50a21bece",
+    "first-release-date": "2015-07-15",
+    "title": "Lost Tracks",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "title": "Comeback Season",
+    "first-release-date": "2007-09-01",
+    "id": "b6ad170e-9c99-437c-b044-55277d5398c6",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "title": "HABIBTI",
+    "secondary-types": [],
+    "id": "b91cbc13-7db2-405b-bc1d-e4757edb4ce0",
+    "first-release-date": "2026-05-15",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "title": "MAID OF HONOUR",
+    "secondary-types": [],
+    "id": "c02eb43f-7ad8-49dc-b96b-980a51de04b2",
+    "first-release-date": "2026-05-15"
+  },
+  {
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "Care Package",
+    "first-release-date": "2019-08-02",
+    "id": "c605675f-3373-475c-920c-1b78a331dceb",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  }
+]

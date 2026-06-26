@@ -1,0 +1,41 @@
+{
+  "date": "1995-05-17",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "barcode": "4988006924604",
+  "id": "0fc28dd4-bf56-4bb3-9690-1f9534b72df0",
+  "quality": "normal",
+  "disambiguation": "",
+  "asin": null,
+  "packaging-id": "815b7785-8284-3926-8f04-e48bc6c4d102",
+  "cover-art-archive": {
+    "darkened": false,
+    "count": 0,
+    "artwork": false,
+    "front": false,
+    "back": false
+  },
+  "release-events": [
+    {
+      "date": "1995-05-17",
+      "area": {
+        "sort-name": "Japan",
+        "type-id": null,
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "disambiguation": "",
+        "iso-3166-1-codes": [
+          "JP"
+        ],
+        "type": null,
+        "name": "Japan"
+      }
+    }
+  ],
+  "title": "27 5 94: The Astoria London Live",
+  "packaging": "Other",
+  "status": "Official",
+  "country": "JP",
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  }
+}

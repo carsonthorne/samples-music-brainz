@@ -1,0 +1,31 @@
+{
+  "barcode": "",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "packaging": "Jewel Case",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "cover-art-archive": {
+    "artwork": true,
+    "darkened": false,
+    "back": true,
+    "front": true,
+    "count": 3
+  },
+  "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+  "country": null,
+  "quality": "normal",
+  "id": "a736b2e5-8fb0-438d-af91-0e6ad8509852",
+  "disambiguation": "",
+  "release-events": [
+    {
+      "date": "2017",
+      "area": null
+    }
+  ],
+  "title": "Revolution Music",
+  "date": "2017",
+  "asin": null,
+  "status": "Bootleg"
+}

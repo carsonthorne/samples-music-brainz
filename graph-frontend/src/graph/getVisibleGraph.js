@@ -12,7 +12,12 @@ export function getVisibleGraph(state)
     visitedNodes.add(nodeId);
 
     const node = state.graph.nodesById[nodeId];
-    if (!node) return;
+    if (!node) {
+      console.warn("Missing node in nodesById:", nodeId);
+      return;
+    }
+
+    if (visibleNodes.length > 5000) return;
 
     visibleNodes.push(node);
 
@@ -41,13 +46,39 @@ export function getVisibleGraph(state)
       traverse(edge.target);
     }
 
+    // 2. SAMPLE EDGES (OVERLAY GRAPH)
+    const sampleNeighbors =
+    state.sampleIndex?.[nodeId] || [];
+    
+    console.log("sample neighbors", sampleNeighbors); // always empty
+    
+    for (const target of sampleNeighbors) {
+    
+      const targetNode = state.graph.nodesById[target];
+    
+      if (!targetNode) continue;
+    
+      const linkKey = `${nodeId}|${target}|SAMPLES`;
+    
+      if (!visitedLinks.has(linkKey)) {
+        visitedLinks.add(linkKey);
+    
+        visibleLinks.push({
+          source: nodeId,
+          target,
+          type: "SAMPLES"
+        });
+      }
+    }
+
     // CRAWL BACKWARD (Upstream: Sample Track -> Sample Album -> Sample Artist)
     const backwardNeighbors =
-      state.graph.reverseAdjacency[nodeId] || [];
+      state.graph.reverseAdjacency?.[nodeId] || [];
 
     for (const edge of backwardNeighbors)
     {
-      const linkKey = `${edge.source}|${nodeId}|${edge.type}`;
+    
+      const linkKey = `${edge.source ?? nodeId}|${edge.target ?? nodeId}|${edge.type}`;
 
       if (!visitedLinks.has(linkKey))
       {

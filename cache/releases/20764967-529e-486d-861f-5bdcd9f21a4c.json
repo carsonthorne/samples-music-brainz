@@ -1,0 +1,31 @@
+{
+  "asin": null,
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "title": "Supervillain Unmasked",
+  "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+  "barcode": null,
+  "packaging": null,
+  "cover-art-archive": {
+    "front": false,
+    "darkened": false,
+    "back": false,
+    "artwork": false,
+    "count": 0
+  },
+  "release-events": [
+    {
+      "area": null,
+      "date": "2003"
+    }
+  ],
+  "country": null,
+  "packaging-id": null,
+  "date": "2003",
+  "quality": "normal",
+  "disambiguation": "",
+  "status": "Bootleg",
+  "id": "46ae30d5-9acd-4d1e-8626-fa9146412319"
+}

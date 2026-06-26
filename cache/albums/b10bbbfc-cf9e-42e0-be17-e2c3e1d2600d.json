@@ -1,0 +1,280 @@
+[
+  {
+    "secondary-type-ids": [],
+    "disambiguation": "The White Album",
+    "id": "055be730-dcad-31bf-b550-45ba9c202aa3",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "The Beatles",
+    "first-release-date": "1968-11-22",
+    "secondary-types": []
+  },
+  {
+    "primary-type": "Album",
+    "id": "0a4d1024-3463-3c74-8500-ea011bd5d523",
+    "disambiguation": "",
+    "secondary-type-ids": [],
+    "first-release-date": "1966-06-14",
+    "secondary-types": [],
+    "title": "Yesterday and Today",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Beatles ’65",
+    "secondary-types": [],
+    "first-release-date": "1964-12-15",
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "id": "2d111aea-50f8-33cc-ab63-780bc57068c0",
+    "primary-type": "Album"
+  },
+  {
+    "title": "Twist and Shout",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "first-release-date": "1964-02-03",
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "primary-type": "Album",
+    "id": "31770e0a-e537-376d-a7c0-48e507f3105e"
+  },
+  {
+    "title": "The Beatles’ Second Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1964-04-10",
+    "secondary-types": [],
+    "primary-type": "Album",
+    "id": "387bc6cc-ac60-365f-819b-fbc78c486065",
+    "secondary-type-ids": [],
+    "disambiguation": ""
+  },
+  {
+    "title": "Beatles VI",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "first-release-date": "1965-06-14",
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "id": "3d402374-9538-3c09-8566-2850fa3fce3f",
+    "primary-type": "Album"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Something New",
+    "first-release-date": "1964-07-20",
+    "secondary-types": [],
+    "disambiguation": "",
+    "secondary-type-ids": [],
+    "id": "451e7aa4-a782-3979-9aa0-98c03a246fe9",
+    "primary-type": "Album"
+  },
+  {
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "primary-type": "Album",
+    "id": "653895d1-b592-3758-8bb1-8b9ba2bd6cb0",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Introducing… The Beatles",
+    "first-release-date": "1964-01-10",
+    "secondary-types": []
+  },
+  {
+    "primary-type": "Album",
+    "id": "6b125ade-4cd3-47b4-ba10-e7959dcdef41",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "title": "Les Beatles",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "1964-05-22"
+  },
+  {
+    "id": "72d15666-99a7-321e-b1f3-a3f8c09dff9f",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Revolver",
+    "first-release-date": "1966-08-05",
+    "secondary-types": []
+  },
+  {
+    "id": "8ee7d50d-3b1d-4d88-a918-1bafb3586191",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "1964-04",
+    "title": "The Beatles’ First!",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "title": "Abbey Road",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "first-release-date": "1969-09-26",
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "id": "9162580e-5df4-32de-80cc-f45a8d8a9b1d",
+    "primary-type": "Album"
+  },
+  {
+    "id": "9f7a4c28-8fa2-3113-929c-c47a9f7982c3",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "first-release-date": "1967-05-26",
+    "secondary-types": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Sgt. Pepper’s Lonely Hearts Club Band"
+  },
+  {
+    "primary-type": "Album",
+    "id": "a4fcc821-2715-3f06-a8eb-a8ee8a7c2772",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "disambiguation": "",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "1964-04",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "The Beatles Beat"
+  },
+  {
+    "id": "a63dc65f-09f2-359b-a10e-648f00ecd96c",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "With The Beatles",
+    "secondary-types": [],
+    "first-release-date": "1963-11-22"
+  },
+  {
+    "id": "aa3fd4f5-66a9-43f2-8448-faf402a376c8",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "first-release-date": "1964-02-03",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "The Beatles With Tony Sheridan and Guests",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "disambiguation": "",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "id": "bff544a7-56e0-3ed6-9e0f-3b676cca9111",
+    "title": "Let It Be",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1970-05-08",
+    "secondary-types": []
+  },
+  {
+    "title": "Meet The Beatles!",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1964-01-20",
+    "secondary-types": [],
+    "primary-type": "Album",
+    "id": "c2c696fc-6beb-3dfb-bb15-7bb021ebeb5d",
+    "secondary-type-ids": [],
+    "disambiguation": ""
+  },
+  {
+    "title": "The Beatles vs. The Four Seasons",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "1964-10-01",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
+    "id": "cc8754dd-e760-44ee-94d8-25f077190fc4"
+  },
+  {
+    "secondary-types": [],
+    "first-release-date": "1964-05-11",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "The Beatles’ Long Tall Sally",
+    "primary-type": "Album",
+    "id": "d0c93a59-fc4d-3d76-ac38-9c1d11071802",
+    "disambiguation": "",
+    "secondary-type-ids": []
+  },
+  {
+    "id": "dca03435-8adb-30a5-ba82-5a162267ff38",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "secondary-type-ids": [],
+    "title": "Rubber Soul",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1965-12-03",
+    "secondary-types": []
+  },
+  {
+    "disambiguation": "",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "id": "de208292-8db5-3aed-a14a-b37a84d8c521",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Please Please Me",
+    "first-release-date": "1963-03-22",
+    "secondary-types": []
+  },
+  {
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "1964-10-05",
+    "title": "Ain’t She Sweet",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "id": "e992f7ac-5a53-4984-9db9-9bc09979358d",
+    "primary-type": "Album"
+  },
+  {
+    "primary-type": "Album",
+    "id": "f50a3b6f-27f0-3832-bd3f-3568dc557d95",
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "secondary-types": [],
+    "first-release-date": "1964-12-04",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Beatles for Sale"
+  },
+  {
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "1964-02-26",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Jolly What! England’s Greatest Recording Stars: The Beatles & Frank Ifield on Stage",
+    "primary-type": "Album",
+    "id": "fd7b1c22-c073-3f06-aa1d-76718bfe578a",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  }
+]

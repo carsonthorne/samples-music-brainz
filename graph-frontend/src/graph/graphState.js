@@ -1,50 +1,46 @@
 import { getVisibleGraph } from "./getVisibleGraph";
 
-export class GraphState
-{
-  constructor(graph)
-  {
+export class GraphState {
+  constructor(graph, sampleIndex) {
     this.graph = graph;
+    this.sampleIndex = sampleIndex;
 
-    this.rootId = Object.keys(graph.nodesById)[0];
+    this.nodesById = Object.fromEntries(
+      graph.nodes.map(n => [n.id, n])
+    );
+
+    this.rootId =
+      graph.nodes.find(n => n.type === "artist")?.id
+      ?? graph.nodes[0]?.id;
 
     this.expanded = new Set();
-
-    this.focusNode = null;
-
+    this.focusNode = this.rootId;
     this.breadcrumbs = [];
+
+    this.visibleNodes = new Set([this.rootId]);
+    this.visibleLinks = new Set();
   }
 
   
-  buildPath(nodeId)
-  {
-    return this.breadcrumbs;
+  getSampleTargets(trackId) {
+      return this.sampleIndex[trackId] || [];
   }
 
 
-  getBreadcrumbs()
-  {
-    return this.breadcrumbs;
-  }
+  setFocus(nodeId) {
+    if (!nodeId) return;
 
-  
-  setFocus(nodeId)
-  {
     this.focusNode = nodeId;
 
-    // avoid duplicate consecutive entries
-    const last =
-      this.breadcrumbs[this.breadcrumbs.length - 1];
-
-    if (last === nodeId)
-      return;
-
-    this.breadcrumbs.push(nodeId);
+    const last = this.breadcrumbs[this.breadcrumbs.length - 1];
+    if (last !== nodeId) this.breadcrumbs.push(nodeId);
   }
 
+  getBreadcrumbs() {
+    return this.breadcrumbs;
+  }
 
-  toForceGraph()
-  {
+  toForceGraph() {
     return getVisibleGraph(this);
   }
 }

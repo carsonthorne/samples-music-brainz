@@ -1,14 +1,16 @@
 const downloadArtwork = require("../../utils/downloadArtwork");
+const { releaseGroupId } = require("../schema");
 
 async function buildAlbumNode(graphDatabase, album) {
-  const albumId = `album:${album.id}`;
+
+  const albumId = releaseGroupId(album.id);
 
   // Download artwork directly during backend compile execution
   const localArtworkPath = await downloadArtwork(album.id);
 
   graphDatabase.addNode({
     id: albumId,
-    type: "album",
+    type: "release_group",
     name: album.title,
     mbid: album.id,
     // Saved as a relative static path (e.g., "/artwork/abc-123.jpg") or null
@@ -19,7 +21,7 @@ async function buildAlbumNode(graphDatabase, album) {
 }
 
 function linkArtistToAlbum(graphDatabase, artistId, albumId) {
-  graphDatabase.addLink(artistId, albumId, "RELEASES_ALBUM");
+  graphDatabase.addLink(artistId, albumId, "RELEASES");
 }
 
 module.exports = {

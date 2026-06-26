@@ -1,0 +1,252 @@
+[
+  {
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "secondary-types": [],
+    "title": "Young Man With a Horn",
+    "disambiguation": "",
+    "id": "093a3235-7271-46d5-9c94-c092edf1fb25",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1952"
+  },
+  {
+    "id": "095878f4-58ac-43f4-93ae-92a1e6588d8d",
+    "disambiguation": "",
+    "title": "Modern Jazz Trumpets",
+    "first-release-date": "1951",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "secondary-types": []
+  },
+  {
+    "title": "The Compositions of Al Cohn",
+    "id": "1a5abe37-f8d5-488e-b600-8ac93f36f7c4",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1953",
+    "secondary-types": [],
+    "primary-type": "Album",
+    "secondary-type-ids": []
+  },
+  {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1954-06-29",
+    "title": "Miles Davis With Sonny Rollins",
+    "id": "231508e9-a256-4a05-b715-59e1ea242cbf",
+    "disambiguation": ""
+  },
+  {
+    "title": "Bags’ Groove",
+    "id": "25a721dc-0940-359e-8b0d-4be9d5616348",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1957",
+    "secondary-types": [],
+    "primary-type": "Album",
+    "secondary-type-ids": []
+  },
+  {
+    "title": "Miles Davis, Vol. 2",
+    "id": "29393845-34a2-40a6-9c8c-6647c83e9c1d",
+    "disambiguation": "BLP 5022",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1953",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "secondary-types": []
+  },
+  {
+    "id": "2978c580-9123-3ca5-bf60-6a6e45ad2c4a",
+    "disambiguation": "",
+    "title": "Blue Haze",
+    "first-release-date": "1956",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": []
+  },
+  {
+    "first-release-date": "1951",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "2df9638f-3618-40b1-8928-d7f922f44ef5",
+    "disambiguation": "",
+    "title": "The New Sounds",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "Album"
+  },
+  {
+    "secondary-types": [],
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1955",
+    "title": "Blue Moods",
+    "id": "39402cf4-888f-3af0-9d0c-0dc7e80baa35",
+    "disambiguation": ""
+  },
+  {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "first-release-date": "1959-06",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "3b3675c7-f267-37c0-bda7-e9e96141e8e7",
+    "disambiguation": "",
+    "title": "Miles Davis and the Modern Jazz Giants"
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1953",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "id": "5d5b6555-9752-4edd-9e78-dcd5a76daca3",
+    "title": "Blue Period"
+  },
+  {
+    "disambiguation": "",
+    "id": "5f491dad-4138-3f03-b3a0-655e6e15df2a",
+    "title": "Seven Steps to Heaven",
+    "first-release-date": "1963",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "secondary-types": []
+  },
+  {
+    "first-release-date": "1957-03-18",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "6477da93-2286-4919-a898-031caa34c307",
+    "disambiguation": "",
+    "title": "’Round About Midnight",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": []
+  },
+  {
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "title": "Porgy and Bess",
+    "disambiguation": "",
+    "id": "70f3e516-4e76-3dc5-a261-e6c5cd6d71a1",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1958"
+  },
+  {
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "1954",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "7aaa93b0-c370-4dae-98e3-d5be559a7167",
+    "disambiguation": "",
+    "title": "Vol. 3"
+  },
+  {
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1956",
+    "title": "Collectors’ Items",
+    "id": "7b2ac355-548e-3d4a-b625-920dab441509",
+    "disambiguation": ""
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "secondary-types": [],
+    "title": "Milestones",
+    "id": "89896a3e-e309-3ed3-a1a9-36be29ae76b0",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1958"
+  },
+  {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1959-08-17",
+    "title": "Kind of Blue",
+    "id": "8e8a594f-2175-38c7-a871-abb68ec363e7",
+    "disambiguation": ""
+  },
+  {
+    "secondary-types": [],
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1956",
+    "title": "Dig",
+    "id": "933c977e-8312-353e-b4ef-55d0dd90bd30",
+    "disambiguation": ""
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "secondary-types": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1960-08",
+    "title": "Sketches of Spain",
+    "disambiguation": "",
+    "id": "966fede2-31b2-3b6a-ab50-4a650d3bb97d"
+  },
+  {
+    "secondary-types": [],
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "title": "Quiet Nights",
+    "disambiguation": "",
+    "id": "b5a0a374-d8e2-45d0-a4da-5b6465c2563a",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1963-12"
+  },
+  {
+    "title": "The New Sounds",
+    "id": "c8d56072-a32d-43c4-b52f-82ff0b8311a4",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1951-10-05",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": []
+  },
+  {
+    "title": "Miles Ahead",
+    "disambiguation": "",
+    "id": "cc0c7530-a135-3386-a682-0d33d14c876e",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1957",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "Album"
+  },
+  {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "first-release-date": "1955",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "id": "e5e1dfb2-9184-32f4-af73-6093422ed77b",
+    "title": "Miles Davis and Milt Jackson Quintet / Sextet"
+  },
+  {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1965",
+    "title": "E.S.P.",
+    "id": "ebc5d7cd-63eb-3030-8fda-2f5cf27b1ba5",
+    "disambiguation": ""
+  }
+]

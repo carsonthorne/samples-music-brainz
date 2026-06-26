@@ -1,0 +1,151 @@
+{
+  "id": "188711ed-c99b-439c-844a-ca831f63a727",
+  "type": "Person",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "score": 100,
+  "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+  "name": "MF DOOM",
+  "sort-name": "MF DOOM",
+  "gender": "male",
+  "country": "US",
+  "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+      "ended": null
+    }
+  },
+  "begin-area": {
+    "id": "58019cb6-8fbe-4bd4-bd56-3b2e71128d07",
+    "type": "Subdivision",
+    "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+    "name": "Hounslow",
+    "sort-name": "Hounslow",
+    "life-span": {
+      "ended": null
+    }
+  },
+  "end-area": {
+    "id": "116e3eb1-2b14-42c9-91a1-7a2510dcc4b3",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Leeds",
+    "sort-name": "Leeds",
+    "life-span": {
+      "ended": null
+    }
+  },
+  "isnis": [
+    "0000000120807221",
+    "0000000120861578",
+    "0000000357409619",
+    "0000000465656561"
+  ],
+  "life-span": {
+    "begin": "1971-07-13",
+    "end": "2020-10-31",
+    "ended": true
+  },
+  "aliases": [
+    {
+      "sort-name": "Super Villain, The",
+      "name": "The Super Villain",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "DOOM",
+      "name": "DOOM",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "M.F. DOOM",
+      "name": "M.F. DOOM",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Metal Fingered Villain… DOOM, The",
+      "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+      "name": "The Metal Fingered Villain… DOOM",
+      "locale": null,
+      "type": "Artist name",
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Metal Fingaz DOOM",
+      "name": "Metal Fingaz DOOM",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Metal Fingerz DOOM",
+      "name": "Metal Fingerz DOOM",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    }
+  ],
+  "tags": [
+    {
+      "count": 0,
+      "name": "hip-hop"
+    },
+    {
+      "count": 5,
+      "name": "hip hop"
+    },
+    {
+      "count": 0,
+      "name": "hiphop"
+    },
+    {
+      "count": 1,
+      "name": "producer"
+    },
+    {
+      "count": 1,
+      "name": "rapper"
+    },
+    {
+      "count": 0,
+      "name": "us"
+    },
+    {
+      "count": 1,
+      "name": "experimental hip hop"
+    },
+    {
+      "count": 2,
+      "name": "underground hip hop"
+    },
+    {
+      "count": 1,
+      "name": "abstract hip hop"
+    },
+    {
+      "count": 5,
+      "name": "east coast hip hop"
+    }
+  ]
+}

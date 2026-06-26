@@ -1,0 +1,41 @@
+{
+  "title": "The Beatles",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "asin": null,
+  "packaging": "Gatefold Cover",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "barcode": "",
+  "release-events": [
+    {
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": null,
+        "name": "United States",
+        "type-id": null,
+        "sort-name": "United States",
+        "disambiguation": "",
+        "iso-3166-1-codes": [
+          "US"
+        ]
+      },
+      "date": "1978"
+    }
+  ],
+  "cover-art-archive": {
+    "front": true,
+    "darkened": false,
+    "back": false,
+    "artwork": true,
+    "count": 8
+  },
+  "date": "1978",
+  "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+  "country": "US",
+  "status": "Official",
+  "disambiguation": "White Vinyl",
+  "quality": "normal",
+  "id": "0192f2be-245e-4cca-948c-eca7697d688d"
+}

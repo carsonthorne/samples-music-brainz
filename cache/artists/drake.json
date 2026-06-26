@@ -1,0 +1,193 @@
+{
+  "id": "9fff2f8a-21e6-47de-a2b8-7f449929d43f",
+  "type": "Person",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "score": 100,
+  "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+  "name": "Drake",
+  "sort-name": "Drake",
+  "gender": "male",
+  "country": "CA",
+  "area": {
+    "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Canada",
+    "sort-name": "Canada",
+    "life-span": {
+      "ended": null
+    }
+  },
+  "begin-area": {
+    "id": "74b24e62-d2fe-42d2-9d96-31f2da756c77",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Toronto",
+    "sort-name": "Toronto",
+    "life-span": {
+      "ended": null
+    }
+  },
+  "disambiguation": "Canadian rapper",
+  "ipis": [
+    "00529397022"
+  ],
+  "isnis": [
+    "000000012032246X"
+  ],
+  "life-span": {
+    "begin": "1986-10-24",
+    "ended": null
+  },
+  "aliases": [
+    {
+      "sort-name": "Drake",
+      "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+      "name": "ドレイク",
+      "locale": "ja_JP",
+      "type": "Artist name",
+      "primary": true,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Champagne Papi",
+      "name": "Champagne Papi",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "Graham, Aubrey Drake",
+      "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+      "name": "Aubrey Drake Graham",
+      "locale": null,
+      "type": "Legal name",
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    },
+    {
+      "sort-name": "C. Papi",
+      "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+      "name": "C. Papi",
+      "locale": null,
+      "type": "Artist name",
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+    }
+  ],
+  "tags": [
+    {
+      "count": 2,
+      "name": "pop"
+    },
+    {
+      "count": 1,
+      "name": "rap"
+    },
+    {
+      "count": 2,
+      "name": "hip-hop"
+    },
+    {
+      "count": 17,
+      "name": "hip hop"
+    },
+    {
+      "count": 1,
+      "name": "southern hip hop"
+    },
+    {
+      "count": 6,
+      "name": "pop rap"
+    },
+    {
+      "count": 0,
+      "name": "rapper"
+    },
+    {
+      "count": -1,
+      "name": "lesbian"
+    },
+    {
+      "count": 1,
+      "name": "sxsw"
+    },
+    {
+      "count": 1,
+      "name": "top 100"
+    },
+    {
+      "count": 7,
+      "name": "r&b"
+    },
+    {
+      "count": 5,
+      "name": "contemporary r&b"
+    },
+    {
+      "count": 0,
+      "name": "2010s"
+    },
+    {
+      "count": 1,
+      "name": "hardcore hip hop"
+    },
+    {
+      "count": 4,
+      "name": "alternative r&b"
+    },
+    {
+      "count": 3,
+      "name": "trap"
+    },
+    {
+      "count": 0,
+      "name": "canadian hip hop"
+    },
+    {
+      "count": 2,
+      "name": "trap rap"
+    },
+    {
+      "count": -1,
+      "name": "rap us"
+    },
+    {
+      "count": 1,
+      "name": "top 10"
+    },
+    {
+      "count": -1,
+      "name": "hardcore hip"
+    },
+    {
+      "count": -1,
+      "name": "cotm candidate"
+    },
+    {
+      "count": 0,
+      "name": "luxury rap"
+    },
+    {
+      "count": 0,
+      "name": "relic inn"
+    },
+    {
+      "count": 0,
+      "name": "2020s"
+    },
+    {
+      "count": 0,
+      "name": "pedophilia"
+    },
+    {
+      "count": 1,
+      "name": "top 5"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "barcode": null,
+  "packaging-id": null,
+  "date": "2000",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "status": "Bootleg",
+  "cover-art-archive": {
+    "count": 5,
+    "artwork": true,
+    "back": true,
+    "front": true,
+    "darkened": false
+  },
+  "quality": "normal",
+  "title": "Yesterday... and Today",
+  "asin": null,
+  "packaging": null,
+  "id": "064230fe-0807-478d-9505-1e72f158fa39",
+  "country": "US",
+  "disambiguation": "mono",
+  "release-events": [
+    {
+      "area": {
+        "type": null,
+        "disambiguation": "",
+        "name": "United States",
+        "type-id": null,
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "sort-name": "United States",
+        "id": "489ce91b-6658-3307-9877-795b68554c98"
+      },
+      "date": "2000"
+    }
+  ],
+  "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9"
+}

@@ -1,0 +1,316 @@
+[
+  {
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "first-release-date": "2004-05-11",
+    "id": "1cce42d5-ec89-32f0-9ad4-86f506537e44",
+    "secondary-types": [],
+    "title": "Special Herbs and Spices, Volume 1"
+  },
+  {
+    "disambiguation": "",
+    "first-release-date": "2003",
+    "id": "20764967-529e-486d-861f-5bdcd9f21a4c",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "Supervillain Unmasked",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "secondary-types": [],
+    "title": "MM..Leftovers",
+    "first-release-date": "2004-11-16",
+    "id": "2303a29c-f3cd-362f-9254-0c7e389abd0d"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "id": "287383ab-0541-440a-b7d6-53380ac2b507",
+    "first-release-date": "2004",
+    "title": "Special Blends",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "disambiguation": ""
+  },
+  {
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "The Doomilation Bootleg, Volume 2",
+    "first-release-date": "2004",
+    "id": "2f6e8a80-f772-39c8-93e3-e01d31b74391",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "The Lost Relics of Dumile Vol. V",
+    "first-release-date": "2021",
+    "id": "31e067c7-96bc-45a5-a8ce-b58cfc6bcde3"
+  },
+  {
+    "title": "The Missing Notebook Rhymes",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "id": "3a470775-c6d1-4521-8eeb-bce29f73a990",
+    "first-release-date": "2017-09",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "title": "An Introduction: The Best Of DOOM",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "id": "55fc26f0-a7a7-4ef4-9fe9-75c8297531da",
+    "first-release-date": "2013",
+    "disambiguation": ""
+  },
+  {
+    "first-release-date": "2009-11-03",
+    "id": "579be8c2-d98a-480d-99a2-3ae0985f6dfe",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "Unexpected Guests",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "Doom!",
+    "first-release-date": "2010-06-01",
+    "id": "57b27089-c9e6-443d-996d-3dfa332bd686"
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "title": "Operation: Doomsday",
+    "secondary-types": [],
+    "id": "66f1ac02-2eb6-31dc-ab33-6eaa603f41cd",
+    "first-release-date": "1999-10-19"
+  },
+  {
+    "title": "Ghostface Meets MF: Operation Ironman",
+    "secondary-types": [],
+    "id": "677e5f75-40ee-3fb1-be16-66d808d4b69d",
+    "first-release-date": "2000",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": []
+  },
+  {
+    "id": "7766ff03-0c92-4295-94c8-2d1cf60ad0ac",
+    "first-release-date": "2021-01-10",
+    "title": "The Lost Relics of Dumile, Vol. I",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "secondary-types": [
+      "Live"
+    ],
+    "title": "Live From Planet X",
+    "first-release-date": "2005-03-22",
+    "id": "81f8075a-bb2b-320f-93a3-8a8008f6e0cb",
+    "secondary-type-ids": [
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "title": "DOOM!",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "id": "8f96cb4e-73d8-30eb-8295-5d80b593844f",
+    "first-release-date": "2008-12-08",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "secondary-types": [],
+    "title": "Czarface Meets Metal Face",
+    "first-release-date": "2018-03-18",
+    "id": "99bd23b3-5037-4b9b-a208-ec5dc364d693",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "id": "9f3a8148-5d0a-44f3-8ea8-a7e582a51f38",
+    "first-release-date": "2020",
+    "title": "The Acapella Archive",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "disambiguation": ""
+  },
+  {
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "id": "c0926f49-6e97-3dda-8069-7df33a63c06d",
+    "first-release-date": "2003-09-02",
+    "title": "Best of MF",
+    "secondary-types": [
+      "Compilation"
+    ]
+  },
+  {
+    "first-release-date": "2009-03-24",
+    "id": "c748987e-7cb5-3880-b246-d20af2b136f3",
+    "secondary-types": [],
+    "title": "Born Like This",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  },
+  {
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "first-release-date": "2021-05-07",
+    "id": "c90bcb3c-fae4-4c57-aec4-2ed12f5a74f4",
+    "secondary-types": [],
+    "title": "Super What?"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ],
+    "id": "e3d382f3-af0b-4811-961f-0bb6b8a5c171",
+    "first-release-date": "2010-09-14",
+    "title": "Expektoration Live",
+    "secondary-types": [
+      "Live"
+    ],
+    "disambiguation": ""
+  },
+  {
+    "disambiguation": "",
+    "id": "e4f5a105-28e3-3028-b5e7-0c10fec2b525",
+    "first-release-date": "2004",
+    "title": "Twisted Metal, Part 1",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "id": "ec84ab32-eb41-3d91-a099-7a01c72f21d2",
+    "first-release-date": "2004-11-16",
+    "title": "MM..FOOD",
+    "secondary-types": [],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": []
+  },
+  {
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "title": "DoomStarks",
+    "first-release-date": "2009",
+    "id": "f6208639-0098-4c12-9715-e7a6dd830a7d",
+    "disambiguation": ""
+  },
+  {
+    "disambiguation": "",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "Doomilation",
+    "first-release-date": "2003",
+    "id": "ff09a74d-0727-31a1-880d-cc26142d38e5",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+]

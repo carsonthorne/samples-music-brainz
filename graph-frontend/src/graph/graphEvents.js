@@ -1,6 +1,7 @@
 import { collapseNode } from "./collapseNode";
 import { expandNode } from "./expandNode";
 import { renderBreadcrumbs } from "./renderBreadcrumbs";
+import { expandSubtree } from "./utils/expandSubtree";
 import getLineage from "./utils/getLineage"; // <-- 1. Import your lineage calculator
 
 export function createGraphEvents(
@@ -10,6 +11,9 @@ export function createGraphEvents(
 {
   function handleNodeClick(node)
   {
+    console.log("CLICKED", node.id);
+    console.log("Expanded before:", state.expanded.has(node.id));
+
     if (state.expanded.has(node.id))
     {
       collapseNode(state, node.id);
@@ -86,6 +90,10 @@ export function createGraphEvents(
     const graph = getGraph();
     if (!graph) return;
 
+    // const nodeMap = new Map(state.graph.nodes.map(n => [n.id, n]));
+    // const node = nodeMap.get(nodeId);
+
+    // const node = graph.graphData().nodes.find(n => n.id === nodeId);
     const node = state.graph.nodesById[nodeId];
     if (!node) return;
 
@@ -100,18 +108,16 @@ export function createGraphEvents(
     );
   }
 
-  function expandAll()
-  {
-    state.expanded =
-      new Set(
-        Object.keys(state.graph.nodesById)
-      );
+  function expandAll() {
+    state.expanded.clear();
+    state.visibleNodes.clear();
+    state.visibleLinks.clear();
 
-    getGraph().graphData(
-      state.toForceGraph()
-    );
+    expandSubtree(state, state.rootId);
+
+    getGraph().graphData(state.toForceGraph());
   }
-
+  
   function collapseAll()
   {
     state.expanded.clear();

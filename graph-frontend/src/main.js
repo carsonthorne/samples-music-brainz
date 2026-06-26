@@ -1,4 +1,4 @@
-import { loadGraph } from "./api/graphApi";
+import { loadGraph, loadSampleIndex } from "./api/graphApi";
 import { createGraphEvents } from "./graph/graphEvents";
 import { createGraph } from "./graph/graphRenderer";
 import { GraphState } from "./graph/graphState";
@@ -8,12 +8,20 @@ async function init()
   const container =
     document.getElementById("graph");
 
-  const rawGraph =
-    await loadGraph();
+  const [
+      rawGraph,
+      sampleIndex
+  ] = await Promise.all([
+      loadGraph(),
+      loadSampleIndex()
+  ]);
 
   const state =
-    new GraphState(rawGraph);
+    new GraphState(rawGraph, sampleIndex);
 
+  window.state = state;
+  window.graph = state.graph;
+  
   // seed with root artist ONLY
   const root =
     // rawGraph.nodesById[
@@ -21,7 +29,7 @@ async function init()
     // ];
     state.rootId;
 
-  state.focusNode = root.id;
+  state.focusNode = state.rootId;
 
   let graph;
 

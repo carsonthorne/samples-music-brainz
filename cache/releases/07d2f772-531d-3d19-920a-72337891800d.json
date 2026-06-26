@@ -1,0 +1,41 @@
+{
+  "packaging": null,
+  "status": "Official",
+  "title": "Greatest Hits",
+  "country": "JP",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "packaging-id": null,
+  "cover-art-archive": {
+    "back": true,
+    "artwork": true,
+    "front": true,
+    "count": 2,
+    "darkened": false
+  },
+  "release-events": [
+    {
+      "date": "2008-05-28",
+      "area": {
+        "name": "Japan",
+        "type": null,
+        "disambiguation": "",
+        "iso-3166-1-codes": [
+          "JP"
+        ],
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "type-id": null,
+        "sort-name": "Japan"
+      }
+    }
+  ],
+  "id": "146c9b25-878d-4237-ac38-4eb201ede87c",
+  "quality": "normal",
+  "disambiguation": "",
+  "asin": "B0016JD768",
+  "date": "2008-05-28",
+  "barcode": "4988005514783",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+}

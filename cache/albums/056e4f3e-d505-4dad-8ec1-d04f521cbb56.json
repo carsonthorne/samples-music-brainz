@@ -1,0 +1,336 @@
+[
+  {
+    "disambiguation": "",
+    "id": "00054665-89fa-33d5-a8f0-1728ea8c32c3",
+    "first-release-date": "1997-01-20",
+    "title": "Homework",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "secondary-type-ids": [
+      "0c60f497-ff81-3818-befd-abfc84a4858b"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "first-release-date": "2006-03-29",
+    "id": "16ea0f65-3462-3283-a3eb-e81dcc92c1d5",
+    "secondary-types": [
+      "Remix"
+    ],
+    "title": "Human After All: Remixes"
+  },
+  {
+    "id": "1ed45c8c-9abd-4ec3-9ff6-43d264f0e6b7",
+    "first-release-date": "2001-10-15",
+    "title": "Homework / Discovery",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "title": "Daft Club",
+    "secondary-types": [
+      "Remix"
+    ],
+    "id": "1fd2e0fe-90f6-35ca-92c0-d816ab3bb79c",
+    "first-release-date": "2003-11-27",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "0c60f497-ff81-3818-befd-abfc84a4858b"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "secondary-types": [
+      "Interview"
+    ],
+    "title": "Generic Radio Interview w/ Thomas Bangalter",
+    "first-release-date": "2001",
+    "id": "2462008f-216b-4c2d-bb9d-642eb02492d3",
+    "secondary-type-ids": [
+      "12af3f5e-ce2a-3941-8b93-d482884031e5"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "first-release-date": "2000",
+    "id": "297c4c53-8eeb-4837-97e9-bdc77c4a8ee4",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "ONE MORE VIRGIN –tracks for CELEBRATION of new century–",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "title": "Greatest Hits",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "id": "3ab059bc-281d-4719-90c6-ed130fa2bd20",
+    "first-release-date": "2006",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "disambiguation": "",
+    "first-release-date": "2010",
+    "id": "3c22791b-bbfe-466f-a818-611767716335",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "Human After All / Daft Club",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "title": "Discovery",
+    "secondary-types": [],
+    "id": "48117b90-a16e-34ca-a514-19c702df1158",
+    "first-release-date": "2001-02-26",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": []
+  },
+  {
+    "title": "Alive 2007",
+    "secondary-types": [
+      "Live"
+    ],
+    "id": "4bac3d70-deea-3d80-85c4-8be9f90558e6",
+    "first-release-date": "2007-11-14",
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ]
+  },
+  {
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "Musique, Volume 1: 1993–2005",
+    "first-release-date": "2006-03-06",
+    "id": "66ecf2c3-441f-3981-b85f-a005d9cc582d",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ],
+    "title": "Alive 1997",
+    "secondary-types": [
+      "Live"
+    ],
+    "id": "8093fc8c-942c-30f3-a224-49dbc718f8e4",
+    "first-release-date": "2001-10-01",
+    "disambiguation": ""
+  },
+  {
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "first-release-date": "",
+    "id": "84216190-e46f-4cf1-8a28-76910183be38",
+    "secondary-types": [],
+    "title": "Discovery (Beta Version)",
+    "disambiguation": ""
+  },
+  {
+    "disambiguation": "",
+    "title": "Random Access Memories: The Collaborators",
+    "secondary-types": [
+      "Interview"
+    ],
+    "id": "984b148e-1208-408f-aa5e-8cb930315be4",
+    "first-release-date": "2013-05-14",
+    "secondary-type-ids": [
+      "12af3f5e-ce2a-3941-8b93-d482884031e5"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "secondary-types": [],
+    "title": "Random Access Memories",
+    "first-release-date": "2013-05-17",
+    "id": "aa997ea0-2936-40bd-884d-3af8a0e064dc",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  },
+  {
+    "disambiguation": "",
+    "first-release-date": "2003-12-01",
+    "id": "adddef22-87cf-41e4-8563-5a2fc376ccd3",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "Interstella 5555: The 5tory Of The 5ecret 5tar 5ystem",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "first-release-date": "2010-12-03",
+    "id": "b585e56e-69cb-4f53-9597-320af5e5f541",
+    "secondary-types": [
+      "Soundtrack"
+    ],
+    "title": "TRON: Legacy",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "22a628ad-c082-3c4f-b1b6-d41665107b88"
+    ]
+  },
+  {
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "id": "b791a9cc-dc92-45ee-b5b9-be5617823411",
+    "first-release-date": "1999",
+    "title": "D.A.F.T. : A Story About Dogs, Androids, Firemen and Tomatoes",
+    "secondary-types": [
+      "Compilation"
+    ]
+  },
+  {
+    "secondary-type-ids": [
+      "0c60f497-ff81-3818-befd-abfc84a4858b"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "id": "b7a7b524-e29a-4d8e-a7f5-ffbcea5a38e4",
+    "first-release-date": "2022-02-02",
+    "title": "Homework (Remixes)",
+    "secondary-types": [
+      "Remix"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "secondary-types": [
+      "Soundtrack",
+      "Remix"
+    ],
+    "title": "TRON: Legacy R3C0NF1GUR3D",
+    "first-release-date": "2011-04-04",
+    "id": "bc49de56-46c7-4250-b987-a0cd43e73279",
+    "secondary-type-ids": [
+      "22a628ad-c082-3c4f-b1b6-d41665107b88",
+      "0c60f497-ff81-3818-befd-abfc84a4858b"
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "id": "c1839360-3cab-4176-a0cd-ce831459b6a4",
+    "first-release-date": "1997-04-11",
+    "title": "Live @ We Are Family",
+    "secondary-types": [
+      "DJ-mix"
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+    ]
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "0c60f497-ff81-3818-befd-abfc84a4858b"
+    ],
+    "id": "d34c6b11-6b3b-41ea-9fc6-44db1cc6577a",
+    "first-release-date": "2023-11-17",
+    "title": "Random Access Memories (drumless edition)",
+    "secondary-types": [
+      "Remix"
+    ],
+    "disambiguation": ""
+  },
+  {
+    "disambiguation": "",
+    "id": "e7f82de1-22bd-4ed9-9e87-0dd5d94291db",
+    "first-release-date": "2020",
+    "title": "Deep Cuts",
+    "secondary-types": [
+      "Remix"
+    ],
+    "secondary-type-ids": [
+      "0c60f497-ff81-3818-befd-abfc84a4858b"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  },
+  {
+    "secondary-types": [
+      "Compilation",
+      "Live"
+    ],
+    "title": "Alive 2007 / Alive 1997",
+    "first-release-date": "2009",
+    "id": "ec8e9600-b802-48ff-a387-ace28cb90642",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "secondary-types": [],
+    "title": "Human After All",
+    "first-release-date": "2005-03-01",
+    "id": "f9e8042a-674e-3f01-80ec-7f0ab1c537df",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+]

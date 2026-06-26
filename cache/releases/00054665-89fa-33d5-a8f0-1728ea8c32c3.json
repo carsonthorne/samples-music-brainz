@@ -1,0 +1,41 @@
+{
+  "date": "2022-02-22",
+  "id": "1ca31e9e-67a3-4028-98de-deaed8f13779",
+  "release-events": [
+    {
+      "area": {
+        "type-id": null,
+        "name": "[Worldwide]",
+        "type": null,
+        "disambiguation": "",
+        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+        "iso-3166-1-codes": [
+          "XW"
+        ],
+        "sort-name": "[Worldwide]"
+      },
+      "date": "2022-02-22"
+    }
+  ],
+  "disambiguation": "",
+  "title": "Homework (25th Anniversary Edition)",
+  "status": "Official",
+  "asin": "B001QMZY02",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "packaging": "None",
+  "barcode": "190296240911",
+  "quality": "normal",
+  "cover-art-archive": {
+    "artwork": true,
+    "front": true,
+    "darkened": false,
+    "back": false,
+    "count": 1
+  },
+  "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "country": "XW"
+}

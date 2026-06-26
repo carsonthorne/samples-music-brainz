@@ -1,0 +1,31 @@
+{
+  "release-events": [
+    {
+      "date": "2013-09-24",
+      "area": null
+    }
+  ],
+  "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+  "cover-art-archive": {
+    "darkened": false,
+    "count": 1,
+    "artwork": true,
+    "front": true,
+    "back": false
+  },
+  "country": null,
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "packaging": "None",
+  "title": "Nothing Was the Same",
+  "status": "Official",
+  "barcode": "00602537566709",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "date": "2013-09-24",
+  "disambiguation": "clean",
+  "asin": null,
+  "id": "1f510573-a6f2-40ba-9b60-c9538e50efaa",
+  "quality": "normal"
+}

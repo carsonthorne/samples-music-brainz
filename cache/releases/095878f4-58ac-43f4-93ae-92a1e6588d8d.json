@@ -1,0 +1,41 @@
+{
+  "asin": null,
+  "date": "1951",
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "quality": "normal",
+  "packaging-id": null,
+  "barcode": "",
+  "release-events": [
+    {
+      "date": "1951",
+      "area": {
+        "name": "United States",
+        "disambiguation": "",
+        "sort-name": "United States",
+        "type-id": null,
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": null
+      }
+    }
+  ],
+  "country": "US",
+  "disambiguation": "",
+  "id": "6fbb6d1b-e6b4-4027-acf1-85045a0bd771",
+  "status": "Official",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "cover-art-archive": {
+    "front": false,
+    "artwork": false,
+    "darkened": false,
+    "back": false,
+    "count": 0
+  },
+  "packaging": null,
+  "title": "Modern Jazz Trumpets"
+}

@@ -1,0 +1,41 @@
+{
+  "packaging-id": null,
+  "cover-art-archive": {
+    "back": true,
+    "front": true,
+    "artwork": true,
+    "count": 20,
+    "darkened": false
+  },
+  "release-events": [
+    {
+      "date": "2014-06-17",
+      "area": {
+        "name": "Japan",
+        "type": null,
+        "disambiguation": "",
+        "iso-3166-1-codes": [
+          "JP"
+        ],
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "type-id": null,
+        "sort-name": "Japan"
+      }
+    }
+  ],
+  "status": "Official",
+  "packaging": null,
+  "title": "Human After All ~原点回帰 -Remixes-",
+  "country": "JP",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "date": "2014-06-17",
+  "barcode": "4943674178773",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "id": "3102bf55-5132-4b52-bf8b-f976d08fea0b",
+  "quality": "normal",
+  "disambiguation": "",
+  "asin": null
+}

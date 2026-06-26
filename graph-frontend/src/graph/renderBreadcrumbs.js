@@ -4,7 +4,7 @@ export function renderBreadcrumbs(state, onBreadcrumbClick)
     document.getElementById("breadcrumbs");
 
   const path =
-    state.buildPath();
+    state.getBreadcrumbs()
 
   el.innerHTML = path
     .map(id =>

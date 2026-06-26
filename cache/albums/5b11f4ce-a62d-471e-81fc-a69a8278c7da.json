@@ -1,0 +1,344 @@
+[
+  {
+    "first-release-date": "1992-12-14",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "title": "Incesticide",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "disambiguation": "",
+    "id": "01cf1391-141b-3c87-8650-45ade6e59070",
+    "primary-type": "Album"
+  },
+  {
+    "title": "Greatest Hits",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "2002-10-23",
+    "id": "0b8fef8c-1cc5-4ce7-b007-05cbd6d5aa0b",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "disambiguation": ""
+  },
+  {
+    "primary-type": "Album",
+    "id": "178b993e-fa9c-36d3-9d73-c5a8ba0c748d",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "title": "Wipeout",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1993",
+    "secondary-types": [
+      "Compilation"
+    ]
+  },
+  {
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "primary-type": "Album",
+    "id": "1b022e01-4da6-387b-8658-8678046e4cef",
+    "title": "Nevermind",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1991-09-24",
+    "secondary-types": []
+  },
+  {
+    "id": "1d4cd1cd-c4a9-48e2-b106-e1e86e482251",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "first-release-date": "1993-01-23",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Hollywood Rock Festival 93"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Virgin Songs",
+    "first-release-date": "1992",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "primary-type": "Album",
+    "id": "1fce2b72-c48e-373b-a6e8-cb7eeedde61d"
+  },
+  {
+    "primary-type": "Album",
+    "id": "249e7835-5c39-3a10-b15b-e2d3470fb40c",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ],
+    "title": "From the Muddy Banks of the Wishkah",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [
+      "Compilation",
+      "Live"
+    ],
+    "first-release-date": "1996-09-30"
+  },
+  {
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "primary-type": "Album",
+    "id": "2a0981fb-9593-3019-864b-ce934d97a16e",
+    "first-release-date": "1993-09-21",
+    "secondary-types": [],
+    "title": "In Utero",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+    "first-release-date": "1992",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Down With Me",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "disambiguation": "",
+    "primary-type": "Album",
+    "id": "339ab911-1568-32cf-8997-f00a538208c9"
+  },
+  {
+    "first-release-date": "1992",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Seventh Heaven",
+    "id": "3f09f97d-3b18-336c-9760-9ebb7df3497e",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "id": "48575a80-cf2b-303b-8c79-8c4d311fc03b",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Dynamic Live",
+    "first-release-date": "1994",
+    "secondary-types": [
+      "Compilation"
+    ]
+  },
+  {
+    "first-release-date": "2009-10-30",
+    "secondary-types": [
+      "Live"
+    ],
+    "title": "Live at Reading",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ],
+    "primary-type": "Album",
+    "id": "48f5d526-0fa6-4ca6-ac59-9b2cf9ef464f"
+  },
+  {
+    "first-release-date": "1994-11-15",
+    "secondary-types": [
+      "Compilation",
+      "Live"
+    ],
+    "title": "Live! Tonight! Sold Out!!",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "55fca0ec-17ed-4860-b700-ef366574aa42",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ]
+  },
+  {
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "id": "5ab32af4-c62e-3cbf-aa8c-c761581d3b94",
+    "primary-type": "Album",
+    "first-release-date": "2002-10-18",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Nirvana"
+  },
+  {
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "disambiguation": "",
+    "primary-type": "Album",
+    "id": "5cc5dc44-8860-462e-8aa5-2cf9b71af237",
+    "title": "ICON",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "2010-08-31"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "In Bloom Collection",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "2009",
+    "primary-type": "Album",
+    "id": "7a554237-a719-49a0-a755-7021cebf6875",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ]
+  },
+  {
+    "primary-type": "Album",
+    "id": "85155291-222f-388a-a5f7-dcaa60b65afd",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Before We Ever Minded",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "1992"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "In Utero Demos",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "1993",
+    "primary-type": "Album",
+    "id": "915dc49e-8203-31b8-bb19-ca5996a2b810",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "disambiguation": ""
+  },
+  {
+    "id": "95563c6a-92e5-456c-9f86-6fe2ff1d148e",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "2009",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "2 for 1: Incesticide / In Utero"
+  },
+  {
+    "primary-type": "Album",
+    "id": "c171986d-83d9-4659-9644-ce9dc2b30836",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ],
+    "title": "Live and Loud",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [
+      "Live"
+    ],
+    "first-release-date": "2013-09-23"
+  },
+  {
+    "title": "With the Lights Out",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2004-11-23",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "id": "d4d28ec1-220a-327c-93c5-ae006be43598",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "disambiguation": ""
+  },
+  {
+    "title": "Live at the Paramount",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [
+      "Live"
+    ],
+    "first-release-date": "2011-09-26",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ],
+    "id": "e0372c5a-1750-46ec-8f1b-4b76df1fe8e7",
+    "primary-type": "Album"
+  },
+  {
+    "id": "e9674d41-d94b-344a-89f5-734736853d5f",
+    "primary-type": "Album",
+    "secondary-type-ids": [
+      "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+    ],
+    "disambiguation": "",
+    "title": "Sliver: The Best of the Box",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [
+      "Compilation"
+    ],
+    "first-release-date": "2005-10-31"
+  },
+  {
+    "id": "f1afec0b-26dd-3db5-9aa1-c91229a74a24",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "disambiguation": "",
+    "secondary-types": [],
+    "first-release-date": "1989-08-08",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Bleach"
+  },
+  {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "MTV Unplugged in New York",
+    "secondary-types": [
+      "Live"
+    ],
+    "first-release-date": "1994-10-31",
+    "id": "fb3770f6-83fb-32b7-85c4-1f522a92287e",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "secondary-type-ids": [
+      "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+    ]
+  }
+]

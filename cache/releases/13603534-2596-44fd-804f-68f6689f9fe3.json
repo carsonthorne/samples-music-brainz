@@ -1,0 +1,41 @@
+{
+  "date": "2010",
+  "barcode": null,
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "quality": "normal",
+  "id": "aebe1f13-66a6-49d7-844d-cad3e7af3016",
+  "asin": null,
+  "disambiguation": "",
+  "cover-art-archive": {
+    "back": false,
+    "artwork": true,
+    "front": true,
+    "count": 1,
+    "darkened": false
+  },
+  "packaging-id": null,
+  "release-events": [
+    {
+      "date": "2010",
+      "area": {
+        "sort-name": "Canada",
+        "type-id": null,
+        "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+        "type": null,
+        "name": "Canada",
+        "iso-3166-1-codes": [
+          "CA"
+        ],
+        "disambiguation": ""
+      }
+    }
+  ],
+  "packaging": null,
+  "status": "Official",
+  "title": "No More Thank Yous",
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "country": "CA"
+}

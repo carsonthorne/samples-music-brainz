@@ -1,0 +1,41 @@
+{
+  "title": "Special Herbs & Spices, Volume One",
+  "quality": "normal",
+  "cover-art-archive": {
+    "artwork": true,
+    "front": true,
+    "back": true,
+    "darkened": false,
+    "count": 6
+  },
+  "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+  "status": "Official",
+  "release-events": [
+    {
+      "date": "2004",
+      "area": {
+        "name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "sort-name": "United States",
+        "disambiguation": "",
+        "type-id": null,
+        "type": null
+      }
+    }
+  ],
+  "asin": null,
+  "packaging": "Cardboard/Paper Sleeve",
+  "country": "US",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "barcode": null,
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "date": "2004",
+  "id": "b8166bc6-1eb6-4d06-8b37-07928ed378b4",
+  "disambiguation": ""
+}
