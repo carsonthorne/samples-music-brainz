@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Local/generated data
+data/
+musicbrainz-dump/
+cache/
+
+# Runtime image cache populated on demand by the backend
+client/public/artwork/
+client/public/avatars/
+client/public/data/
+
+# Build output
+dist/
+client/dist/
+
+# Logs and local machine files
+*.log
+.DS_Store
+**/.DS_Store

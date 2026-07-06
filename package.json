@@ -2,18 +2,38 @@
   "name": "samples-music-brainz",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:init": "node src/db/initDb.js",
+    "compile:recordings": "node src/compiler/loadRecordings.js",
+    "compile:artists": "node src/compiler/loadArtists.js",
+    "compile:albums": "node src/compiler/loadAlbums.js",
+    "compile:artist-credits": "node src/compiler/loadArtistCreditNames.js",
+    "derive:artist-albums": "node src/compiler/deriveArtistAlbums.js",
+    "compile:mediums": "node src/compiler/loadMediums.js",
+    "compile:releases": "node src/compiler/loadReleases.js",
+    "compile:mb-tracks": "node src/compiler/loadMbTracks.js",
+    "derive:album-tracks": "node src/compiler/deriveAlbumTracks.js",
+    "compile:sample-links": "node src/compiler/loadSampleLinks.js",
+    "compile:sample-edges": "node src/compiler/loadSampleEdges.js",
+    "derive:track-samples": "node src/compiler/deriveTrackSamples.js",
+    "inspect:sample-link-types": "node src/compiler/inspectSampleLinkTypes.js",
+    "assets:convert:webp": "node src/assets/convertImagesToWebp.js",
+    "server": "node src/server/index.js",
+    "client:dev": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "client:preview": "npm --prefix client run preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "3d-force-graph": "^1.80.0",
-    "node-fetch": "^2.7.0",
-    "three": "^0.184.0"
+    "better-sqlite3": "^12.11.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sharp": "^0.34.0"
   }
 }

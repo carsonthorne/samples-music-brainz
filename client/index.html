@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Music Graph</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    #graph { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+    
+  <div id="ui">
+    <form id="search-form">
+      <input
+        id="search-input"
+        type="search"
+        placeholder="Search song, album, or artist"
+        autocomplete="off"
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="status" aria-live="polite"></div>
+    <div id="controls">
+      <button id="toggle-view" type="button" aria-pressed="false">
+        2D View
+      </button>
+
+      <button id="toggle-dag" type="button" aria-pressed="false">
+        DAG Off
+      </button>
+
+      <button id="fit-canvas" type="button">
+        Fit
+      </button>
+
+      <button id="toggle-orbit" type="button" aria-pressed="false">
+        Orbit
+      </button>
+
+      <button id="collapse-all" type="button">
+        Collapse All
+      </button>
+    </div>
+
+    <div id="search-results"></div>
+
+    <button id="toggle-panel" type="button" aria-pressed="true">
+      Hide Panel
+    </button>
+  </div>
+
+  <div id="graph"></div>
+
+  <aside id="details-panel" hidden aria-label="Node details">
+    <div id="details-panel-nav">
+      <button id="details-panel-back" type="button" aria-label="Back">
+        Back
+      </button>
+      <button id="details-panel-forward" type="button" aria-label="Forward">
+        Forward
+      </button>
+      <button id="details-panel-connections" type="button">
+        Show Artist Connections
+      </button>
+    </div>
+    <div id="details-panel-body"></div>
+  </aside>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
