@@ -1,6 +1,6 @@
-async function getJson(path)
+async function getJson(path, options = {})
 {
-  const res = await fetch(path);
+  const res = await fetch(path, options);
 
   if (!res.ok)
   {
@@ -44,15 +44,25 @@ function withExpansionModes(fragment, mode)
   };
 }
 
-export async function searchGraphSeeds(query)
+export async function searchGraphSeeds(query, options = {})
 {
+  const {
+    limit = 30,
+    perTypeLimit = 10,
+    type = "artist",
+    predictive = false,
+    ...fetchOptions
+  } = options;
+
   const params = new URLSearchParams({
     q: query,
-    limit: "30",
-    perTypeLimit: "10"
+    limit: String(limit),
+    perTypeLimit: String(perTypeLimit),
+    type,
+    predictive: predictive ? "1" : "0"
   });
 
-  const data = await getJson(`/api/search?${params}`);
+  const data = await getJson(`/api/search?${params}`, fetchOptions);
 
   return {
     ...data,

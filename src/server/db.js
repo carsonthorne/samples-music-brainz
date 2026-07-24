@@ -2,7 +2,7 @@ const path = require("path");
 const Database = require("better-sqlite3");
 
 const DB_PATH = process.env.SAMPLE_GRAPH_DB ||
-  path.resolve(process.cwd(), "data/sample-graph.sqlite");
+  path.resolve(process.cwd(), "data/sample-graph-runtime.sqlite");
 
 const db = new Database(DB_PATH, {
   readonly: true,

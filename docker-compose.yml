@@ -1,0 +1,32 @@
+services:
+  seed-data:
+    image: alpine:3.20
+    command: >
+      sh -c "test -f /data/sample-graph-runtime.sqlite
+      || cp /host-data/sample-graph-runtime.sqlite /data/sample-graph-runtime.sqlite"
+    volumes:
+      - ./data:/host-data:ro
+      - graph-data:/data
+    restart: "no"
+
+  samples-graph:
+    build: .
+    depends_on:
+      seed-data:
+        condition: service_completed_successfully
+    ports:
+      - "3001:3001"
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 3001
+      SAMPLE_GRAPH_DB: /data/sample-graph-runtime.sqlite
+    volumes:
+      - graph-data:/data:ro
+      - ./src:/app/src:ro
+      - ./client/public/artwork:/app/client/public/artwork
+      - ./client/public/avatars:/app/client/public/avatars
+    restart: unless-stopped
+
+volumes:
+  graph-data:

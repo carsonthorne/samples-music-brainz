@@ -15,22 +15,18 @@
       <input
         id="search-input"
         type="search"
-        placeholder="Search song, album, or artist"
+        placeholder="Search artists"
         autocomplete="off"
       />
-      <button type="submit">Search</button>
+      <select id="search-type" aria-label="Search type">
+        <option value="artist" selected>Artist</option>
+        <option value="album">Album</option>
+        <option value="track">Track</option>
+      </select>
     </form>
 
     <div id="status" aria-live="polite"></div>
     <div id="controls">
-      <button id="toggle-view" type="button" aria-pressed="false">
-        2D View
-      </button>
-
-      <button id="toggle-dag" type="button" aria-pressed="false">
-        DAG Off
-      </button>
-
       <button id="fit-canvas" type="button">
         Fit
       </button>

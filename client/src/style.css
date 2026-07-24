@@ -53,6 +53,7 @@ body
 }
 
 #search-input,
+select,
 button
 {
   min-height: 36px;
@@ -67,6 +68,13 @@ button
   width: 100%;
   min-width: 0;
   padding: 0 10px;
+  color: var(--text);
+  background: var(--panel-bg);
+}
+
+select
+{
+  padding: 0 28px 0 10px;
   color: var(--text);
   background: var(--panel-bg);
 }
@@ -92,7 +100,7 @@ button:hover
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  width: min(420px, calc(100vw - 24px));
+  width: min(260px, calc(100vw - 24px));
   pointer-events: auto;
 }
 

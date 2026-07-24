@@ -1,15 +1,19 @@
 const express = require("express");
 const cors = require("cors");
+const path = require("path");
 const { db, DB_PATH } = require("./db");
-const { existingAsset } = require("../assets/assetPaths");
+const { AVATAR_DIR, ARTWORK_DIR, existingAsset } = require("../assets/assetPaths");
 const { ensureNodeImage } = require("../assets/ensureNodeImage");
 
 const app = express();
 const PORT = Number(process.env.PORT || 3001);
 const HOST = process.env.HOST || "127.0.0.1";
+const CLIENT_DIST_DIR = path.resolve(__dirname, "../../client/dist");
 
 app.use(cors());
 app.use(express.json());
+app.use("/artwork", express.static(ARTWORK_DIR));
+app.use("/avatars", express.static(AVATAR_DIR));
 
 function clampLimit(value, fallback = 50, max = 500) {
   const n = Number(value);
@@ -28,6 +32,135 @@ function normalizeSearchText(value) {
     .replace(/[\u2010-\u2015\u2212]/g, "-")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function normalizeFuzzySearchText(value) {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/gi, " ")
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+function fuzzySearchTokens(value) {
+  return normalizeFuzzySearchText(value)
+    .split(" ")
+    .filter(Boolean)
+    .slice(0, 5);
+}
+
+function fuzzyTokenVariants(token) {
+  const variants = new Set([token]);
+
+  if (token === "tha") variants.add("the");
+  if (token === "the") variants.add("tha");
+
+  if (token.length >= 3 && token.length <= 5) {
+    if (token.endsWith("a")) variants.add(`${token.slice(0, -1)}e`);
+    if (token.endsWith("e")) variants.add(`${token.slice(0, -1)}a`);
+  }
+
+  return [...variants];
+}
+
+function escapeLikePattern(value) {
+  return String(value).replace(/[\\%_]/g, (char) => `\\${char}`);
+}
+
+function fuzzySequencePattern(value) {
+  return `%${String(value).split("").map(escapeLikePattern).join("%")}%`;
+}
+
+function fuzzyPhrasePrefixPattern(tokens) {
+  return `${tokens.map(escapeLikePattern).join("%")}%`;
+}
+
+function levenshteinDistance(a, b) {
+  if (a === b) return 0;
+  if (!a.length) return b.length;
+  if (!b.length) return a.length;
+
+  const previous = Array.from({ length: b.length + 1 }, (_, index) => index);
+  const current = new Array(b.length + 1);
+
+  for (let i = 1; i <= a.length; i += 1) {
+    current[0] = i;
+
+    for (let j = 1; j <= b.length; j += 1) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      current[j] = Math.min(
+        current[j - 1] + 1,
+        previous[j] + 1,
+        previous[j - 1] + cost,
+      );
+    }
+
+    for (let j = 0; j <= b.length; j += 1) {
+      previous[j] = current[j];
+    }
+  }
+
+  return previous[b.length];
+}
+
+function fuzzyTokenIndex(token, normalizedValue) {
+  const variants = fuzzyTokenVariants(token);
+
+  for (const variant of variants) {
+    const index = normalizedValue.indexOf(variant);
+    if (index !== -1) return index;
+  }
+
+  const words = normalizedValue.split(" ").filter(Boolean);
+  for (let index = 0; index < words.length; index += 1) {
+    const word = words[index];
+    if (
+      token.length >= 4 &&
+      Math.abs(word.length - token.length) <= 1 &&
+      levenshteinDistance(token, word) <= 1
+    ) {
+      return normalizedValue.indexOf(word);
+    }
+  }
+
+  return -1;
+}
+
+function fuzzySearchScore(query, value) {
+  const normalizedQuery = normalizeFuzzySearchText(query);
+  const normalizedValue = normalizeFuzzySearchText(value);
+  const compactQuery = normalizedQuery.replace(/\s+/g, "");
+  const compactValue = normalizedValue.replace(/\s+/g, "");
+  const hasTokenBreak = normalizedQuery.includes(" ");
+
+  if (!normalizedQuery || !normalizedValue) return Number.MAX_SAFE_INTEGER;
+  if (normalizedValue === normalizedQuery) return 0;
+  if (compactQuery && compactValue === compactQuery) {
+    return hasTokenBreak ? 30 + compactValue.length : 1;
+  }
+  if (normalizedValue.startsWith(normalizedQuery)) return 10 + normalizedValue.length;
+  if (compactQuery && compactValue.startsWith(compactQuery)) {
+    return hasTokenBreak ? 150 + compactValue.length : 20 + compactValue.length;
+  }
+
+  const phraseIndex = normalizedValue.indexOf(normalizedQuery);
+  if (phraseIndex !== -1) return 100 + phraseIndex + normalizedValue.length;
+
+  const compactIndex = compactQuery ? compactValue.indexOf(compactQuery) : -1;
+  if (compactIndex !== -1) return 200 + compactIndex + compactValue.length;
+
+  const tokens = normalizedQuery.split(" ").filter(Boolean);
+  let tokenPenalty = 0;
+  for (const token of tokens) {
+    const tokenIndex = fuzzyTokenIndex(token, normalizedValue);
+    if (tokenIndex === -1) return Number.MAX_SAFE_INTEGER;
+    tokenPenalty += tokenIndex;
+  }
+
+  return 300 + tokenPenalty + normalizedValue.length;
 }
 
 const DASH_SEARCH_CHARS = ["-", "\u2010", "\u2011", "\u2012", "\u2013", "\u2014", "\u2212"];
@@ -112,6 +245,65 @@ function trackNode(row) {
   };
 }
 
+function nodeSortText(node) {
+  return String(node.name || node.title || node.label || "").toLocaleLowerCase();
+}
+
+function nodeSearchScore(query, node) {
+  return fuzzySearchScore(query, node.name || node.title || node.label || "");
+}
+
+function nodeSearchWeight(node) {
+  if (Number.isFinite(node.searchWeight)) return node.searchWeight;
+
+  if (node.type === "artist") {
+    return getArtistSearchWeight.get(node.dbId)?.weight || 0;
+  }
+
+  if (node.type === "album") {
+    return getAlbumSearchWeight.get(node.dbId)?.weight || 0;
+  }
+
+  if (node.type === "track") {
+    return getTrackSearchWeight.get(node.dbId, node.dbId)?.weight || 0;
+  }
+
+  return 0;
+}
+
+function sortSearchResults(query, results) {
+  return results.sort((a, b) =>
+    nodeSearchScore(query, a) - nodeSearchScore(query, b) ||
+    nodeSearchWeight(b) - nodeSearchWeight(a) ||
+    nodeSortText(a).localeCompare(
+      nodeSortText(b),
+      undefined,
+      { sensitivity: "base" }
+    )
+  );
+}
+
+function titleFamilyKey(node) {
+  return normalizeFuzzySearchText(node.name || node.title || node.label || "")
+    .replace(/\b(instrumental|remaster(?:ed)?|radio edit|explicit|clean|version|verses)\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function uniqueTitleFamilies(results) {
+  const seenTitles = new Set();
+  const unique = [];
+
+  for (const node of results) {
+    const key = titleFamilyKey(node);
+    if (seenTitles.has(key)) continue;
+    seenTitles.add(key);
+    unique.push(node);
+  }
+
+  return unique;
+}
+
 function link(source, target, type, extra = {}) {
   return {
     id: `${source}->${target}:${type}`,
@@ -192,6 +384,24 @@ const getTrack = db.prepare(`
   WHERE id = ?
 `);
 
+const getArtistSearchWeight = db.prepare(`
+  SELECT COUNT(*) AS weight
+  FROM artist_albums
+  WHERE artist_id = ?
+`);
+
+const getAlbumSearchWeight = db.prepare(`
+  SELECT COUNT(*) AS weight
+  FROM album_tracks
+  WHERE album_id = ?
+`);
+
+const getTrackSearchWeight = db.prepare(`
+  SELECT COUNT(*) AS weight
+  FROM track_samples
+  WHERE track_id = ? OR sampled_track_id = ?
+`);
+
 const searchArtistsExact = db.prepare(`
   SELECT id, mbid, name, sort_name, disambiguation
   FROM artists
@@ -247,6 +457,41 @@ const searchTracksPrefix = db.prepare(`
   ORDER BY title
   LIMIT ?
 `);
+
+function fuzzyTokenSearch(table, columns, searchColumn, tokens, limit) {
+  if (!tokens.length) return [];
+
+  const params = [];
+  let where = tokens
+    .map((token) => {
+      const variants = fuzzyTokenVariants(token);
+      params.push(...variants.map((variant) => `%${escapeLikePattern(variant)}%`));
+      return `(${variants.map(() => `${searchColumn} LIKE ? ESCAPE '\\' COLLATE NOCASE`).join(" OR ")})`;
+    })
+    .join(" AND ");
+
+  if (tokens.length === 1 && tokens[0].length >= 4) {
+    where = `(${where} OR (${searchColumn} LIKE ? ESCAPE '\\' COLLATE NOCASE AND ${searchColumn} LIKE ? ESCAPE '\\' COLLATE NOCASE))`;
+    params.push(`${escapeLikePattern(tokens[0].slice(0, 2))}%`);
+    params.push(fuzzySequencePattern(tokens[0]));
+  }
+
+  const phrasePrefixPattern = fuzzyPhrasePrefixPattern(tokens);
+  const sql = `
+    SELECT ${columns.join(", ")}
+    FROM ${table}
+    WHERE ${where}
+    ORDER BY
+      CASE
+        WHEN ${searchColumn} LIKE ? ESCAPE '\\' COLLATE NOCASE THEN 0
+        ELSE 1
+      END,
+      ${searchColumn} COLLATE NOCASE
+    LIMIT ?
+  `;
+
+  return db.prepare(sql).all(...params, phrasePrefixPattern, limit);
+}
 
 const getArtistAlbums = db.prepare(`
   SELECT albums.id, albums.mbid, albums.title, albums.first_release_date, albums.type, albums.disambiguation
@@ -566,14 +811,23 @@ app.get("/api/health", (req, res) => {
   res.json({ ok: true, dbPath: DB_PATH, counts });
 });
 
-app.get("/api/search", (req, res) => {
-  const q = String(req.query.q || "").trim();
+function searchGraphSeeds(q, options = {}) {
   const queryVariants = searchTextVariants(q);
-  const limit = clampLimit(req.query.limit, 25, 100);
-  const perTypeLimit = clampLimit(req.query.perTypeLimit, Math.ceil(limit / 3), 50);
+  const fuzzyTokens = fuzzySearchTokens(q);
+  const limit = options.limit || 25;
+  const perTypeLimit = options.perTypeLimit || Math.ceil(limit / 3);
+  const type = ["artist", "album", "track"].includes(options.type) ? options.type : null;
+  const isPredictive = Boolean(options.predictive);
 
-  if (!q) {
-    return res.status(400).json({ error: "Missing required query parameter: q" });
+  if (
+    isPredictive &&
+    type === "track" &&
+    q.length < 5
+  ) {
+    return {
+      query: q,
+      results: [],
+    };
   }
 
   const seen = new Set();
@@ -583,6 +837,7 @@ app.get("/api/search", (req, res) => {
     for (const row of rows) {
       const node = mapper(row);
       if (seen.has(node.id)) continue;
+      node.searchWeight = nodeSearchWeight(node);
       seen.add(node.id);
       results.push(node);
       if (results.length >= limit) break;
@@ -596,19 +851,103 @@ app.get("/api/search", (req, res) => {
     }
   }
 
-  addVariants(searchArtistsExact, artistNode);
-  addVariants(searchAlbumsExact, searchAlbumNode);
-  addVariants(searchTracksExact, searchTrackNode);
+  function addFuzzy(rows, mapper, labelSelector) {
+    const rankedRows = rows
+      .map((row) => ({
+        row,
+        score: fuzzySearchScore(q, labelSelector(row)),
+      }))
+      .filter((entry) => entry.score !== Number.MAX_SAFE_INTEGER)
+      .sort((a, b) => a.score - b.score || labelSelector(a.row).localeCompare(labelSelector(b.row)));
 
-  if (results.length < limit) addVariants(searchArtistsPrefix, artistNode, (value) => `${value}%`);
-  if (results.length < limit) addVariants(searchAlbumsPrefix, searchAlbumNode, (value) => `${value}%`);
-  if (results.length < limit) addVariants(searchTracksPrefix, searchTrackNode, (value) => `${value}%`);
-  if (results.length < limit) add(searchArtistsContains.all(`%${q}%`, perTypeLimit), artistNode);
+    add(rankedRows.map((entry) => entry.row), mapper);
+  }
 
-  res.json({
+  function trackPrefixCandidates() {
+    const candidates = [...results];
+    const seenCandidates = new Set(candidates.map((node) => node.id));
+    const candidateLimit = Math.max(limit * 12, 80);
+
+    for (const variant of queryVariants) {
+      for (const row of searchTracksPrefix.all(`${variant}%`, candidateLimit)) {
+        const node = searchTrackNode(row);
+        if (seenCandidates.has(node.id)) continue;
+        node.searchWeight = nodeSearchWeight(node);
+        seenCandidates.add(node.id);
+        candidates.push(node);
+      }
+    }
+
+    return candidates;
+  }
+
+  if (!type || type === "artist") addVariants(searchArtistsExact, artistNode);
+  if (!type || type === "album") addVariants(searchAlbumsExact, searchAlbumNode);
+  if (!type || type === "track") addVariants(searchTracksExact, searchTrackNode);
+
+  if (type === "track") {
+    return {
+      query: q,
+      results: uniqueTitleFamilies(sortSearchResults(q, trackPrefixCandidates()))
+        .slice(0, limit),
+    };
+  }
+
+  if (results.length < limit && (!type || type === "artist")) {
+    addFuzzy(
+      fuzzyTokenSearch(
+        "artists",
+        ["id", "mbid", "name", "sort_name", "disambiguation"],
+        "name",
+        fuzzyTokens,
+        perTypeLimit * 4,
+      ),
+      artistNode,
+      (row) => row.name,
+    );
+  }
+  if (results.length < limit && (!type || type === "album")) {
+    addFuzzy(
+      fuzzyTokenSearch(
+        "albums",
+        ["id", "mbid", "title", "first_release_date", "type", "disambiguation"],
+        "title",
+        fuzzyTokens,
+        perTypeLimit * 4,
+      ),
+      searchAlbumNode,
+      (row) => row.title,
+    );
+  }
+  if (results.length < limit && (!type || type === "artist")) addVariants(searchArtistsPrefix, artistNode, (value) => `${value}%`);
+  if (results.length < limit && (!type || type === "album")) addVariants(searchAlbumsPrefix, searchAlbumNode, (value) => `${value}%`);
+  if (results.length < limit && (!type || type === "track")) addVariants(searchTracksPrefix, searchTrackNode, (value) => `${value}%`);
+  if (results.length < limit && (!type || type === "artist")) add(searchArtistsContains.all(`%${q}%`, perTypeLimit), artistNode);
+
+  return {
     query: q,
-    results: results.slice(0, limit),
-  });
+    results: sortSearchResults(q, results).slice(0, limit),
+  };
+}
+
+app.get("/api/search", (req, res) => {
+  const q = String(req.query.q || "").trim();
+  const limit = clampLimit(req.query.limit, 25, 100);
+  const perTypeLimit = clampLimit(req.query.perTypeLimit, Math.ceil(limit / 3), 50);
+  const type = String(req.query.type || "").trim();
+  const predictive = ["1", "true", "yes"].includes(
+    String(req.query.predictive || "").toLowerCase()
+  );
+
+  if (!q) {
+    return res.status(400).json({ error: "Missing required query parameter: q" });
+  }
+
+  if (type && !["artist", "album", "track"].includes(type)) {
+    return res.status(400).json({ error: `Unsupported search type: ${type}` });
+  }
+
+  res.json(searchGraphSeeds(q, { limit, perTypeLimit, type: type || null, predictive }));
 });
 
 app.get("/api/subgraph", (req, res) => {
@@ -848,6 +1187,18 @@ app.get("/api/nodes/:type/:id/details", asyncHandler(async (req, res) => {
   res.status(400).json({ error: `Unsupported node type: ${type}` });
 }));
 
+app.use(express.static(CLIENT_DIST_DIR));
+
+app.use((req, res, next) => {
+  if (req.method !== "GET" || req.path.startsWith("/api/")) {
+    return next();
+  }
+
+  res.sendFile(path.join(CLIENT_DIST_DIR, "index.html"), (err) => {
+    if (err) next();
+  });
+});
+
 app.use((err, req, res, next) => {
   console.error(err);
   res.status(err.status || 500).json({
@@ -855,13 +1206,20 @@ app.use((err, req, res, next) => {
   });
 });
 
-const server = app.listen(PORT, HOST, () => {
-  console.log(`Sample graph API listening on http://${HOST}:${PORT}`);
-  console.log(`SQLite database: ${DB_PATH}`);
-});
+if (require.main === module) {
+  const server = app.listen(PORT, HOST, () => {
+    console.log(`Sample graph API listening on http://${HOST}:${PORT}`);
+    console.log(`SQLite database: ${DB_PATH}`);
+  });
 
-server.on("error", (err) => {
-  console.error(`Could not start API server on ${HOST}:${PORT}`);
-  console.error(err);
-  process.exitCode = 1;
-});
+  server.on("error", (err) => {
+    console.error(`Could not start API server on ${HOST}:${PORT}`);
+    console.error(err);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = {
+  app,
+  searchGraphSeeds,
+};

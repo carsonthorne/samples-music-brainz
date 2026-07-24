@@ -7,6 +7,8 @@
     "start": "node src/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "db:init": "node src/db/initDb.js",
+    "db:runtime": "node src/db/createRuntimeDb.js",
+    "db:rebuild-runtime": "node src/db/rebuildRuntimeFromDump.js",
     "compile:recordings": "node src/compiler/loadRecordings.js",
     "compile:artists": "node src/compiler/loadArtists.js",
     "compile:albums": "node src/compiler/loadAlbums.js",

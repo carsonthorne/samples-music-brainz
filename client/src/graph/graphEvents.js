@@ -246,7 +246,7 @@ export function createGraphEvents(
     if (!Number.isFinite(x) || !Number.isFinite(y))
       return false;
 
-    if (graph.getViewMode?.() === "3d" && !Number.isFinite(z))
+    if (!Number.isFinite(z))
       return false;
 
     graph.cameraPosition(

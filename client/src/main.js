@@ -34,6 +34,60 @@ function resultLabel(node)
   return `${type}: ${title}${detail ? ` (${detail})` : ""}`;
 }
 
+function resultSortText(node)
+{
+  return String(node.name || node.title || node.label || "").toLocaleLowerCase();
+}
+
+function normalizeResultText(value)
+{
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/gi, " ")
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+function resultRelevanceScore(query, node)
+{
+  const normalizedQuery = normalizeResultText(query);
+  const normalizedValue = normalizeResultText(node.name || node.title || node.label || "");
+  const compactQuery = normalizedQuery.replace(/\s+/g, "");
+  const compactValue = normalizedValue.replace(/\s+/g, "");
+  const hasTokenBreak = normalizedQuery.includes(" ");
+
+  if (!normalizedQuery || !normalizedValue) return Number.MAX_SAFE_INTEGER;
+  if (normalizedValue === normalizedQuery) return 0;
+  if (compactQuery && compactValue === compactQuery)
+  {
+    return hasTokenBreak ? 30 + compactValue.length : 1;
+  }
+  if (normalizedValue.startsWith(normalizedQuery)) return 10 + normalizedValue.length;
+  if (compactQuery && compactValue.startsWith(compactQuery))
+  {
+    return hasTokenBreak ? 150 + compactValue.length : 20 + compactValue.length;
+  }
+
+  const phraseIndex = normalizedValue.indexOf(normalizedQuery);
+  if (phraseIndex !== -1) return 100 + phraseIndex + normalizedValue.length;
+
+  const compactIndex = compactQuery ? compactValue.indexOf(compactQuery) : -1;
+  if (compactIndex !== -1) return 200 + compactIndex + compactValue.length;
+
+  let tokenPenalty = 0;
+  for (const token of normalizedQuery.split(" ").filter(Boolean))
+  {
+    const tokenIndex = normalizedValue.indexOf(token);
+    if (tokenIndex === -1) return Number.MAX_SAFE_INTEGER;
+    tokenPenalty += tokenIndex;
+  }
+
+  return 300 + tokenPenalty + normalizedValue.length;
+}
+
 function visibleConnectionEntries(state)
 {
   const visible = state.toForceGraph();
@@ -160,12 +214,6 @@ async function init()
       events.handleNodeClick
     );
 
-  const viewToggle =
-    document.getElementById("toggle-view");
-
-  const dagToggle =
-    document.getElementById("toggle-dag");
-
   const fitCanvasButton =
     document.getElementById("fit-canvas");
 
@@ -187,16 +235,8 @@ async function init()
 
   function updateGraphControls()
   {
-    const is2d = graph.getViewMode() === "2d";
-    const isDag = graph.getDagEnabled();
     const isOrbiting = graph.isAutoOrbiting?.() || false;
     const isOrbitPending = Boolean(orbitStartTimer);
-
-    viewToggle.textContent = is2d ? "3D View" : "2D View";
-    viewToggle.setAttribute("aria-pressed", String(is2d));
-
-    dagToggle.textContent = isDag ? "DAG On" : "DAG Off";
-    dagToggle.setAttribute("aria-pressed", String(isDag));
 
     orbitToggle.textContent =
       isOrbitPending ? "Fitting..." : isOrbiting ? "Orbit On" : "Orbit";
@@ -211,23 +251,6 @@ async function init()
     panelToggleButton.textContent = visible ? "Hide Panel" : "Show Panel";
     panelToggleButton.setAttribute("aria-pressed", String(visible));
   }
-
-  viewToggle.addEventListener("click", () =>
-  {
-    cancelPendingOrbitStart();
-    const nextMode =
-      graph.getViewMode() === "3d" ? "2d" : "3d";
-
-    graph.setViewMode(nextMode);
-    graph.graphData(state.toForceGraph());
-    updateGraphControls();
-  });
-
-  dagToggle.addEventListener("click", () =>
-  {
-    graph.setDagEnabled(!graph.getDagEnabled());
-    updateGraphControls();
-  });
 
   fitCanvasButton.addEventListener("click", () =>
   {
@@ -291,8 +314,218 @@ async function init()
   const input =
     document.getElementById("search-input");
 
+  const typeSelect =
+    document.getElementById("search-type");
+
   const resultsEl =
     document.getElementById("search-results");
+
+  let predictiveSearchTimer = null;
+  let predictiveSearchController = null;
+  let searchRequestId = 0;
+  let latestResults = [];
+
+  function updateSearchPlaceholder()
+  {
+    const labelByType = {
+      artist: "artists",
+      album: "albums",
+      track: "tracks"
+    };
+
+    input.placeholder = `Search ${labelByType[typeSelect.value] || "artists"}`;
+  }
+
+  function canPredictivelySearch(query)
+  {
+    if (typeSelect.value !== "track")
+    {
+      return query.length >= 2;
+    }
+
+    return query.length >= 5;
+  }
+
+  function predictiveSearchDelay()
+  {
+    return typeSelect.value === "track" ? 420 : 220;
+  }
+
+  function clearPredictiveSearchTimer()
+  {
+    if (!predictiveSearchTimer) return;
+
+    clearTimeout(predictiveSearchTimer);
+    predictiveSearchTimer = null;
+  }
+
+  function cancelPredictiveSearch()
+  {
+    clearPredictiveSearchTimer();
+
+    if (predictiveSearchController)
+    {
+      predictiveSearchController.abort();
+      predictiveSearchController = null;
+    }
+  }
+
+  function renderSearchResults(results)
+  {
+    const selectedType = typeSelect.value;
+    const query = input.value.trim();
+    latestResults = results
+      .filter((node) => node.type === selectedType)
+      .sort((a, b) =>
+        resultRelevanceScore(query, a) - resultRelevanceScore(query, b) ||
+        (b.searchWeight || 0) - (a.searchWeight || 0) ||
+        resultSortText(a).localeCompare(
+          resultSortText(b),
+          undefined,
+          { sensitivity: "base" }
+        )
+      );
+
+    resultsEl.innerHTML = latestResults
+      .map((node, index) =>
+        `<button class="result" type="button" data-index="${index}">
+          ${escapeHtml(resultLabel(node))}
+        </button>`
+      )
+      .join("");
+
+    resultsEl.querySelectorAll(".result").forEach((button) =>
+    {
+      button.addEventListener("click", async () =>
+      {
+        const node =
+          latestResults[Number(button.dataset.index)];
+
+        if (!node) return;
+
+        cancelPredictiveSearch();
+        resultsEl.innerHTML = "";
+        await seedGraph(node);
+      });
+    });
+  }
+
+  async function runSearch(query, options = {})
+  {
+    const requestId = ++searchRequestId;
+    const predictive = Boolean(options.predictive);
+    const controller = predictive ? new AbortController() : null;
+
+    if (predictive)
+    {
+      if (predictiveSearchController)
+      {
+        predictiveSearchController.abort();
+      }
+
+      predictiveSearchController = controller;
+    }
+
+    if (!predictive)
+    {
+      cancelPredictiveSearch();
+      resultsEl.innerHTML = "";
+      setStatus("Searching...");
+    }
+
+    try
+    {
+      const { results } =
+        await searchGraphSeeds(
+          query,
+          {
+            limit: predictive ? 8 : 30,
+            perTypeLimit: predictive ? 4 : 10,
+            type: typeSelect.value,
+            predictive,
+            signal: controller?.signal
+          }
+        );
+
+      if (requestId !== searchRequestId) return;
+
+      if (predictive && input.value.trim() !== query) return;
+
+      const selectedResults =
+        results.filter((node) => node.type === typeSelect.value);
+
+      if (!selectedResults.length)
+      {
+        resultsEl.innerHTML = "";
+
+        if (!predictive)
+        {
+          setStatus("No matches found.");
+        }
+
+        return;
+      }
+
+      setStatus("");
+      renderSearchResults(selectedResults);
+    }
+    catch (err)
+    {
+      if (err.name === "AbortError") return;
+      setStatus(err.message);
+    }
+    finally
+    {
+      if (predictive && predictiveSearchController === controller)
+      {
+        predictiveSearchController = null;
+      }
+    }
+  }
+
+  input.addEventListener("input", () =>
+  {
+    const query = input.value.trim();
+    clearPredictiveSearchTimer();
+
+    if (!canPredictivelySearch(query))
+    {
+      cancelPredictiveSearch();
+      searchRequestId += 1;
+      latestResults = [];
+      resultsEl.innerHTML = "";
+      return;
+    }
+
+    predictiveSearchTimer = setTimeout(() =>
+    {
+      predictiveSearchTimer = null;
+      runSearch(query, { predictive: true });
+    }, predictiveSearchDelay());
+  });
+
+  typeSelect.addEventListener("change", () =>
+  {
+    const query = input.value.trim();
+    searchRequestId += 1;
+    latestResults = [];
+    updateSearchPlaceholder();
+    cancelPredictiveSearch();
+    resultsEl.innerHTML = "";
+
+    if (canPredictivelySearch(query))
+    {
+      runSearch(query, { predictive: true });
+    }
+  });
+
+  input.addEventListener("keydown", (event) =>
+  {
+    if (event.key !== "Escape") return;
+
+    cancelPredictiveSearch();
+    resultsEl.innerHTML = "";
+  });
 
   form.addEventListener("submit", async (event) =>
   {
@@ -301,46 +534,10 @@ async function init()
     const query = input.value.trim();
     if (!query) return;
 
-    resultsEl.innerHTML = "";
-    setStatus("Searching...");
-
-    try
-    {
-      const { results } =
-        await searchGraphSeeds(query);
-
-      if (!results.length)
-      {
-        setStatus("No matches found.");
-        return;
-      }
-
-      setStatus("");
-      resultsEl.innerHTML = results
-        .map((node, index) =>
-          `<button class="result" type="button" data-index="${index}">
-            ${escapeHtml(resultLabel(node))}
-          </button>`
-        )
-        .join("");
-
-      resultsEl.querySelectorAll(".result").forEach((button) =>
-      {
-        button.addEventListener("click", async () =>
-        {
-          const node =
-            results[Number(button.dataset.index)];
-
-          resultsEl.innerHTML = "";
-          await seedGraph(node);
-        });
-      });
-    }
-    catch (err)
-    {
-      setStatus(err.message);
-    }
+    await runSearch(query);
   });
+
+  updateSearchPlaceholder();
 
   document
     .getElementById("collapse-all")

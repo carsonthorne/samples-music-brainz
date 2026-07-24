@@ -6,6 +6,17 @@ client/node_modules/
 data/
 musicbrainz-dump/
 cache/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.backup
+*.tmp
+
+# Local environment
+.env
+.env.*
+!.env.example
 
 # Runtime image cache populated on demand by the backend
 client/public/artwork/
