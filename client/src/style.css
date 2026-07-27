@@ -92,13 +92,41 @@ button:hover
   background: var(--panel-bg-hover);
 }
 
+.icon-button
+{
+  display: inline-grid;
+  place-items: center;
+  width: 38px;
+  min-width: 38px;
+  padding: 0;
+}
+
+.icon-button svg
+{
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.82;
+}
+
+.icon-button:hover svg,
+.icon-button[aria-pressed="true"] svg
+{
+  opacity: 1;
+}
+
 #controls
 {
   position: absolute;
   top: 12px;
-  left: 12px;
+  right: 12px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 8px;
   width: min(260px, calc(100vw - 24px));
   pointer-events: auto;
@@ -113,7 +141,7 @@ button:hover
 #status
 {
   position: absolute;
-  left: 12px;
+  right: 12px;
   bottom: 12px;
   max-width: min(520px, calc(100vw - 24px));
   min-height: 20px;
@@ -159,7 +187,7 @@ button:hover
 {
   position: absolute;
   top: 12px;
-  right: 12px;
+  left: 12px;
   pointer-events: auto;
 }
 
@@ -167,7 +195,7 @@ button:hover
 {
   position: absolute;
   top: 58px;
-  right: 12px;
+  left: 12px;
   bottom: 12px;
   z-index: 12;
   width: min(420px, calc(100vw - 24px));

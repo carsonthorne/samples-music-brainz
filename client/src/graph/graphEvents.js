@@ -471,6 +471,7 @@ export function createGraphEvents(
     state.expanded.clear();
 
     const root = state.rootId;
+    const rootNode = state.graph.nodesById[root];
 
     state.focusNode = root;
 
@@ -482,6 +483,8 @@ export function createGraphEvents(
     getGraph()?.graphData(
       state.toForceGraph()
     );
+
+    return rootNode || null;
   }
   
   

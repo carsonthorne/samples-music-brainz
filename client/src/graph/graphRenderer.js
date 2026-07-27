@@ -91,6 +91,40 @@ export function createGraph(container, state, graph, onNodeClick)
   let orbitRadius = 520;
   let orbitHeight = 115;
 
+  function focusedNodeTarget()
+  {
+    const node =
+      graphData?.nodes?.find((item) => item.id === state.focusNode) ||
+      state.graph.nodesById[state.focusNode];
+
+    const x = Number(node?.x);
+    const y = Number(node?.y);
+    const z = Number(node?.z ?? 0);
+
+    if (!Number.isFinite(x) || !Number.isFinite(y) || !Number.isFinite(z))
+    {
+      return null;
+    }
+
+    return { x, y, z };
+  }
+
+  function orbitTarget()
+  {
+    return focusedNodeTarget() || instance?.controls?.()?.target || { x: 0, y: 0, z: 0 };
+  }
+
+  function syncOrbitTarget()
+  {
+    const target = focusedNodeTarget();
+    const controls = instance?.controls?.();
+
+    if (!target || !controls?.target) return;
+
+    controls.target.set(target.x, target.y, target.z);
+    controls.update?.();
+  }
+
   function emitOrbitChange()
   {
     container.dispatchEvent(
@@ -226,7 +260,15 @@ export function createGraph(container, state, graph, onNodeClick)
   {
     if (!instance || !hasMethod(instance, "zoomToFit")) return controller;
 
+    const wasOrbiting = Boolean(orbitFrame);
     instance.zoomToFit(duration, 60);
+
+    if (wasOrbiting)
+    {
+      syncOrbitTarget();
+      setTimeout(syncOrbitTarget, duration + 40);
+    }
+
     return controller;
   }
 
@@ -240,8 +282,7 @@ export function createGraph(container, state, graph, onNodeClick)
     }
 
     const camera = instance.camera?.();
-    const controls = instance.controls?.();
-    const target = controls?.target || { x: 0, y: 0, z: 0 };
+    const target = orbitTarget();
     const position = camera?.position;
     const startingRadius =
       position ? Math.hypot(position.x - target.x, position.z - target.z) : orbitRadius;
@@ -258,8 +299,7 @@ export function createGraph(container, state, graph, onNodeClick)
 
     function tick()
     {
-      const liveControls = instance.controls?.();
-      const liveTarget = liveControls?.target || { x: 0, y: 0, z: 0 };
+      const liveTarget = orbitTarget();
       const livePosition = instance.camera?.()?.position;
       const liveRadius =
         livePosition

@@ -14,6 +14,12 @@ function setStatus(message)
   document.getElementById("status").textContent = message || "";
 }
 
+function setButtonLabel(button, label)
+{
+  button.setAttribute("aria-label", label);
+  button.title = label;
+}
+
 function escapeHtml(value)
 {
   return String(value)
@@ -237,9 +243,10 @@ async function init()
   {
     const isOrbiting = graph.isAutoOrbiting?.() || false;
     const isOrbitPending = Boolean(orbitStartTimer);
+    const label =
+      isOrbitPending ? "Fitting before orbit" : isOrbiting ? "Stop orbit" : "Start orbit";
 
-    orbitToggle.textContent =
-      isOrbitPending ? "Fitting..." : isOrbiting ? "Orbit On" : "Orbit";
+    setButtonLabel(orbitToggle, label);
     orbitToggle.setAttribute("aria-pressed", String(isOrbiting || isOrbitPending));
   }
 
@@ -248,7 +255,7 @@ async function init()
     const visible =
       sidePanel?.isVisible?.() || false;
 
-    panelToggleButton.textContent = visible ? "Hide Panel" : "Show Panel";
+    setButtonLabel(panelToggleButton, visible ? "Hide panel" : "Show panel");
     panelToggleButton.setAttribute("aria-pressed", String(visible));
   }
 
@@ -541,13 +548,18 @@ async function init()
 
   document
     .getElementById("collapse-all")
-    .addEventListener("click", () =>
+    .addEventListener("click", async () =>
     {
-      events.collapseAll();
+      const rootNode = events.collapseAll();
       cancelPendingOrbitStart();
       graph.stopAutoOrbit?.();
       updateGraphControls();
-      sidePanel.close();
+
+      if (rootNode)
+      {
+        await sidePanel.open(rootNode);
+      }
+
       updatePanelToggle();
     });
 }
