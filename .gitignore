@@ -18,6 +18,10 @@ cache/
 .env.*
 !.env.example
 
+# Local deployment notes
+SERVER_RUNBOOK.md
+cloudflared-config*.yml
+
 # Runtime image cache populated on demand by the backend
 client/public/artwork/
 client/public/avatars/

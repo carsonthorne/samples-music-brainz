@@ -1,7 +1,0 @@
-tunnel: <TUNNEL_UUID_OR_NAME>
-credentials-file: /Users/carsonthorne/.cloudflared/<TUNNEL_UUID>.json
-
-ingress:
-  - hostname: samples.your-domain.com
-    service: http://localhost:3001
-  - service: http_status:404
