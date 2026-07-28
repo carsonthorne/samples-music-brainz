@@ -356,6 +356,28 @@ export function createGraphEvents(
     return state.graph.nodesById[nodeId] || null;
   }
 
+  async function expandNodesMode(nodes, mode, concurrency = 8)
+  {
+    const queue =
+      [...new Set((nodes || []).map((node) => node?.id).filter(Boolean))];
+
+    let index = 0;
+    const workers = Array.from(
+      { length: Math.min(concurrency, queue.length) },
+      async () =>
+      {
+        while (index < queue.length)
+        {
+          const nodeId = queue[index];
+          index += 1;
+          await ensureModeExpanded(nodeId, mode);
+        }
+      }
+    );
+
+    await Promise.all(workers);
+  }
+
   async function artistNodesForFocus(startNode)
   {
     if (!startNode) return [];
@@ -376,10 +398,7 @@ export function createGraphEvents(
       await ensureModeExpanded(startNode.id, "track_albums");
       const albums = visibleChildren(startNode.id, "album");
 
-      for (const album of albums)
-      {
-        await ensureModeExpanded(album.id, "album_artists");
-      }
+      await expandNodesMode(albums, "album_artists");
 
       return albums.flatMap((album) => visibleChildren(album.id, "artist"));
     }
@@ -392,36 +411,24 @@ export function createGraphEvents(
     await ensureModeExpanded(artist.id, "artist_albums");
     const albums = visibleChildren(artist.id, "album");
 
-    for (const album of albums)
-    {
-      await ensureModeExpanded(album.id, "album_tracks");
-    }
+    await expandNodesMode(albums, "album_tracks");
 
     const tracks = albums.flatMap((album) => visibleChildren(album.id, "track"));
 
-    for (const track of tracks)
-    {
-      await ensureModeExpanded(track.id, "track_samples");
-      await ensureModeExpanded(track.id, "track_sampled_by");
-    }
+    await expandNodesMode(tracks, "track_samples");
+    await expandNodesMode(tracks, "track_sampled_by");
 
     const relatedTracks = tracks.flatMap((track) =>
       connectedNodes(track.id, "track", "samples")
     );
 
-    for (const relatedTrack of relatedTracks)
-    {
-      await ensureModeExpanded(relatedTrack.id, "track_albums");
-    }
+    await expandNodesMode(relatedTracks, "track_albums");
 
     const relatedAlbums = relatedTracks.flatMap((track) =>
       visibleChildren(track.id, "album")
     );
 
-    for (const relatedAlbum of relatedAlbums)
-    {
-      await ensureModeExpanded(relatedAlbum.id, "album_artists");
-    }
+    await expandNodesMode(relatedAlbums, "album_artists");
   }
 
   async function showArtistConnections()
