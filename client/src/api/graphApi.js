@@ -165,7 +165,7 @@ export async function loadArtistConnections(node)
 
   if (shouldUseMobileGraphLimit())
   {
-    params.set("limit", "1400");
+    params.set("profile", "mobile");
   }
 
   const query =

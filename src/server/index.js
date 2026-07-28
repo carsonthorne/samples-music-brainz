@@ -742,6 +742,7 @@ function buildArtistConnections(rootNode, options = {}) {
     album_artists: options.albumArtistLimit || 500,
   };
   const nodeLimit = options.nodeLimit || 50000;
+  const expansionLimit = options.expansionLimit || Infinity;
   const nodesById = new Map([[rootNode.id, rootNode]]);
   const linksById = new Map();
   const nodeModes = { [rootNode.id]: modeForNodeType(rootNode.type) };
@@ -791,7 +792,7 @@ function buildArtistConnections(rootNode, options = {}) {
     return [...new Map(nodes.map((node) => [node.id, node])).values()];
   }
 
-  function expandNode(node, mode) {
+  function expandNode(node, mode, limitOverride = null) {
     if (!node?.id || !mode || truncated) return [];
 
     const loadedKey = `${node.id}|${mode}`;
@@ -805,7 +806,9 @@ function buildArtistConnections(rootNode, options = {}) {
       return childType ? nodesOfType(node.id, childType) : [];
     }
 
-    const expansion = expansionForNode(node, mode, limits[mode] || 500);
+    const limit =
+      limitOverride || Math.min(limits[mode] || 500, expansionLimit);
+    const expansion = expansionForNode(node, mode, limit);
     expanded.add(node.id);
     loadedModes.add(loadedKey);
 
@@ -864,7 +867,7 @@ function buildArtistConnections(rootNode, options = {}) {
       [...new Map(relatedAlbums.map((album) => [album.id, album])).values()];
 
     for (const album of uniqueRelatedAlbums) {
-      expandNode(album, "album_artists");
+      expandNode(album, "album_artists", limits.album_artists);
       if (truncated) break;
     }
 
@@ -895,7 +898,16 @@ const artistConnectionsCache = new Map();
 const ARTIST_CONNECTIONS_CACHE_LIMIT = 25;
 
 function cachedArtistConnections(rootNode, options = {}) {
-  const key = `${rootNode.id}|${options.nodeLimit || 50000}`;
+  const key = JSON.stringify({
+    root: rootNode.id,
+    nodeLimit: options.nodeLimit || 50000,
+    expansionLimit: options.expansionLimit || null,
+    artistAlbumLimit: options.artistAlbumLimit || null,
+    albumTrackLimit: options.albumTrackLimit || null,
+    trackSampleLimit: options.trackSampleLimit || null,
+    trackAlbumLimit: options.trackAlbumLimit || null,
+    albumArtistLimit: options.albumArtistLimit || null,
+  });
   const cached = artistConnectionsCache.get(key);
 
   if (cached) {
@@ -1177,11 +1189,23 @@ app.get("/api/nodes/:type/:id/artist-connections", (req, res) => {
   const type = String(req.params.type || "");
   const id = parseEntityId(req.params.id, type);
   const rootNode = entityNode(type, id);
+  const profile = String(req.query.profile || "");
+  const isMobileProfile = profile === "mobile";
 
   if (!rootNode) return notFound(res, type, id);
 
   res.json(cachedArtistConnections(rootNode, {
-    nodeLimit: readPositiveInteger(req.query.limit, 50000, 100000),
+    nodeLimit: readPositiveInteger(
+      req.query.limit,
+      isMobileProfile ? 2200 : 50000,
+      100000
+    ),
+    expansionLimit: isMobileProfile ? 120 : Infinity,
+    artistAlbumLimit: isMobileProfile ? 120 : undefined,
+    albumTrackLimit: isMobileProfile ? 120 : undefined,
+    trackSampleLimit: isMobileProfile ? 120 : undefined,
+    trackAlbumLimit: isMobileProfile ? 1 : undefined,
+    albumArtistLimit: isMobileProfile ? 12 : undefined,
   }));
 });
 
