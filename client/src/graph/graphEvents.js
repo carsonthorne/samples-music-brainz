@@ -151,20 +151,12 @@ export function createGraphEvents(
       state.addNode(graphNodePayload(node));
     }
 
-    for (const pathNode of options.path || node.path || [])
-    {
-      if (pathNode?.id && state.graph.nodesById[pathNode.id])
-      {
-        state.graph.nodesById[pathNode.id].renderHidden = false;
-      }
-    }
+    state.pinRenderPath?.([
+      ...(options.path || node.path || []),
+      state.graph.nodesById[node.id]
+    ]);
 
-    if (state.graph.nodesById[node.id])
-    {
-      state.graph.nodesById[node.id].renderHidden = false;
-    }
-
-    focusNode(node.id);
+    focusNode(node.id, { preserveRenderPins: true });
   }
 
   function focusNode(nodeId, options = {})
@@ -173,6 +165,11 @@ export function createGraphEvents(
     if (!node) return;
 
     getGraph()?.stopAutoOrbit?.();
+    if (!options.preserveRenderPins)
+    {
+      state.clearRenderPins?.();
+    }
+
     state.setFocus(nodeId);
 
     getGraph()?.graphData(

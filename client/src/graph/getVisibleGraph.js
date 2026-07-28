@@ -68,8 +68,10 @@ export function getVisibleGraph(state)
     }
   }
 
-  const root = state.rootId;
-  if (root) 
+  const roots =
+    [...new Set([state.rootId, state.focusNode].filter(Boolean))];
+
+  for (const root of roots)
   {
     traverse(root);
   }

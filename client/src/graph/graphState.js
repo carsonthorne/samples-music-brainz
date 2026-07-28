@@ -19,6 +19,8 @@ export class GraphState
     this.focusNode = null;
     this.loadedNeighbors = new Set();
     this.expansionModes = {};
+    this.renderLimit = null;
+    this.renderPinnedNodeIds = new Set();
     this.linkKeys = new Set(
       (this.graph.links || []).map((link) =>
         `${typeof link.source === "object" ? link.source.id : link.source}|${typeof link.target === "object" ? link.target.id : link.target}|${link.type || "related"}`
@@ -59,6 +61,8 @@ export class GraphState
     this.expanded.clear();
     this.loadedNeighbors.clear();
     this.expansionModes = {};
+    this.renderLimit = null;
+    this.renderPinnedNodeIds.clear();
     this.linkKeys.clear();
     this.adjacencyKeys.clear();
     this.reverseAdjacencyKeys.clear();
@@ -160,31 +164,97 @@ export class GraphState
       this.setExpansionMode(nodeId, mode);
     }
 
-    if (fragment.stats?.renderLimit)
+    if (Object.prototype.hasOwnProperty.call(fragment.stats || {}, "renderLimit"))
     {
-      this.applyRenderLimit(fragment.stats.renderLimit);
+      this.setRenderLimit(fragment.stats.renderLimit);
     }
   }
 
-  applyRenderLimit(limit)
+  setRenderLimit(limit)
   {
     const maxVisible = Number(limit);
-    if (!Number.isFinite(maxVisible) || maxVisible <= 0) return;
+    this.renderLimit =
+      Number.isFinite(maxVisible) && maxVisible > 0 ? maxVisible : null;
+    this.applyRenderWindow();
+  }
 
+  pinRenderPath(nodes)
+  {
+    this.renderPinnedNodeIds.clear();
+
+    for (const node of nodes || [])
+    {
+      if (node?.id)
+      {
+        this.renderPinnedNodeIds.add(node.id);
+      }
+    }
+
+    this.applyRenderWindow();
+  }
+
+  clearRenderPins()
+  {
+    this.renderPinnedNodeIds.clear();
+    this.applyRenderWindow();
+  }
+
+  applyRenderWindow()
+  {
     const nodes =
       Object.values(this.graph.nodesById);
-    const alwaysVisible = new Set(
-      nodes
-        .filter((node) => node.type === "artist" || node.id === this.rootId || node.id === this.focusNode)
-        .map((node) => node.id)
-    );
-    const visible = new Set(alwaysVisible);
 
-    for (const node of nodes)
+    if (!this.renderLimit)
     {
-      if (visible.size >= maxVisible) break;
-      if (visible.has(node.id)) continue;
-      visible.add(node.id);
+      for (const node of nodes)
+      {
+        node.renderHidden = false;
+      }
+
+      return;
+    }
+
+    const maxVisible = this.renderLimit;
+    const focusId =
+      this.focusNode || this.rootId;
+    const visible =
+      new Set([this.rootId, focusId, ...this.renderPinnedNodeIds].filter(Boolean));
+    const queued = new Set(visible);
+    const queue =
+      [...visible].filter((nodeId) => this.graph.nodesById[nodeId]);
+
+    function priority(node)
+    {
+      if (node?.type === "artist") return 0;
+      if (node?.type === "album") return 1;
+      return 2;
+    }
+
+    while (queue.length && visible.size < maxVisible)
+    {
+      const nodeId = queue.shift();
+      const edges = [
+        ...(this.graph.adjacency[nodeId] || []).map((edge) => edge.target),
+        ...(this.graph.reverseAdjacency[nodeId] || []).map((edge) => edge.source)
+      ];
+      const neighbors =
+        [...new Set(edges)]
+          .map((id) => this.graph.nodesById[id])
+          .filter(Boolean)
+          .sort((a, b) =>
+            priority(a) - priority(b) ||
+            String(a.name || a.label || a.id).localeCompare(String(b.name || b.label || b.id))
+          );
+
+      for (const neighbor of neighbors)
+      {
+        if (visible.size >= maxVisible) break;
+        if (queued.has(neighbor.id)) continue;
+
+        queued.add(neighbor.id);
+        visible.add(neighbor.id);
+        queue.push(neighbor.id);
+      }
     }
 
     for (const node of nodes)
@@ -218,6 +288,7 @@ export class GraphState
   setFocus(nodeId)
   {
     this.focusNode = nodeId;
+    this.applyRenderWindow();
   }
 
 
