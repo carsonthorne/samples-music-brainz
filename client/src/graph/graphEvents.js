@@ -467,7 +467,11 @@ export function createGraphEvents(
           }
 
           renderGraph();
-          setTemporaryStatus("Showed artist connections.");
+          setTemporaryStatus(
+            fragment.stats?.truncated
+              ? "Showed a mobile-sized artist connections graph."
+              : "Showed artist connections."
+          );
           loadedServerFragment = true;
         }
       }

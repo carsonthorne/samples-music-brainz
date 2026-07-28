@@ -161,9 +161,26 @@ export async function loadArtistConnections(node)
 
   const lookupId =
     node.dbId || rawId || node.id;
+  const params = new URLSearchParams();
+
+  if (shouldUseMobileGraphLimit())
+  {
+    params.set("limit", "1400");
+  }
+
+  const query =
+    params.size ? `?${params}` : "";
 
   return getJson(
-    `/api/nodes/${encodeURIComponent(type)}/${encodeURIComponent(lookupId)}/artist-connections`
+    `/api/nodes/${encodeURIComponent(type)}/${encodeURIComponent(lookupId)}/artist-connections${query}`
+  );
+}
+
+function shouldUseMobileGraphLimit()
+{
+  return (
+    window.matchMedia?.("(pointer: coarse)")?.matches ||
+    window.matchMedia?.("(max-width: 760px)")?.matches
   );
 }
 
