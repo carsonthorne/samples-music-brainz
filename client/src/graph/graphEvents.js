@@ -2,6 +2,7 @@ export function createGraphEvents(
   state,
   getGraph,
   loadNeighbors,
+  loadArtistConnections,
   setStatus,
   onNodeSelected = () => {}
 )
@@ -444,17 +445,47 @@ export function createGraphEvents(
 
     try
     {
-      const artists = await artistNodesForFocus(startNode);
-      const uniqueArtists =
-        [...new Map(artists.map((artist) => [artist.id, artist])).values()];
+      let loadedServerFragment = false;
 
-      for (const artist of uniqueArtists)
+      if (loadArtistConnections)
       {
-        await expandArtistConnectionPath(artist);
+        const fragment = await loadArtistConnections(startNode)
+          .catch(() => null);
+
+        if (fragment)
+        {
+          state.mergeFragment(fragment);
+
+          for (const nodeId of fragment.expanded || [])
+          {
+            state.expanded.add(nodeId);
+          }
+
+          for (const key of fragment.loadedModes || [])
+          {
+            loadedConnectionModes.add(key);
+          }
+
+          renderGraph();
+          setTemporaryStatus("Showed artist connections.");
+          loadedServerFragment = true;
+        }
       }
 
-      renderGraph();
-      setTemporaryStatus(`Showed artist connections for ${artistLabel(uniqueArtists)}.`);
+      if (!loadedServerFragment)
+      {
+        const artists = await artistNodesForFocus(startNode);
+        const uniqueArtists =
+          [...new Map(artists.map((artist) => [artist.id, artist])).values()];
+
+        for (const artist of uniqueArtists)
+        {
+          await expandArtistConnectionPath(artist);
+        }
+
+        renderGraph();
+        setTemporaryStatus(`Showed artist connections for ${artistLabel(uniqueArtists)}.`);
+      }
     }
     catch (err)
     {

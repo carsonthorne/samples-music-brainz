@@ -1,5 +1,6 @@
 import "./style.css";
 import {
+  loadArtistConnections,
   loadNodeDetails,
   loadNodeNeighbors,
   searchGraphSeeds
@@ -164,6 +165,7 @@ async function init()
       state,
       () => graph,
       loadNodeNeighbors,
+      loadArtistConnections,
       setStatus,
       (node, options = {}) =>
       {

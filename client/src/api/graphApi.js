@@ -152,6 +152,21 @@ export async function loadNodeDetails(nodeId)
   return loadFallbackDetails(node);
 }
 
+export async function loadArtistConnections(node)
+{
+  if (!node?.id) return null;
+
+  const [type, rawId] =
+    String(node.id).split(":");
+
+  const lookupId =
+    node.dbId || rawId || node.id;
+
+  return getJson(
+    `/api/nodes/${encodeURIComponent(type)}/${encodeURIComponent(lookupId)}/artist-connections`
+  );
+}
+
 async function loadFallbackDetails(node)
 {
   if (node.type === "artist")
