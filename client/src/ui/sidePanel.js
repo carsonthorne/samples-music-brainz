@@ -588,7 +588,7 @@ export function createSidePanel({
           .find((item) => item.id === connectionButton.dataset.nodeId);
 
       activeTab = "focus";
-      onConnectionClick?.(node);
+      onConnectionClick?.(node, { path: entry?.path || [node].filter(Boolean) });
     }
   });
 

@@ -151,6 +151,19 @@ export function createGraphEvents(
       state.addNode(graphNodePayload(node));
     }
 
+    for (const pathNode of options.path || node.path || [])
+    {
+      if (pathNode?.id && state.graph.nodesById[pathNode.id])
+      {
+        state.graph.nodesById[pathNode.id].renderHidden = false;
+      }
+    }
+
+    if (state.graph.nodesById[node.id])
+    {
+      state.graph.nodesById[node.id].renderHidden = false;
+    }
+
     focusNode(node.id);
   }
 

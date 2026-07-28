@@ -13,6 +13,7 @@ export function getVisibleGraph(state)
 
     const node = state.graph.nodesById[nodeId];
     if (!node) return;
+    if (node.renderHidden) return;
 
     visibleNodes.push(node);
 
@@ -23,7 +24,12 @@ export function getVisibleGraph(state)
 
     function revealLink(source, target, type)
     {
-      if (!state.graph.nodesById[source] || !state.graph.nodesById[target])
+      if (
+        !state.graph.nodesById[source] ||
+        !state.graph.nodesById[target] ||
+        state.graph.nodesById[source].renderHidden ||
+        state.graph.nodesById[target].renderHidden
+      )
         return;
 
       const linkKey = `${source}|${target}|${type}`;

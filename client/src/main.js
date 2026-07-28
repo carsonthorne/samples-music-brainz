@@ -97,7 +97,10 @@ function resultRelevanceScore(query, node)
 
 function visibleConnectionEntries(state)
 {
-  const visible = state.toForceGraph();
+  const visible = {
+    nodes: Object.values(state.graph.nodesById || {}),
+    links: state.graph.links || []
+  };
   const nodesById =
     Object.fromEntries((visible.nodes || []).map((node) => [node.id, node]));
   const neighbors = {};
@@ -194,11 +197,11 @@ async function init()
       {
         await events.focusRelatedNode(parentNode, node, options);
       },
-      onConnectionClick(node)
+      async onConnectionClick(node, options = {})
       {
         if (node?.id)
         {
-          events.focusNode(node.id);
+          await events.focusRelatedNode(null, node, options);
         }
       },
       async onHistoryNavigate(node)

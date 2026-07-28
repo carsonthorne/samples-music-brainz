@@ -159,6 +159,38 @@ export class GraphState
     {
       this.setExpansionMode(nodeId, mode);
     }
+
+    if (fragment.stats?.renderLimit)
+    {
+      this.applyRenderLimit(fragment.stats.renderLimit);
+    }
+  }
+
+  applyRenderLimit(limit)
+  {
+    const maxVisible = Number(limit);
+    if (!Number.isFinite(maxVisible) || maxVisible <= 0) return;
+
+    const nodes =
+      Object.values(this.graph.nodesById);
+    const alwaysVisible = new Set(
+      nodes
+        .filter((node) => node.type === "artist" || node.id === this.rootId || node.id === this.focusNode)
+        .map((node) => node.id)
+    );
+    const visible = new Set(alwaysVisible);
+
+    for (const node of nodes)
+    {
+      if (visible.size >= maxVisible) break;
+      if (visible.has(node.id)) continue;
+      visible.add(node.id);
+    }
+
+    for (const node of nodes)
+    {
+      node.renderHidden = !visible.has(node.id);
+    }
   }
 
   markNeighborsLoaded(nodeId)

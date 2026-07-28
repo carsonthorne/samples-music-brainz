@@ -890,6 +890,7 @@ function buildArtistConnections(rootNode, options = {}) {
       expanded: expanded.size,
       loadedModes: loadedModes.size,
       truncated,
+      renderLimit: options.renderLimit || null,
     }
   };
 }
@@ -907,6 +908,7 @@ function cachedArtistConnections(rootNode, options = {}) {
     trackSampleLimit: options.trackSampleLimit || null,
     trackAlbumLimit: options.trackAlbumLimit || null,
     albumArtistLimit: options.albumArtistLimit || null,
+    renderLimit: options.renderLimit || null,
   });
   const cached = artistConnectionsCache.get(key);
 
@@ -1195,17 +1197,8 @@ app.get("/api/nodes/:type/:id/artist-connections", (req, res) => {
   if (!rootNode) return notFound(res, type, id);
 
   res.json(cachedArtistConnections(rootNode, {
-    nodeLimit: readPositiveInteger(
-      req.query.limit,
-      isMobileProfile ? 2200 : 50000,
-      100000
-    ),
-    expansionLimit: isMobileProfile ? 120 : Infinity,
-    artistAlbumLimit: isMobileProfile ? 120 : undefined,
-    albumTrackLimit: isMobileProfile ? 120 : undefined,
-    trackSampleLimit: isMobileProfile ? 120 : undefined,
-    trackAlbumLimit: isMobileProfile ? 1 : undefined,
-    albumArtistLimit: isMobileProfile ? 12 : undefined,
+    nodeLimit: readPositiveInteger(req.query.limit, 50000, 100000),
+    renderLimit: isMobileProfile ? 1400 : null,
   }));
 });
 
