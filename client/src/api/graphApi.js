@@ -178,10 +178,7 @@ export async function loadArtistConnections(node)
 
 function shouldUseMobileGraphLimit()
 {
-  return (
-    window.matchMedia?.("(pointer: coarse)")?.matches ||
-    window.matchMedia?.("(max-width: 760px)")?.matches
-  );
+  return window.matchMedia?.("(pointer: coarse)")?.matches || false;
 }
 
 async function loadFallbackDetails(node)
