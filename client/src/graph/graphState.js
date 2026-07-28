@@ -19,6 +19,29 @@ export class GraphState
     this.focusNode = null;
     this.loadedNeighbors = new Set();
     this.expansionModes = {};
+    this.linkKeys = new Set(
+      (this.graph.links || []).map((link) =>
+        `${typeof link.source === "object" ? link.source.id : link.source}|${typeof link.target === "object" ? link.target.id : link.target}|${link.type || "related"}`
+      )
+    );
+    this.adjacencyKeys = new Set();
+    this.reverseAdjacencyKeys = new Set();
+
+    for (const [source, edges] of Object.entries(this.graph.adjacency || {}))
+    {
+      for (const edge of edges || [])
+      {
+        this.adjacencyKeys.add(`${source}|${edge.target}|${edge.type}`);
+      }
+    }
+
+    for (const [target, edges] of Object.entries(this.graph.reverseAdjacency || {}))
+    {
+      for (const edge of edges || [])
+      {
+        this.reverseAdjacencyKeys.add(`${target}|${edge.source}|${edge.type}`);
+      }
+    }
   }
 
   resetToSeed(node)
@@ -36,6 +59,9 @@ export class GraphState
     this.expanded.clear();
     this.loadedNeighbors.clear();
     this.expansionModes = {};
+    this.linkKeys.clear();
+    this.adjacencyKeys.clear();
+    this.reverseAdjacencyKeys.clear();
     this.addNode(node);
     this.setExpansionMode(node.id, node.nextExpansion);
     this.rootId = node.id;
@@ -80,12 +106,9 @@ export class GraphState
     const type = link.type || "related";
     const linkKey = `${source}|${target}|${type}`;
 
-    const exists = this.graph.links.some(existing =>
-      `${existing.source}|${existing.target}|${existing.type}` === linkKey
-    );
-
-    if (!exists)
+    if (!this.linkKeys.has(linkKey))
     {
+      this.linkKeys.add(linkKey);
       this.graph.links.push({
         ...link,
         source,
@@ -95,10 +118,10 @@ export class GraphState
     }
 
     this.graph.adjacency[source] ||= [];
-    if (!this.graph.adjacency[source].some(edge =>
-      edge.target === target && edge.type === type
-    ))
+    const adjacencyKey = `${source}|${target}|${type}`;
+    if (!this.adjacencyKeys.has(adjacencyKey))
     {
+      this.adjacencyKeys.add(adjacencyKey);
       this.graph.adjacency[source].push({
         target,
         type
@@ -106,10 +129,10 @@ export class GraphState
     }
 
     this.graph.reverseAdjacency[target] ||= [];
-    if (!this.graph.reverseAdjacency[target].some(edge =>
-      edge.source === source && edge.type === type
-    ))
+    const reverseAdjacencyKey = `${target}|${source}|${type}`;
+    if (!this.reverseAdjacencyKeys.has(reverseAdjacencyKey))
     {
+      this.reverseAdjacencyKeys.add(reverseAdjacencyKey);
       this.graph.reverseAdjacency[target].push({
         source,
         type

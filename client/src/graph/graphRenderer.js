@@ -197,8 +197,9 @@ export function createGraph(container, state, graph, onNodeClick)
       .graphData(renderGraphData(graphData))
       .nodeLabel(node => node.id === EMPTY_GRAPH_NODE_ID ? "" : `${node.type}: ${node.name}`)
       .nodeAutoColorBy("type")
-      .linkDirectionalParticles(2)
+      .linkDirectionalParticles(linkParticlesForGraph(graphData))
       .linkDirectionalParticleSpeed(0.005)
+      .cooldownTicks(cooldownTicksForGraph(graphData))
       .onNodeClick(handleNodeClick)
       .nodeColor(node =>
       {
@@ -207,6 +208,32 @@ export function createGraph(container, state, graph, onNodeClick)
         return "white";
       })
       .nodeThreeObject(threeNodeObject);
+  }
+
+  function isDenseGraph(data)
+  {
+    return (data?.nodes?.length || 0) > 500 || (data?.links?.length || 0) > 700;
+  }
+
+  function linkParticlesForGraph(data)
+  {
+    return isDenseGraph(data) ? 0 : 2;
+  }
+
+  function cooldownTicksForGraph(data)
+  {
+    if ((data?.nodes?.length || 0) > 1000) return 35;
+    if (isDenseGraph(data)) return 55;
+    return 100;
+  }
+
+  function applyGraphPerformanceOptions(data)
+  {
+    if (!instance) return;
+
+    instance
+      .linkDirectionalParticles(linkParticlesForGraph(data))
+      .cooldownTicks(cooldownTicksForGraph(data));
   }
 
   function configure3dControls()
@@ -345,6 +372,7 @@ export function createGraph(container, state, graph, onNodeClick)
       }
 
       graphData = data;
+      applyGraphPerformanceOptions(data);
       instance?.graphData(renderGraphData(data));
       instance?.nodeThreeObject(threeNodeObject);
       return controller;
