@@ -234,6 +234,15 @@ async function init()
   const panelToggleButton =
     document.getElementById("toggle-panel");
 
+  const panelToggleSlot =
+    document.getElementById("details-panel-toggle-slot");
+
+  const ui =
+    document.getElementById("ui");
+
+  const emptyGraphMessage =
+    document.getElementById("empty-graph-message");
+
   let orbitStartTimer = null;
 
   function cancelPendingOrbitStart()
@@ -262,6 +271,24 @@ async function init()
 
     setButtonLabel(panelToggleButton, visible ? "Hide panel" : "Show panel");
     panelToggleButton.setAttribute("aria-pressed", String(visible));
+    document.body.classList.toggle("panel-open", visible);
+
+    const toggleParent = visible ? panelToggleSlot : ui;
+    if (panelToggleButton.parentElement !== toggleParent)
+    {
+      toggleParent.append(panelToggleButton);
+    }
+
+    requestAnimationFrame(() =>
+    {
+      graph.resizeToContainer?.();
+    });
+  }
+
+  function updateEmptyGraphMessage()
+  {
+    emptyGraphMessage.hidden =
+      Object.keys(state.graph.nodesById || {}).length > 0;
   }
 
   fitCanvasButton.addEventListener("click", () =>
@@ -297,8 +324,10 @@ async function init()
     updatePanelToggle();
   });
 
+  sidePanel.show();
   updateGraphControls();
   updatePanelToggle();
+  updateEmptyGraphMessage();
 
   async function seedGraph(node)
   {
@@ -310,6 +339,7 @@ async function init()
       graph.graphData(
         state.toForceGraph()
       );
+      updateEmptyGraphMessage();
 
       events.focusNode(node.id);
       setStatus("");

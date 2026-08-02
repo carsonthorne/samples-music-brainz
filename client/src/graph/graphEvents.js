@@ -156,7 +156,10 @@ export function createGraphEvents(
       state.graph.nodesById[node.id]
     ]);
 
-    focusNode(node.id, { preserveRenderPins: true });
+    focusNode(node.id, {
+      preserveRenderPins: true,
+      refocusWhileSettling: true
+    });
   }
 
   function focusNode(nodeId, options = {})
@@ -176,7 +179,9 @@ export function createGraphEvents(
       state.toForceGraph()
     );
 
-    scheduleCameraFocus(nodeId);
+    scheduleCameraFocus(nodeId, {
+      waitForSettledPosition: options.refocusWhileSettling
+    });
 
     onNodeSelected(node, options);
   }
@@ -224,17 +229,59 @@ export function createGraphEvents(
     return `${names.slice(0, 2).join(", ")}, and ${names.length - 2} more`;
   }
 
-  function scheduleCameraFocus(nodeId)
+  function scheduleCameraFocus(nodeId, options = {})
   {
     const runId = ++cameraFocusRun;
-    const delays = [80, 220, 500, 900];
+    const waitForSettledPosition =
+      Boolean(options.waitForSettledPosition);
+    const delays =
+      waitForSettledPosition
+        ? [120, 260, 500, 850, 1250]
+        : [80, 220, 500, 900];
+    const lastDelay =
+      delays[delays.length - 1];
+    let previousPosition = null;
+
+    function isSettled(position)
+    {
+      if (!previousPosition) return false;
+
+      const distance =
+        Math.hypot(
+          position.x - previousPosition.x,
+          position.y - previousPosition.y,
+          position.z - previousPosition.z
+        );
+
+      return distance < 8;
+    }
 
     for (const delay of delays)
     {
       setTimeout(() =>
       {
         if (runId !== cameraFocusRun) return;
-        if (focusCameraOnNode(nodeId))
+        if (!waitForSettledPosition)
+        {
+          if (focusCameraOnNode(nodeId))
+          {
+            cameraFocusRun++;
+          }
+
+          return;
+        }
+
+        const position =
+          currentNodePosition(nodeId);
+
+        if (!position) return;
+
+        const shouldFocus =
+          isSettled(position) || delay === lastDelay;
+
+        previousPosition = position;
+
+        if (shouldFocus && focusCameraOnPosition(position))
         {
           cameraFocusRun++;
         }
@@ -242,35 +289,51 @@ export function createGraphEvents(
     }
   }
 
-  function focusCameraOnNode(nodeId)
+  function currentNodePosition(nodeId)
   {
-    const graph = getGraph();
-    if (!graph) return false;
-
     const node = getCurrentGraphNode(nodeId) || state.graph.nodesById[nodeId];
-    if (!node) return false;
+    if (!node) return null;
 
     const x = Number(node.x);
     const y = Number(node.y);
     const z = Number(node.z ?? 0);
 
-    if (!Number.isFinite(x) || !Number.isFinite(y))
-      return false;
+    if (!Number.isFinite(x) || !Number.isFinite(y) || !Number.isFinite(z))
+    {
+      return null;
+    }
 
-    if (!Number.isFinite(z))
-      return false;
+    return {
+      node,
+      x,
+      y,
+      z
+    };
+  }
+
+  function focusCameraOnPosition(position)
+  {
+    const graph = getGraph();
+    if (!graph || !position) return false;
 
     graph.cameraPosition(
       {
-        x,
-        y,
-        z: z + 200
+        x: position.x,
+        y: position.y,
+        z: position.z + 200
       },
-      node,
+      position.node,
       1200
     );
 
     return true;
+  }
+
+  function focusCameraOnNode(nodeId)
+  {
+    return focusCameraOnPosition(
+      currentNodePosition(nodeId)
+    );
   }
 
   function getCurrentGraphNode(nodeId)

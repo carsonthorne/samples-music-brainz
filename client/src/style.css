@@ -27,6 +27,12 @@ body
   height: 100vh;
 }
 
+body.panel-open #graph
+{
+  width: calc(100vw - min(432px, 100vw));
+  margin-left: min(432px, 100vw);
+}
+
 #ui
 {
   position: absolute;
@@ -41,15 +47,9 @@ body
 
 #search-form
 {
-  position: absolute;
-  top: 12px;
-  left: 50%;
-  width: min(460px, calc(100vw - 32px));
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 8px;
-  transform: translateX(-50%);
-  pointer-events: auto;
 }
 
 #search-input,
@@ -132,7 +132,23 @@ button:hover
   pointer-events: auto;
 }
 
-#controls button[aria-pressed="true"]
+#toggle-panel
+{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 13;
+  pointer-events: auto;
+}
+
+body.panel-open #toggle-panel
+{
+  top: 0;
+  left: 0;
+}
+
+#controls button[aria-pressed="true"],
+#toggle-panel[aria-pressed="true"]
 {
   border-color: rgba(245, 158, 11, 0.78);
   background: rgba(146, 64, 14, 0.92);
@@ -161,16 +177,10 @@ button:hover
 
 #search-results
 {
-  position: absolute;
-  top: 58px;
-  left: 50%;
-  width: min(460px, calc(100vw - 32px));
   display: grid;
   gap: 6px;
-  max-height: min(360px, calc(100vh - 120px));
+  max-height: min(300px, calc(100vh - 260px));
   overflow: auto;
-  transform: translateX(-50%);
-  pointer-events: auto;
 }
 
 .result
@@ -183,28 +193,21 @@ button:hover
   white-space: normal;
 }
 
-#toggle-panel
-{
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  pointer-events: auto;
-}
-
 #details-panel
 {
   position: absolute;
-  top: 58px;
-  left: 12px;
-  bottom: 12px;
+  top: 0;
+  left: 0;
+  bottom: 0;
   z-index: 12;
-  width: min(420px, calc(100vw - 24px));
-  border: 1px solid var(--panel-border);
-  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: min(432px, 100vw);
+  border-right: 1px solid var(--panel-border);
   box-sizing: border-box;
   color: var(--text);
   background: rgba(8, 10, 16, 0.9);
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.35);
+  box-shadow: 18px 0 48px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
 
@@ -215,14 +218,29 @@ button:hover
 
 #details-panel-nav
 {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  right: 8px;
-  z-index: 2;
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+}
+
+#details-panel-toggle-slot
+{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 3;
+}
+
+#details-panel-header
+{
+  display: grid;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 12px 10px 10px;
+  padding-left: 58px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(8, 10, 16, 0.96);
+  pointer-events: auto;
 }
 
 #details-panel-nav button
@@ -239,7 +257,8 @@ button:hover
 
 #details-panel-body
 {
-  height: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
   overflow: auto;
 }
 
@@ -251,7 +270,7 @@ button:hover
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6px;
-  padding: 52px 10px 10px;
+  padding: 10px;
   background: rgba(8, 10, 16, 0.96);
 }
 
@@ -492,13 +511,52 @@ button:hover
   color: rgba(248, 250, 252, 0.72);
 }
 
+#empty-graph-message
+{
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+  color: rgba(248, 250, 252, 0.72);
+  font-size: 18px;
+  line-height: 1.35;
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+}
+
+body.panel-open #empty-graph-message
+{
+  left: min(432px, 100vw);
+}
+
+#empty-graph-message[hidden]
+{
+  display: none;
+}
+
 @media (max-width: 720px)
 {
   #details-panel
   {
     top: auto;
-    left: 12px;
+    left: 0;
     width: auto;
     height: min(62vh, 520px);
+  }
+
+  body.panel-open #graph
+  {
+    width: 100vw;
+    height: calc(100vh - min(62vh, 520px));
+    margin-left: 0;
+  }
+
+  body.panel-open #empty-graph-message
+  {
+    left: 0;
+    bottom: min(62vh, 520px);
   }
 }

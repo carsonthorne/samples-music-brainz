@@ -299,6 +299,22 @@ export function createGraph(container, state, graph, onNodeClick)
     return controller;
   }
 
+  function resizeToContainer()
+  {
+    if (!instance) return controller;
+
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+
+    if (width > 0 && height > 0)
+    {
+      instance.width(width);
+      instance.height(height);
+    }
+
+    return controller;
+  }
+
   function startAutoOrbit()
   {
     stopAutoOrbit();
@@ -390,6 +406,8 @@ export function createGraph(container, state, graph, onNodeClick)
     },
 
     fitToCanvas,
+
+    resizeToContainer,
 
     startAutoOrbit,
 

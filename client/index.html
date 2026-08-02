@@ -11,22 +11,22 @@
 <body>
     
   <div id="ui">
-    <form id="search-form">
-      <input
-        id="search-input"
-        type="search"
-        placeholder="Search artists"
-        autocomplete="off"
-      />
-      <select id="search-type" aria-label="Search type">
-        <option value="artist" selected>Artist</option>
-        <option value="album">Album</option>
-        <option value="track">Track</option>
-      </select>
-    </form>
-
     <div id="status" aria-live="polite"></div>
+    <div id="empty-graph-message">
+      Search for an artist, album, or track to start exploring
+    </div>
+
     <div id="controls">
+      <button id="toggle-panel" class="icon-button" type="button" aria-pressed="true" aria-label="Hide panel" title="Hide panel">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="16" rx="2" />
+          <path d="M9 4v16" />
+          <path d="M6 8h.01" />
+          <path d="M6 12h.01" />
+          <path d="M6 16h.01" />
+        </svg>
+      </button>
+
       <button id="fit-canvas" class="icon-button" type="button" aria-label="Fit graph" title="Fit graph">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M8 3H5a2 2 0 0 0-2 2v3" />
@@ -59,33 +59,40 @@
         </svg>
       </button>
     </div>
-
-    <div id="search-results"></div>
-
-    <button id="toggle-panel" class="icon-button" type="button" aria-pressed="true" aria-label="Hide panel" title="Hide panel">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <rect x="3" y="4" width="18" height="16" rx="2" />
-        <path d="M9 4v16" />
-        <path d="M6 8h.01" />
-        <path d="M6 12h.01" />
-        <path d="M6 16h.01" />
-      </svg>
-    </button>
   </div>
 
   <div id="graph"></div>
 
-  <aside id="details-panel" hidden aria-label="Node details">
-    <div id="details-panel-nav">
-      <button id="details-panel-back" type="button" aria-label="Back">
-        Back
-      </button>
-      <button id="details-panel-forward" type="button" aria-label="Forward">
-        Forward
-      </button>
-      <button id="details-panel-connections" type="button">
-        Show Artist Connections
-      </button>
+  <aside id="details-panel" aria-label="Node details">
+    <div id="details-panel-toggle-slot"></div>
+    <div id="details-panel-header">
+      <form id="search-form">
+        <input
+          id="search-input"
+          type="search"
+          placeholder="Search artists"
+          autocomplete="off"
+        />
+        <select id="search-type" aria-label="Search type">
+          <option value="artist" selected>Artist</option>
+          <option value="album">Album</option>
+          <option value="track">Track</option>
+        </select>
+      </form>
+
+      <div id="search-results"></div>
+
+      <div id="details-panel-nav">
+        <button id="details-panel-back" type="button" aria-label="Back">
+          &lt;
+        </button>
+        <button id="details-panel-forward" type="button" aria-label="Forward">
+          &gt;
+        </button>
+        <button id="details-panel-connections" type="button">
+          Show Artist Connections
+        </button>
+      </div>
     </div>
     <div id="details-panel-body"></div>
   </aside>
